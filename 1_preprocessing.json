@@ -1,0 +1,19 @@
+{
+    "dataset": "/content/drive/MyDrive/pdm/input/dataset.xlsx",
+"patient_col":"Patient",
+"physician_col":"Physician",
+"item_col":"Item",   
+"output_path": "/content/drive/MyDrive/pdm/output/1_dedup",
+    "duplicates": "/content/drive/MyDrive/pdm/configs/duplicates.xlsx",
+    "classes": [
+        "Behavioral health",
+        "Diagnoses",
+        "Disabilities",
+        "Infectious diseases",
+        "Genetics",
+        "Medications",
+        "Sexual and reproductive health",
+        "Social determinants of health",
+        "Violence",
+        "Other"]
+}
