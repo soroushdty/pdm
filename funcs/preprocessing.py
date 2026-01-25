@@ -15,7 +15,7 @@ from .leakage import remove_data_leakage
 
 logger = logging.getLogger(__name__)
 
-def run_pipeline(cfg: dict) -> dict:
+def run(cfg: dict) -> dict:
     dataset_path = Path(cfg["dataset"])
     output_path = Path(cfg["output_path"])
 
