@@ -1,6 +1,6 @@
 {
   "dataset": "/content/drive/MyDrive/pdm/input/dataset.xlsx",
-  "output_path": "/content/drive/MyDrive/pdm/output/",
+  "output_path": "/content/drive/MyDrive/pdm/output",
 
   "patient_col": "Patient",
   "physician_col": "Physician",
