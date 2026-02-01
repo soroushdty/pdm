@@ -17,5 +17,40 @@
     "Social determinants of health",
     "Violence",
     "Other"
-  ]
+  ],
+  
+  "other_class": [
+    "Disabilities",
+    "Infectious diseases",
+    "Genetics",
+    "Sexual and reproductive health",
+    "Violence",
+    "Social determinants of health"
+  ],
+
+  "llms": [
+      "sentence-transformers/all-MiniLM-L6-v2",
+      "sentence-transformers/all-mpnet-base-v2",
+      "sentence-transformers/multi-qa-MiniLM-L6-cos-v1",
+      "pritamdeka/BioBERT-mnli-snli-scinli-scitail-mednli-stsb",
+      "sentence-transformers/biomed-mpnet-base",
+      "cambridgeltl/SapBERT-from-PubMedBERT-fulltext",
+      "bert-base-uncased",
+      "roberta-base",
+      "distilbert-base-uncased",
+      "nreimers/MiniLM-L6-H384-uncased",
+      "emilyalsentzer/Bio_ClinicalBERT",
+      "monologg/biobert_v1.1_pubmed",
+      "bionlp/bluebert_pubmed_mimic_uncased_L-24_H-1024_A-16",
+      "microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext",
+      "yikuan8/Clinical-Longformer"
+  ],
+
+  "BATCH_SIZE": 128,
+  "tokenizer_model_max_length": 512,
+  "padding": "max_length",
+  "truncation": True,
+  "normalize": True,
+  "pooling_strategy": "mean"
+  
 }
