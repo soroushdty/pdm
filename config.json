@@ -49,8 +49,8 @@
   "BATCH_SIZE": 128,
   "tokenizer_model_max_length": 512,
   "padding": "max_length",
-  "truncation": True,
-  "normalize": True,
+  "truncation": true,
+  "normalize": true,
   "pooling_strategy": "mean"
   
 }
