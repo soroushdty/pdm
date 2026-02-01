@@ -1,3 +1,6 @@
 pandas
 numpy
 openpyxl
+torch
+transformers
+sentence_transformers
