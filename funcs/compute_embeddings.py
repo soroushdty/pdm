@@ -4,7 +4,7 @@ import pandas as pd
 import torch
 import numpy as np
 import pandas as pd
-import tqdm
+from tqdm import tqdm
 # import logging
 from pathlib import Path
 from transformers import AutoTokenizer, AutoModel
