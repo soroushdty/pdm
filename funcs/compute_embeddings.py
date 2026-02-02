@@ -9,6 +9,7 @@ from tqdm import tqdm
 from pathlib import Path
 from transformers import AutoTokenizer, AutoModel
 from sentence_transformers import SentenceTransformer
+from .mean_pooling import mean_pooling
 
 from .config_loader import load_config
 CONFIG_PATH = Path.cwd() / "config.json"
