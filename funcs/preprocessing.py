@@ -7,7 +7,7 @@ import logging
 from pathlib import Path
 import pandas as pd
 
-from .io_dataset import read_train_test_xlsx
+from .io_dataset import read_train_test_csv_dir
 from .merge_physician_rows import merge_rows_by_patient_item
 from .item_standardization import make_items_auto_std
 from .corrections import apply_json_corrections, final_deduplication
