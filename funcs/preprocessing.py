@@ -22,6 +22,9 @@ def run(cfg: dict) -> dict:
     input_dir = Path.cwd() / "DIR_INPUT"
     train_path = input_dir / "train.csv"
     test_path = input_dir / "test.csv"
+
+    output_path = Path(cfg["output_path"])
+
     patient_col = cfg["patient_col"]
     physician_col = cfg["physician_col"]
     item_col = cfg["item_col"]
@@ -37,7 +40,7 @@ def run(cfg: dict) -> dict:
         df_test, patient_col, physician_col, item_col, classes_list, split_name="test"
     )
 
-    # reset index so JSON uses stable 0..n-1 indices (avoids off-by-one bugs)
+    # reset index so JSON uses stable 0..n-1 indices
     merged_train = merged_train.reset_index(drop=True)
     merged_test = merged_test.reset_index(drop=True)
 
@@ -62,7 +65,7 @@ def run(cfg: dict) -> dict:
     standard_test = apply_json_corrections(merged_test, corrections_map_test, item_col=item_col)
 
     standard_train = final_deduplication(standard_train, patient_col, item_col, classes_list)
-    standard_test = final_duplication(standard_test, patient_col, item_col, classes_list)
+    standard_test = final_deduplication(standard_test, patient_col, item_col, classes_list)
 
     final_train, final_test = remove_data_leakage(
         standard_train, standard_test, train_map_path, test_map_path, item_col=item_col
