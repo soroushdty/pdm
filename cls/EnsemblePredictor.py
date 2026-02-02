@@ -1,3 +1,11 @@
+# Get the absolute path of the directory above the current working directory
+module_path = os.path.abspath(os.path.join('..'))
+# Insert the path into sys.path at index 0 to ensure it is checked first
+if module_path not in sys.path:
+    sys.path.insert(0, module_path)
+
+from cls.MultiLabelLogistic import MultiLabelLogistic
+
 class EnsemblePredictor:
     """ Container for the final ensemble artifact """
     def __init__(self, models, preprocessors, calibrators, thresholds, device='cpu'):
