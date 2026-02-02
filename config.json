@@ -1,11 +1,9 @@
 {
   "DIR_INPUT": "input",
   "DIR_OUTPUT": "output",
-
   "patient_col": "Patient",
   "physician_col": "Physician",
   "item_col": "Item",
-
   "classes": [
     "Behavioral health",
     "Diagnoses",
@@ -18,7 +16,6 @@
     "Violence",
     "Other"
   ],
-  
   "other_class": [
     "Disabilities",
     "Infectious diseases",
@@ -27,30 +24,74 @@
     "Violence",
     "Social determinants of health"
   ],
-
   "llms": [
-      "sentence-transformers/all-MiniLM-L6-v2",
-      "sentence-transformers/all-mpnet-base-v2",
-      "sentence-transformers/multi-qa-MiniLM-L6-cos-v1",
-      "pritamdeka/BioBERT-mnli-snli-scinli-scitail-mednli-stsb",
-      "sentence-transformers/biomed-mpnet-base",
-      "cambridgeltl/SapBERT-from-PubMedBERT-fulltext",
-      "bert-base-uncased",
-      "roberta-base",
-      "distilbert-base-uncased",
-      "nreimers/MiniLM-L6-H384-uncased",
-      "emilyalsentzer/Bio_ClinicalBERT",
-      "monologg/biobert_v1.1_pubmed",
-      "bionlp/bluebert_pubmed_mimic_uncased_L-24_H-1024_A-16",
-      "microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext",
-      "yikuan8/Clinical-Longformer"
+    "sentence-transformers/all-MiniLM-L6-v2",
+    "sentence-transformers/all-mpnet-base-v2",
+    "sentence-transformers/multi-qa-MiniLM-L6-cos-v1",
+    "pritamdeka/BioBERT-mnli-snli-scinli-scitail-mednli-stsb",
+    "sentence-transformers/biomed-mpnet-base",
+    "cambridgeltl/SapBERT-from-PubMedBERT-fulltext",
+    "bert-base-uncased",
+    "roberta-base",
+    "distilbert-base-uncased",
+    "nreimers/MiniLM-L6-H384-uncased",
+    "emilyalsentzer/Bio_ClinicalBERT",
+    "monologg/biobert_v1.1_pubmed",
+    "bionlp/bluebert_pubmed_mimic_uncased_L-24_H-1024_A-16",
+    "microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext",
+    "yikuan8/Clinical-Longformer"
   ],
-
   "BATCH_SIZE": 128,
   "tokenizer_model_max_length": 512,
   "padding": "max_length",
   "truncation": true,
   "normalization": 1,
-  "pooling_strategy": "mean"
-  
+  "pooling_strategy": "mean",
+  "default_classes": [
+    "Behavioral health",
+    "Diagnoses",
+    "Medications",
+    "Other"
+  ],
+  "save_standardized": false,
+  "ensemble_sub_dir": "ensemble",
+  "global_seed": 13,
+  "objective": "AP",
+  "pca_variance": 0.9,
+  "outer_folds": 5,
+  "inner_folds": 3,
+  "lr_options": [
+    0.001,
+    0.0001
+  ],
+  "weight_decay_options": [
+    0.0001,
+    1e-05
+  ],
+  "batch_size_options": [
+    32,
+    64
+  ],
+  "focal_gamma_options": [
+    1.0,
+    2.0
+  ],
+  "num_epochs": 50,
+  "early_stopping_patience": 5,
+  "smote_option": "A",
+  "smote_rarity_cutoff": 0.05,
+  "smote_pos_threshold": 0.5,
+  "smote_min_samples_for_smote": 3,
+  "pos_weight_clamp": [
+    1.0,
+    100.0
+  ],
+  "pos_weight_smoothing": 1.0,
+  "threshold_multipliers": [
+    0.8,
+    1.0,
+    1.2
+  ],
+  "eval_pos_threshold": 0.5,
+  "calibrator_min_samples_isotonic": 200
 }
