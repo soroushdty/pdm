@@ -1,10 +1,14 @@
 import numpy as np
 from sklearn.linear_model import LogisticRegression
 
-# Placeholder for ConstantCalibrator if not imported from elsewhere
-class ConstantCalibrator:
-    def __init__(self, val): self.val = val
-    def predict(self, X): return np.full((X.shape[0],), self.val)
+
+# Get the absolute path of the directory above the current working directory
+module_path = os.path.abspath(os.path.join('..'))
+# Insert the path into sys.path at index 0 to ensure it is checked first
+if module_path not in sys.path:
+    sys.path.insert(0, module_path)
+from cls.ConstantCalibrator import ConstantCalibrator
+
 
 def fit_calibrators(probs, Y_true, class_list, cfg):
     calibrators = {}
