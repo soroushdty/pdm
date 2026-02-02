@@ -7,6 +7,8 @@ from transformers import AutoTokenizer, AutoModel
 from sentence_transformers import SentenceTransformer
 from .logger_setup import logger
 
+DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+
 def compute_embeddings(model_id, texts, batch_size):
     """
     Universal function to compute embeddings.
