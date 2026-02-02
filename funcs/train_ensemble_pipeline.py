@@ -9,7 +9,6 @@ from copy import deepcopy
 from sklearn.metrics import f1_score, accuracy_score, precision_score, recall_score
 from iterstrat.ml_stratifiers import MultilabelStratifiedKFold
 
-
 from .set_seeds import set_seeds
 from .augment_train import augment_train
 from .train_single_model import train_single_model
@@ -18,8 +17,6 @@ from .apply_calibrators import apply_calibrators
 from .threshold_tuning import threshold_tuning
 from .compute_metrics_and_save import compute_metrics_and_save
 from .plot_ensemble_figures import plot_ensemble_figures
-
-
 
 # Get the absolute path of the directory above the current working directory
 module_path = os.path.abspath(os.path.join('..'))
@@ -30,26 +27,14 @@ if module_path not in sys.path:
 from cls.Preprocessor import Preprocessor
 from cls.EnsemblePredictor import EnsemblePredictor
 
-
-
-# Placeholders for missing classes/variables
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-# class Preprocessor:
-#     def __init__(self, var): self.var = var
-#     def fit(self, x): return self
-#     def transform(self, x): return x
-
-# class EnsemblePredictor:
-#     def __init__(self, models, preps, calibs, thresh, device):
-#         self.models, self.preps, self.calibs, self.thresh, self.device = models, preps, calibs, thresh, device
-#     def predict_proba(self, X):
-#         # Simplified ensemble logic: average of probabilities
-#         return np.mean([probs for probs in range(len(self.models))], axis=0) 
-
-def train_ensemble_pipeline(X_train, Y_train, X_test, Y_test, class_list, cfg):
+def train_ensemble_pipeline(X_train, Y_train, X_test, Y_test, cfg):
+    # Extract classes directly from the config
+    class_list = cfg["default_classes"]
+    
     set_seeds(cfg['global_seed'])
-    root = "./" # Defined missing root
+    root = "./" 
     ensemble_root = os.path.join(root, cfg['ensemble_sub_dir'])
     dir_train_report = os.path.join(ensemble_root, "train_cv_report")
     dir_test_report = os.path.join(ensemble_root, "test_report")
@@ -107,7 +92,7 @@ def train_ensemble_pipeline(X_train, Y_train, X_test, Y_test, class_list, cfg):
         X_tr_aug, Y_tr_aug = augment_train(X_tr_p, Y_tr, class_list, cfg)
 
         y_b_aug = (Y_tr_aug > 0.5).astype(int)
-        pos_w = np.clip((y_b_aug.shape[0]-y_b_aug.sum(0))/(y_b_aug.sum(0)+1),
+        pos_w = np.clip((Y_tr_aug.shape[0]-y_b_aug.sum(0))/(y_b_aug.sum(0)+1),
                         cfg['pos_weight_clamp'][0], cfg['pos_weight_clamp'][1])
 
         model, raw_val_probs = train_single_model(X_tr_aug, Y_tr_aug, X_val_p, Y_val, cfg, best_hp, pos_w)
