@@ -27,7 +27,7 @@ def compute_embeddings(model_id, texts, batch_size):
 
     # 1. Try SentenceTransformer
     try:
-        logging.info(f"Attempting to load {model_id} as SentenceTransformer...")
+        print(f"Attempting to load {model_id} as SentenceTransformer...")
         model = SentenceTransformer(model_id, device=str(DEVICE))
         
         # If we get here, model loaded successfully
