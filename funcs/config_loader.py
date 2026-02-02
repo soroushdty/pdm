@@ -22,17 +22,13 @@ def load_config(config_path: str | Path) -> Dict[str, Any]:
 def validate_config(cfg: Dict[str, Any]) -> Dict[str, Any]:
     """Validate/normalize the config in-place and return it.
 
-    This function prefers the 'DIR_INPUT' key for the input dataset. For backward
-    compatibility it still accepts 'dataset' and will copy 'DIR_INPUT' into
-    'dataset' when present so the rest of the code can continue to use
-    cfg['dataset'].
+    'DIR_INPUT' is required. The legacy key 'dataset' is deprecated and NO
+    backward-compatibility is provided here — treat configs that only provide
+    'dataset' as invalid (i.e. behave as if 'dataset' never existed).
     """
-    # required-ish keys: prefer DIR_INPUT but accept dataset for compatibility
-    if "DIR_INPUT" in cfg:
-        # mirror into 'dataset' so downstream code that expects 'dataset' keeps working
-        cfg.setdefault("dataset", cfg["DIR_INPUT"]) 
-    elif "dataset" not in cfg:
-        raise ValueError("Config is missing required key: 'DIR_INPUT' (path to xlsx) or 'dataset'.")
+    # required key: DIR_INPUT only
+    if "DIR_INPUT" not in cfg:
+        raise ValueError("Config is missing required key: 'DIR_INPUT' (path to xlsx).")
 
     # defaults
     cfg.setdefault("patient_col", "Patient")
