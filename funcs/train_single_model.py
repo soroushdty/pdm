@@ -5,7 +5,7 @@ import numpy as np
 from copy import deepcopy
 from sklearn.metrics import f1_score
 from compute_focal_bce_loss import compute_focal_bce_loss
-from set_seeds import set_seeds
+.from set_seeds import set_seeds
 
 # Defining the model architecture within the file
 class MultiLabelLogistic(nn.Module):
