@@ -4,3 +4,4 @@ openpyxl
 torch
 transformers
 sentence_transformers
+tqdm
