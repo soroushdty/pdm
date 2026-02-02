@@ -1,3 +1,5 @@
+from sklearn.preprocessing import StandardScaler
+
 class Preprocessor:
     def __init__(self, target_variance=0.90):
         self.target_variance = target_variance
