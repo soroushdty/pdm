@@ -23,24 +23,26 @@ def get_dataset_from_npz(x_npz, y_train, y_test, merge_map_train_path, merge_map
     with open(merge_map_test_path, 'r') as f:
         test_map = json.load(f)
 
-    def build_x_matrix(y_data, merge_map):
-        x_list = []
-        # Each row in y represents a merged Patient-Item group
-        for i in range(len(y_data)):
-            # Get the Item name associated with this merged row index from the map
-            # Note: merge_map keys are strings of the row index
-            item_name = merge_map[str(i)]
-            
-            # Retrieve the embedding from the NPZ object using the Item name
-            if item_name in x_npz:
-                x_list.append(x_npz[item_name])
-            else:
-                # Fallback: handle cases where the item might be missing (should not happen with consistent data)
-                embedding_dim = x_npz[list(x_npz.keys())[0]].shape[0]
-                x_list.append(np.zeros(embedding_dim))
-                
-        return np.array(x_list)
 
+    def build_x_matrix(x_npz, y_data, df, item_col_name):
+    num_rows = y_data.shape[0]
+    # Get embedding dimension from the first embedding in x_npz
+    embedding_dim = next(iter(x_npz.values())).shape[0]
+    X_matrix = np.zeros((num_rows, embedding_dim))
+
+    for i in range(num_rows):
+        # The first column of y_data contains the original index from the preprocessed dataframe
+        original_idx = int(y_data[i, 0])
+        
+        # Get the Item name from the preprocessed DataFrame using the original_idx
+        # Use .loc to ensure index-based retrieval from the DataFrame
+        item_name = df.loc[original_idx, item_col_name]
+        
+        # Retrieve the embedding from the NPZ object using the Item name
+        embedding = x_npz[item_name]
+        X_matrix[i] = embedding
+    return X_matrix
+    
     # Generate X matrices by aligning embeddings with the order of Y labels
     X_train = build_x_matrix(y_train, train_map)
     X_test = build_x_matrix(y_test, test_map)
