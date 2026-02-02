@@ -1,8 +1,7 @@
 import numpy as np
 from imblearn.over_sampling import SMOTE
 from sklearn.neighbors import NearestNeighbors
-# Assuming set_seeds is available in the same directory
-from set_seeds import set_seeds 
+from .set_seeds import set_seeds 
 
 def augment_train(X_train, Y_train, class_list, cfg):
     set_seeds(cfg['global_seed'])
