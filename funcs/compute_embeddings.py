@@ -34,7 +34,7 @@ def compute_embeddings(model_id, texts, batch_size):
         embeddings = model.encode(texts, batch_size=batch_size, show_progress_bar=True, convert_to_numpy=True)
 
         # enforce L1 or L2-normalization
-        norm_p = config.get('normalization', 0)
+        norm_p = cfg['normalization']
         if norm_p > 0:
             norms = np.linalg.norm(embeddings, axis=1, keepdims=True, ord=norm_p)
             norms = np.clip(norms, 1e-9, None)
