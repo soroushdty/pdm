@@ -4,8 +4,8 @@ import torch.optim as optim
 import numpy as np
 from copy import deepcopy
 from sklearn.metrics import f1_score
-from compute_focal_bce_loss import compute_focal_bce_loss
-.from set_seeds import set_seeds
+from .compute_focal_bce_loss import compute_focal_bce_loss
+from .set_seeds import set_seeds
 
 # Get the absolute path of the directory above the current working directory
 module_path = os.path.abspath(os.path.join('..'))
