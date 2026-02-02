@@ -11,11 +11,11 @@ def compute_embeddings(model_id, texts, batch_size):
         
     Returns: numpy array of embeddings
     """
-    logger(f"Computing embeddings for {model_id}...")
+    print(f"Computing embeddings for {model_id}...")
 
     # 1. Try SentenceTransformer
     try:
-        logger(f"Attempting to load {model_id} as SentenceTransformer...")
+        print(f"Attempting to load {model_id} as SentenceTransformer...")
         model = SentenceTransformer(model_id, device=str(DEVICE))
         
         # If we get here, model loaded successfully
@@ -32,11 +32,11 @@ def compute_embeddings(model_id, texts, batch_size):
         del model
         torch.cuda.empty_cache()
         gc.collect()
-        logger("Success with SentenceTransformer.")
+        print("Success with SentenceTransformer.")
         return embeddings
 
     except Exception as e:
-        logger(f"SentenceTransformer load/run failed ({e}). Falling back to AutoModel.")
+        print(f"SentenceTransformer load/run failed ({e}). Falling back to AutoModel.")
 
         # 2. Fallback to AutoModel
         tokenizer = AutoTokenizer.from_pretrained(model_id, use_fast=True)
