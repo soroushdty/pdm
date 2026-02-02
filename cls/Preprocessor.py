@@ -9,8 +9,13 @@ class Preprocessor:
         self.n_components_ = None
 
     def fit(self, X, y=None):
-        # Use StandardScaler temporarily to normalize data for determining PCA components
-        # This ensures all features contribute equally when deciding how many components to keep
+        # Two-stage PCA approach to preserve data variability:
+        # 1. Use StandardScaler + PCA on scaled data to determine optimal number of components
+        #    (ensures all features contribute equally when selecting components)
+        # 2. Fit final PCA on unscaled data to preserve natural variance in the output
+        # 
+        # This approach addresses the "no variability" issue where StandardScaler was
+        # reducing output variance too much (from ~6 to ~1.5 in tests).
         scaler = StandardScaler()
         X_scaled = scaler.fit_transform(X)
 
