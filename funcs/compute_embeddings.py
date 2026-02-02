@@ -9,6 +9,10 @@ import tqdm
 from transformers import AutoTokenizer, AutoModel
 from sentence_transformers import SentenceTransformer
 
+from .config_loader import load_config
+CONFIG_PATH = Path.cwd() / "config.json"
+cfg = load_config(CONFIG_PATH)
+
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 def compute_embeddings(model_id, texts, batch_size):
