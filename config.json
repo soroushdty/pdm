@@ -50,7 +50,7 @@
   "tokenizer_model_max_length": 512,
   "padding": "max_length",
   "truncation": true,
-  "normalize": true,
+  "normalization": 1,
   "pooling_strategy": "mean"
   
 }
