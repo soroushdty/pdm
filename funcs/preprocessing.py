@@ -17,7 +17,7 @@ logger = logging.getLogger(__name__)
 
 def run(cfg: dict) -> dict:
     input_dir = Path.cwd() / cfg["DIR_INPUT"]
-    output_path = make_run_dir(Path.cwd() / cfg["DIR_OUTPUT"])
+    output_path = Path.cwd() / cfg["DIR_OUTPUT"]
     patient_col = cfg["patient_col"]
     physician_col = cfg["physician_col"]
     item_col = cfg["item_col"]
