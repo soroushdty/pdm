@@ -16,12 +16,7 @@ from .leakage import remove_data_leakage
 logger = logging.getLogger(__name__)
 
 def run(cfg: dict) -> dict:
-    # We now assume the train/test CSVs are in:
-    #   Path.cwd() / "DIR_INPUT" / "train.csv"
-    #   Path.cwd() / "DIR_INPUT" / "test.csv"
-    input_dir = Path.cwd() / "DIR_INPUT"
-    train_path = input_dir / "train.csv"
-    test_path = input_dir / "test.csv"
+    input_dir = Path.cwd() / cfg["DIR_INPUT"]
     output_path = Path.cwd() / cfg["DIR_OUTPUT"]
     patient_col = cfg["patient_col"]
     physician_col = cfg["physician_col"]
