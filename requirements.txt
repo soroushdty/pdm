@@ -5,3 +5,4 @@ torch
 transformers
 sentence_transformers
 tqdm
+gc
