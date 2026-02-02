@@ -1,5 +1,5 @@
 {
-  "DIR_INPUT": "./input/dataset.xlsx",
+  "DIR_INPUT": "./input",
   "output_path": "./output",
 
   "patient_col": "Patient",
