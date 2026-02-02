@@ -13,3 +13,18 @@
 [00:15:28 02-02-26] INFO: Unique Items in Test JSON: 111
 [00:15:28 02-02-26] INFO: Overlapping Items found: 27
 [00:15:28 02-02-26] INFO: Test rows before: 119 | removed: 30 | after: 89
+[06:54:14 02-02-26] INFO: Logging initialized at: /content/pdm/output/log.txt
+[06:55:23 02-02-26] INFO: [train] Class columns to average: ['Behavioral health', 'Diagnoses', 'Disabilities', 'Infectious diseases', 'Genetics', 'Medications', 'Sexual and reproductive health', 'Social determinants of health', 'Violence', 'Other']
+[06:55:23 02-02-26] INFO: [train] Unique (Patient, Item) pairs found: 879
+[06:55:24 02-02-26] INFO: [train] Rows before: 1758; rows after: 879; pairs merged: 879
+[06:55:24 02-02-26] INFO: [test] Class columns to average: ['Behavioral health', 'Diagnoses', 'Disabilities', 'Infectious diseases', 'Genetics', 'Medications', 'Sexual and reproductive health', 'Social determinants of health', 'Violence', 'Other']
+[06:55:24 02-02-26] INFO: [test] Unique (Patient, Item) pairs found: 120
+[06:55:24 02-02-26] INFO: [test] Rows before: 240; rows after: 120; pairs merged: 120
+[06:55:38 02-02-26] INFO: Saved item standardization map: /content/pdm/output/merge_map_train.json
+[06:55:39 02-02-26] INFO: Saved item standardization map: /content/pdm/output/merge_map_test.json
+[06:55:39 02-02-26] INFO: Correction complete. Groups processed: 567. Rows updated: 879
+[06:55:39 02-02-26] INFO: Correction complete. Groups processed: 111. Rows updated: 120
+[06:55:39 02-02-26] INFO: Unique Items in Train JSON: 567
+[06:55:39 02-02-26] INFO: Unique Items in Test JSON: 111
+[06:55:39 02-02-26] INFO: Overlapping Items found: 27
+[06:55:39 02-02-26] INFO: Test rows before: 119 | removed: 30 | after: 89
