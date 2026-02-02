@@ -1,3 +1,6 @@
+import os
+import sys
+
 # Get the absolute path of the directory above the current working directory
 module_path = os.path.abspath(os.path.join('..'))
 # Insert the path into sys.path at index 0 to ensure it is checked first
