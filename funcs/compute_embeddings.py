@@ -4,6 +4,7 @@ import pandas as pd
 import torch
 import numpy as np
 import pandas as pd
+import tqdm
 # import logging
 from transformers import AutoTokenizer, AutoModel
 from sentence_transformers import SentenceTransformer
