@@ -16,7 +16,13 @@ from .leakage import remove_data_leakage
 logger = logging.getLogger(__name__)
 
 def run(cfg: dict) -> dict:
-    dataset_path = Path(cfg["dataset"])
+    # We now assume the train/test CSVs are in:
+    #   Path.cwd() / "DIR_INPUT" / "train.csv"
+    #   Path.cwd() / "DIR_INPUT" / "test.csv"
+    input_dir = Path.cwd() / "DIR_INPUT"
+    train_path = input_dir / "train.csv"
+    test_path = input_dir / "test.csv"
+
     output_path = Path(cfg["output_path"])
 
     patient_col = cfg["patient_col"]
@@ -24,7 +30,8 @@ def run(cfg: dict) -> dict:
     item_col = cfg["item_col"]
     classes_list = cfg.get("classes", [])
 
-    df_train, df_test = read_train_test_xlsx(dataset_path)
+    # Read train/test from CSV using the helper
+    df_train, df_test = read_train_test_csv_dir(train_path, test_path)
 
     merged_train, count_train = merge_rows_by_patient_item(
         df_train, patient_col, physician_col, item_col, classes_list, split_name="train"
@@ -58,7 +65,7 @@ def run(cfg: dict) -> dict:
     standard_test = apply_json_corrections(merged_test, corrections_map_test, item_col=item_col)
 
     standard_train = final_deduplication(standard_train, patient_col, item_col, classes_list)
-    standard_test = final_deduplication(standard_test, patient_col, item_col, classes_list)
+    standard_test = final_duplication(standard_test, patient_col, item_col, classes_list)
 
     final_train, final_test = remove_data_leakage(
         standard_train, standard_test, train_map_path, test_map_path, item_col=item_col
