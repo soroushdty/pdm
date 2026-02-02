@@ -4,9 +4,9 @@ import pandas as pd
 import torch
 import numpy as np
 import pandas as pd
+import logging
 from transformers import AutoTokenizer, AutoModel
 from sentence_transformers import SentenceTransformer
-from .logger_setup import logger
 
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
@@ -23,11 +23,11 @@ def compute_embeddings(model_id, texts, batch_size):
         
     Returns: numpy array of embeddings
     """
-    logger(f"Computing embeddings for {model_id}...")
+    logg(f"Computing embeddings for {model_id}...")
 
     # 1. Try SentenceTransformer
     try:
-        print(f"Attempting to load {model_id} as SentenceTransformer...")
+        logging.info(f"Attempting to load {model_id} as SentenceTransformer...")
         model = SentenceTransformer(model_id, device=str(DEVICE))
         
         # If we get here, model loaded successfully
