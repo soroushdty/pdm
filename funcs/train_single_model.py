@@ -7,13 +7,13 @@ from sklearn.metrics import f1_score
 from compute_focal_bce_loss import compute_focal_bce_loss
 .from set_seeds import set_seeds
 
-# Defining the model architecture within the file
-class MultiLabelLogistic(nn.Module):
-    def __init__(self, input_dim, output_dim):
-        super().__init__()
-        self.linear = nn.Linear(input_dim, output_dim)
-    def forward(self, x):
-        return self.linear(x)
+# Get the absolute path of the directory above the current working directory
+module_path = os.path.abspath(os.path.join('..'))
+# Insert the path into sys.path at index 0 to ensure it is checked first
+if module_path not in sys.path:
+    sys.path.insert(0, module_path)
+
+from cls.MultiLabelLogistic import MultiLabelLogistic
 
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
