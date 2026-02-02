@@ -1,6 +1,6 @@
 {
   "DIR_INPUT": "input",
-  "output_path": "output",
+  "DIR_OUTPUT": "output",
 
   "patient_col": "Patient",
   "physician_col": "Physician",
