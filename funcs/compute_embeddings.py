@@ -23,7 +23,7 @@ def compute_embeddings(model_id, texts, batch_size):
         
     Returns: numpy array of embeddings
     """
-    logg(f"Computing embeddings for {model_id}...")
+    logging(f"Computing embeddings for {model_id}...")
 
     # 1. Try SentenceTransformer
     try:
