@@ -25,22 +25,22 @@ def get_dataset_from_npz(x_npz, y_train, y_test, merge_map_train_path, merge_map
 
 
     def build_x_matrix(x_npz, y_data, df, item_col_name):
-    num_rows = y_data.shape[0]
-    # Get embedding dimension from the first embedding in x_npz
-    embedding_dim = next(iter(x_npz.values())).shape[0]
-    X_matrix = np.zeros((num_rows, embedding_dim))
+        num_rows = y_data.shape[0]
+        # Get embedding dimension from the first embedding in x_npz
+        embedding_dim = next(iter(x_npz.values())).shape[0]
+        X_matrix = np.zeros((num_rows, embedding_dim))
 
-    for i in range(num_rows):
-        # The first column of y_data contains the original index from the preprocessed dataframe
-        original_idx = int(y_data[i, 0])
+        for i in range(num_rows):
+            # The first column of y_data contains the original index from the preprocessed dataframe
+            original_idx = int(y_data[i, 0])
         
-        # Get the Item name from the preprocessed DataFrame using the original_idx
-        # Use .loc to ensure index-based retrieval from the DataFrame
-        item_name = df.loc[original_idx, item_col_name]
+            # Get the Item name from the preprocessed DataFrame using the original_idx
+            # Use .loc to ensure index-based retrieval from the DataFrame
+            item_name = df.loc[original_idx, item_col_name]
         
-        # Retrieve the embedding from the NPZ object using the Item name
-        embedding = x_npz[item_name]
-        X_matrix[i] = embedding
+            # Retrieve the embedding from the NPZ object using the Item name
+            embedding = x_npz[item_name]
+            X_matrix[i] = embedding
     return X_matrix
     
     # Generate X matrices by aligning embeddings with the order of Y labels
