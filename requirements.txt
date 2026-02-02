@@ -2,13 +2,10 @@ pandas
 numpy
 openpyxl
 torch
-transformers
-sentence_transformers
-tqdm
-gc
 joblib
 matplotlib
 seaborn
 scikit-learn
 imbalanced-learn
 iterative-stratification
+scipy
