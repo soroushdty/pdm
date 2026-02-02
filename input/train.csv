@@ -1,0 +1,1759 @@
+Patient,Item,Physician,Behavioral health,Diagnoses,Disabilities,Infectious diseases,Genetics,Medications,Sexual and reproductive health,Social determinants of health,Violence,Other
+1,53-year-old,1,0,0,0,0,0,0,0,1,0,1
+1,"ACL tear, left",1,0,1,0,0,0,0,0,0,0,0
+1,Acute psychosis,1,1,1,0,0,0,0,0,0,0,0
+1,Albumin 3.2 g/dL (3.4-5.0),1,0,1,0,0,0,0,0,0,0,0
+1,"Amphetamine screen, urine",1,0,0,0,0,0,0,0,0,0,1
+1,Aspirin (Bayer Aspirin) 81mg,1,0,0,0,0,0,1,0,0,0,0
+1,Back pain,1,0,1,1,0,0,0,0,0,0,0
+1,Bipolar disorder,1,1,0,0,0,1,0,0,0,0,1
+1,Borderline personality disorder,1,1,1,0,0,0,0,0,0,0,1
+1,"Cannabis dependence, uncomplicated",1,1,1,0,0,1,0,0,0,0,0
+1,Cardiac arrest,1,0,1,0,0,0,0,0,0,0,0
+1,Cardizem (diltiazem) 240 mg,1,0,0,0,0,0,1,0,0,0,0
+1,Case management by behavioral health professional - office,1,0,0,0,0,0,0,0,0,0,1
+1,Cervicalgia,1,0,1,1,0,0,0,0,0,0,0
+1,Chronic obstructive pulmonary disease (2° toxic exposure),1,0,1,1,0,0,0,0,0,0,0
+1,Chronic pain syndrome,1,1,1,1,0,0,0,0,0,0,0
+1,Clonidine HCl (Catapres) 0.1mg,1,0,0,0,0,0,1,0,0,0,0
+1,Codeine allergy,1,0,0,0,0,0,0,0,0,0,1
+1,Cogentin (benztropine) 1 mg,1,0,0,0,0,0,1,0,0,0,0
+1,Complete metabolic panel,1,0,0,0,0,0,0,0,0,0,1
+1,Depression,1,1,1,1,0,1,0,0,0,0,1
+1,Diclofenac sodium (Voltaren) 75mg,1,0,0,0,0,0,1,0,0,0,0
+1,"Disorder of thyroid, unspecified",1,0,1,0,0,0,0,0,0,0,0
+1,Docusate sodium (Colace),1,0,0,0,0,0,1,0,0,0,0
+1,Echocardiogram (normal),1,0,0,0,0,0,0,0,0,0,1
+1,EKG (abnormal),1,0,1,0,0,0,0,0,0,0,0
+1,Employed,1,0,0,0,0,0,0,0,0,0,1
+1,"Episodic tension-type headache, not intractable",1,0,1,1,0,0,0,0,0,0,0
+1,"Erectile dysfunction, unspecified erectile dysfunction type",1,1,1,0,0,0,0,1,0,0,0
+1,Estradiol (Estrace) 1mg,1,0,0,0,0,0,1,0,0,0,0
+1,Excessive and frequent menstruation with irregular cycle,1,0,1,0,0,0,0,1,0,0,0
+1,Flomax (tamsulosin) 0.4 mg,1,0,0,0,0,0,1,0,0,0,0
+1,Fluoxetine (Prozac) 20mg,1,0,0,0,0,1,1,0,0,0,0
+1,Furosemide (Lasix),1,0,0,0,0,0,1,0,0,0,0
+1,Gabapentin (Neurontin) 400mg,1,0,0,0,0,0,1,0,0,0,0
+1,Head MRI (no acute stroke),1,0,1,0,0,0,0,0,0,0,0
+1,Hepatic function panel,1,0,0,0,0,0,0,0,0,0,1
+1,HGB 13.4 g/dL (13.5-17.0),1,0,1,0,0,0,0,0,0,0,0
+1,History (HX)-narcotic allergy,1,0,0,0,0,0,0,0,0,0,1
+1,Human immunodeficiency virus (HIV) disease,1,0,1,0,1,0,0,1,1,0,0
+1,Hypokalemia,1,0,1,0,0,0,0,0,0,0,0
+1,Indwelling urinary catheter,1,0,0,0,0,0,0,1,1,0,1
+1,Lamotrigine (Lamictal) 25mg,1,0,0,0,0,1,1,0,0,0,0
+1,Levothyroxine (Levoxyl) 25mcg,1,0,0,0,0,0,1,0,0,0,0
+1,Lipase level,1,0,0,0,0,0,0,0,0,0,1
+1,Lopressor (metoprolol) 25 mg,1,0,0,0,0,0,1,0,0,0,0
+1,Male,1,0,0,0,0,0,0,0,1,0,0
+1,Married,1,0,0,0,0,0,0,1,1,0,1
+1,"Methadone metabolite, urine",1,0,1,0,0,0,0,0,0,0,0
+1,"Microscopic observation, wet prep, cervix or vagina",1,0,0,0,0,0,0,1,0,0,1
+1,No history of substance abuse,1,0,0,0,0,0,0,0,0,0,1
+1,No sign of suspected abuse or neglect,1,0,0,0,0,0,0,0,0,0,1
+1,"Nonsteroidal anti-inflammatory drugs (NSAIDs), lo other",1,0,0,0,0,0,1,0,0,0,0
+1,Paranoid schizophrenia,1,1,1,1,0,1,0,0,0,0,0
+1,Paroxysmal Atrial Fibrillation,1,0,1,0,0,0,0,0,0,0,0
+1,Periapical abscess without sinus,1,0,1,0,0,0,0,0,0,0,0
+1,Personality disorder,1,1,1,1,0,0,0,0,0,0,0
+1,Prediabetes,1,0,1,0,0,1,0,0,0,0,0
+1,Prior construction worker,1,0,0,0,0,0,0,0,0,0,1
+1,Prostate specific antigen (PSA),1,0,0,0,0,0,0,0,0,0,1
+1,Restoril (temazepam) 15 mg,1,0,0,0,0,0,1,0,0,0,0
+1,Retrograde pyelogram,1,0,0,0,0,0,0,0,0,0,1
+1,Risperidone (risperdal) 0.25mg,1,0,0,0,0,0,1,0,0,0,0
+1,Silenor (doxepin) 50 mg,1,0,0,0,0,0,1,0,0,0,0
+1,Single view chest radiograph (normal),1,0,0,0,0,0,0,0,0,0,1
+1,Thyrotropin (TSH high sensitivity),1,0,0,0,0,0,0,0,0,0,1
+1,Toxic metabolic encephalopathy,1,0,1,0,0,0,0,0,0,0,0
+1,Tramadol allergy,1,0,0,0,0,0,0,0,0,0,1
+1,Unemployed,1,0,0,0,0,0,0,0,0,0,1
+1,Urinary Tract Infection,1,0,1,0,0,0,0,1,0,0,0
+1,Vicodin,1,0,0,0,0,0,1,0,0,0,0
+1,Vistaril (hydroxyzine) 50 mg,1,0,0,0,0,0,1,0,0,0,0
+1,Xarelto (rivaroxaban) 20 mg,1,0,0,0,0,0,1,0,0,0,0
+2,27-year-old,1,1,0,1,1,1,0,1,1,1,0
+2,Acute prostatitis,1,0,0,0,1,0,0,1,0,0,0
+2,"Amphetamine screen, urine",1,1,1,0,0,0,1,0,1,0,0
+2,Antibody screen,1,0,1,0,1,0,0,0,0,0,0
+2,Aripiprazole (Abilify) 5mg,1,1,0,0,0,0,0,0,1,0,0
+2,Attention-deficit hyperactivity disorder (ADHD),1,1,0,0,0,0,1,0,1,0,0
+2,Basic metabolic panel,1,0,1,0,0,0,0,0,0,0,0
+2,"Benzodiazepine screen, urine",1,1,1,0,0,0,1,0,1,0,0
+2,Bipolar disorder,1,1,0,0,0,0,0,1,1,0,0
+2,Brexpiprazole (rexulti) 0.25mg,1,1,1,0,0,0,1,0,1,0,0
+2,Buspirone (Buspar) 10mg,1,1,0,0,0,0,1,0,0,0,0
+2,"Cannabinoid (THC 50) screen, urine",1,1,1,0,0,0,0,0,1,0,0
+2,"Case management, licensed certified mental health counselor",1,1,0,0,0,0,0,0,1,0,0
+2,Cephalexin (keflex) 500mg,1,0,0,0,1,0,1,0,0,0,0
+2,Chronic back pain,1,0,1,1,0,0,0,0,0,0,0
+2,Complete Blood Count (normal),1,0,1,0,0,0,0,0,0,0,0
+2,Comprehensive metabolic panel,1,0,1,0,0,0,0,0,0,0,0
+2,Cough,1,0,1,0,1,0,0,0,0,0,0
+2,Diabetes mellitus,1,0,1,0,0,0,1,0,1,0,0
+2,Divalproex (depakote) 500mg,1,1,0,1,0,0,1,0,0,0,0
+2,"Estrogen, fractionated",1,0,1,0,0,0,0,0,0,0,0
+2,Extracorporeal shockwave lithotripsy (left kidney),1,0,0,0,0,0,0,0,0,0,1
+2,Fetal nonstress test,1,0,1,0,0,0,0,0,0,0,0
+2,Flexeril (cyclobenzaprine) 10 mg,1,0,0,1,0,0,1,0,0,0,0
+2,Fluoxetine (Prozac) 20mg,1,1,0,0,0,0,0,0,1,0,0
+2,Generalized anxiety disorder,1,1,1,0,0,0,1,0,0,0,0
+2,Geodon (ziprasidone) 40mg,1,1,0,1,0,0,1,0,1,0,0
+2,Glipizide (glucotrol) 5mg,1,0,0,0,0,0,1,0,0,0,0
+2,Gynecologic Pap,1,0,1,0,0,0,0,1,0,0,0
+2,"Heart failure, unspecified",1,0,1,0,0,0,0,0,0,0,0
+2,Hemoglobin A1C (normal),1,0,1,0,0,0,0,0,0,0,0
+2,"Human papilloma virus (HPV) mRNA, cervix",1,0,1,0,1,0,0,0,0,0,0
+2,Hydrocodone bitartrate-acetaminophen (Norco 5/325) 5mg-325mg,1,0,0,0,0,0,1,0,1,0,0
+2,Hydronephrosis,1,0,1,0,0,0,0,0,0,0,0
+2,Individual therapy,1,0,0,0,0,0,0,0,0,0,1
+2,Insomnia,1,0,1,0,0,0,0,0,0,0,0
+2,Interpreter services,1,0,0,0,0,0,0,0,1,0,0
+2,Keflex (cephalexin) 500 mg,1,0,0,0,1,0,1,0,0,0,0
+2,Laceration repair,1,0,0,0,0,0,0,0,0,0,1
+2,Latuda (lurasidone) 20mg,1,0,0,0,0,0,1,0,0,0,0
+2,Levothyroxine (Synthroid),1,0,0,0,0,0,1,0,0,0,0
+2,Low back pain,1,0,1,0,0,0,0,0,0,0,0
+2,Maternal serum screen (normal),1,0,1,0,0,0,0,0,0,0,0
+2,Metformin (Glucophage) 500mg,1,0,0,0,0,0,1,0,0,0,0
+2,Motor vehicle accident,1,0,1,1,0,0,0,0,0,0,0
+2,Naproxen (aleve) 500mg,1,0,0,0,0,0,1,0,0,0,0
+2,Neurontin (gabapentin) 300mg,1,0,0,0,0,0,1,0,0,0,0
+2,No alcohol use,1,0,0,0,0,0,0,0,1,0,0
+2,No known allergies,1,0,0,0,0,0,0,0,0,0,1
+2,No safety concerns,1,0,0,0,0,0,0,0,0,1,0
+2,Nocturnal dyspnea,1,0,0,0,0,0,0,0,0,0,1
+2,Nonemergency transportation,1,0,0,0,0,0,0,0,1,0,0
+2,Nonsmoker,1,0,0,0,0,0,0,0,1,0,0
+2,Obesity,1,0,1,0,0,0,0,0,0,0,0
+2,Other specified anxiety disorder,1,1,1,0,0,0,0,0,0,0,0
+2,Oxybutynin chloride (ditropan) 5mg,1,0,0,0,0,0,1,0,0,0,0
+2,Panic disorder without agoraphobia,1,1,0,0,0,0,0,0,0,0,0
+2,Parental-biological child conflict,1,1,0,0,0,0,0,0,1,0,0
+2,Paroxetine HCl (paxil) 10mg,1,0,0,0,0,0,1,0,0,0,0
+2,Phoenix health plan,1,0,0,0,0,0,0,0,0,0,1
+2,Post traumatic stress disorder (PTSD),1,1,1,0,0,0,0,0,1,0,0
+2,Prenatal multivitamin with folic acid (Prenatal Plus),1,0,0,0,0,0,1,0,0,0,0
+2,Psych diagnostic evaluation with MD service,1,1,0,0,0,0,0,0,0,0,0
+2,Reticulocyte count,1,0,1,0,0,0,0,0,0,0,0
+2,Right leg laceration,1,0,1,0,0,0,0,0,0,0,1
+2,S/P Laparoscopic tubal cautery,1,0,1,0,0,0,0,0,0,0,0
+2,Trihexyphenidyl allergy,1,0,0,0,0,0,0,0,0,0,1
+2,TSH (normal),1,0,1,0,0,0,0,0,0,0,0
+2,Urinary Tract Infection,1,0,1,0,0,0,0,0,0,0,0
+2,Urogram,1,0,1,0,0,0,0,0,0,0,0
+2,Vicodin (hydrocodone) 5/500 mg,1,0,0,0,0,0,1,0,0,0,0
+2,Vitamin D (normal),1,0,1,0,0,0,0,0,0,0,0
+2,Woman,1,0,0,0,0,0,0,0,0,0,1
+3,57-year-old,1,0,0,0,0,0,0,0,0,0,1
+3,Amitriptyline (elavil),1,0,0,0,0,0,1,0,0,0,0
+3,Amoxicillin (amoxil),1,0,0,0,0,0,1,0,0,0,0
+3,Aspartate aminotransferase,1,0,0,0,0,0,0,0,0,0,1
+3,Attention deficit hyperactivity disorder (ADHD),1,1,0,0,0,0,0,0,0,0,0
+3,Basic metabolic panel,1,0,0,0,0,0,0,0,0,0,1
+3,Bipolar II disorder,1,1,0,0,0,0,0,0,0,0,0
+3,Blood urea nitrogen (low),1,0,0,0,0,0,0,0,0,0,1
+3,Calcium carbonate allergy,1,0,0,0,0,0,1,0,0,0,0
+3,Cargard (nadolol) 20 mg,1,0,0,0,0,0,1,0,0,0,0
+3,Chronic lower back pain,1,0,0,1,0,0,0,0,0,0,0
+3,Chronic pain,1,0,0,1,0,0,0,0,0,0,0
+3,Chronic pulmonary disease,1,0,1,0,0,0,0,0,0,0,0
+3,Complete blood count with auto differential panel,1,0,0,0,0,0,0,0,0,0,1
+3,Creatinine (low),1,0,0,0,0,0,0,0,0,0,1
+3,Degeneration of lumbosacral intervertebral disc,1,0,1,0,0,0,0,0,0,0,0
+3,Deltasone (prednisone) 10 mg,1,0,0,0,0,0,1,0,0,0,0
+3,Desyrel (trazodone) 150 mg tablet,1,1,0,0,0,0,1,0,0,0,0
+3,Dilation & curettage,1,0,0,0,0,0,0,1,0,0,0
+3,"Episodic tension-type headache, not intractable",1,0,1,0,0,0,0,0,0,0,0
+3,Epstein-Barr virus VCA AB IGG (positive),1,0,0,0,1,0,0,0,0,0,0
+3,"Ergocalciferol (vitamin D2) (Calciferol) 50,000unit",1,0,0,0,0,0,1,0,0,0,0
+3,Escitalopram oxalate (Lexapro) 5mg,1,1,0,0,0,0,1,0,0,0,0
+3,Estradiol allergy,1,0,0,0,0,0,1,1,0,0,0
+3,Gamma glutamyl transferase (GGT),1,0,0,0,0,0,0,0,0,0,1
+3,Gastroesophageal reflux disease,1,0,1,0,0,0,0,0,0,0,0
+3,Headaches,1,0,1,0,0,0,0,0,0,0,0
+3,Hemorrhoids,1,0,1,0,0,0,0,0,0,0,0
+3,Human insulin (novolin R),1,0,0,0,0,0,1,0,0,0,0
+3,Ibuprofen (advil) 800mg,1,0,0,0,0,0,1,0,0,0,0
+3,Idiopathic pancreatitis,1,0,1,0,0,0,0,0,0,0,0
+3,"Invega (paliperidone), cloud consciousness & joint pain",1,1,0,0,0,0,1,0,0,0,0
+3,Ipratropium-albuterol (duoneb),1,0,0,0,0,0,1,0,0,0,0
+3,Irritable bowel syndrome,1,0,1,0,0,0,0,0,0,0,0
+3,Left upper quadrant pain,1,0,0,0,0,0,0,0,0,0,1
+3,Lesbian,1,0,0,0,0,0,0,0,1,0,0
+3,Lioresal (baclofen) 10 mg,1,0,0,0,0,0,1,0,0,0,0
+3,Lorazepam (Ativan) 0.5mg,1,1,0,0,0,0,1,0,0,0,0
+3,"Lyrica (pregabalin), moody",1,0,0,1,0,0,1,0,0,0,0
+3,"Methadone screen, urine",1,1,0,0,0,0,0,0,0,0,1
+3,Methotrexate sodium (Rasuvo) 2.5mg,1,0,0,0,0,0,1,0,0,0,0
+3,Methylprednisolone (Medrol Dosepak) 4mg,1,0,0,0,0,0,1,0,0,0,0
+3,Metoprolol tartrate (Lopressor) 25mg,1,0,0,0,0,0,1,0,0,0,0
+3,Montelukast (Singulair) 10mg,1,0,0,0,0,0,1,0,0,0,0
+3,MRI Brain w/wo contrast,1,0,0,0,0,0,0,0,0,0,1
+3,Mycobacterium tuberculosis (TB) antigen (IGRA),1,0,0,0,1,0,0,0,0,0,0
+3,Obstructive sleep apnea syndrome.,1,0,1,0,0,0,0,0,0,0,0
+3,Osteopenia,1,0,1,0,0,0,0,0,0,0,0
+3,Oxytocin (pitocin) 30units,1,0,0,0,0,0,1,1,0,0,0
+3,Paliperidone palmitate (Invega Trinza) 819mg/2.625ml,1,1,0,0,0,0,1,0,0,0,0
+3,Post traumatic stress disorder (PTSD),1,1,1,0,0,0,0,0,0,0,0
+3,Propoxyphene napsylate allergy,1,0,0,0,0,0,1,0,0,0,0
+3,Protonix (pantoprazole) 40 mg,1,0,0,0,0,0,1,0,0,0,0
+3,Quetiapine (Seroquel) 300mg,1,1,0,0,0,0,1,0,0,0,0
+3,Red meat allergy,1,0,1,0,0,0,0,0,0,0,0
+3,Repair of musculotendinous cuff of shoulder,1,0,0,0,0,0,0,0,0,0,1
+3,S/P appendectomy,1,0,1,0,0,0,0,0,0,0,0
+3,S/P hysterectomy,1,0,1,0,0,0,0,1,0,0,0
+3,"Schizoaffective disorder, unspecified",1,1,1,0,0,0,0,0,0,0,0
+3,Scopolamine allergy,1,0,0,0,0,0,1,0,0,0,0
+3,Severe mixed bipolar I disorder,1,1,1,0,0,0,0,0,0,0,0
+3,"Sinemet (carbidopa) allergy,  vomiting & dizziness",1,0,0,0,0,0,1,0,0,0,0
+3,Single,1,0,0,0,0,0,0,0,1,0,1
+3,"Sodium (Na), serum",1,0,0,0,0,0,0,0,0,0,1
+3,Thyrotropin (TSH high sensitivity),1,0,0,0,0,0,0,0,0,0,1
+3,Tizanidine (zanaflex) 4mg,1,0,0,0,0,0,1,0,0,0,0
+3,"Toradol (ketorolac), eruption of skin",1,0,0,0,0,0,1,0,0,0,0
+3,Triiodothyronine (T3),1,0,0,0,0,0,0,0,0,0,1
+3,"Trileptal (oxcarbazepine), chest pain",1,0,0,0,0,0,1,0,0,0,0
+3,Troponin-I (low),1,0,0,0,0,0,0,0,0,0,1
+3,Woman,1,0,0,0,0,0,0,0,1,0,1
+3,Xanax (alprazolam) 1 mg,1,0,0,0,0,0,1,0,0,0,0
+3,Zantac (ranitidine) 150 mg,1,0,0,0,0,0,1,0,0,0,0
+3,Zithromax (azithromycin) 250 mg,1,0,0,0,1,0,1,0,0,0,0
+4,40-year-old,1,0,0,0,0,0,0,0,0,0,1
+4,Abilify (aripiprazole) 20 mg,1,0,0,0,0,0,1,0,0,0,0
+4,Amitriptyline (elavil),1,0,0,0,0,0,1,0,0,0,0
+4,Arthritis,1,0,1,0,0,0,0,0,0,0,0
+4,Assistance with personal bathing & showering,1,0,0,1,0,0,0,0,0,0,0
+4,Asthma,1,0,1,0,0,0,0,0,0,0,0
+4,Barbiturate screen,1,1,0,0,0,0,0,0,0,0,0
+4,Barett's disease,1,0,1,0,0,0,0,0,0,0,0
+4,Bipolar disorder,1,1,1,0,0,0,0,0,0,0,0
+4,Calcaneal spur,1,0,1,0,0,0,0,0,0,0,0
+4,Carpal tunnel syndrome,1,0,1,0,0,0,0,0,0,0,0
+4,Cesarean section (c-section),1,0,0,0,0,0,0,1,0,0,0
+4,CMP (normal range),1,0,0,0,0,0,0,0,0,0,1
+4,Cocaine metabolite screen,1,1,0,0,0,0,0,0,1,0,1
+4,Colonic polyps,1,0,1,0,0,0,0,0,0,0,0
+4,Complete Blood Count (normal),1,0,0,0,0,0,0,0,0,0,1
+4,Comprehensive metabolic panel,1,0,0,0,0,0,0,0,0,0,1
+4,Congenital malformations of intestine,1,0,1,0,0,1,0,0,0,0,0
+4,Conjugated estrogens (Premarin) allergy,1,0,0,0,0,0,0,1,0,0,0
+4,Cozaar (losartan potassium) 50 mg,1,0,0,0,0,0,1,0,0,0,0
+4,Dental caries,1,0,1,0,0,0,0,0,0,0,0
+4,Dual eligible (Medicare & Medicaid),1,0,0,0,0,0,0,0,1,0,0
+4,Enthesopathy,1,0,1,0,0,0,0,0,0,0,0
+4,Extracorporeal shockwave lithotripsy (left kidney),1,0,1,0,0,0,0,0,0,0,0
+4,Gastroesophageal reflux disease,1,0,1,0,0,0,0,0,0,0,0
+4,Gout,1,0,1,0,0,0,0,0,0,0,0
+4,Gynecologic Pap,1,0,0,0,0,0,0,1,0,0,0
+4,Haldol (haloperidol) 2 mg,1,0,0,0,0,0,1,0,0,0,0
+4,Hearing loss,1,0,0,1,0,0,0,0,0,0,0
+4,Hepatitis C antibody,1,0,0,0,1,0,0,0,0,0,0
+4,Hernia repair,1,0,1,0,0,0,0,0,0,0,0
+4,Herpes zoster,1,0,1,0,0,0,0,0,0,0,0
+4,Hyperlipidemia,1,0,1,0,0,0,0,0,0,0,0
+4,Hypothyroidism,1,0,1,0,0,0,0,0,0,0,0
+4,Ipratropium-albuterol (duoneb),1,0,0,0,0,0,1,0,0,0,0
+4,Kidney stone,1,0,1,0,0,0,0,0,0,0,0
+4,Lexapro (escitalopram) 20 mg,1,0,0,0,0,0,1,0,0,0,0
+4,Ligation of fallopian tube,1,0,1,0,0,0,0,0,0,0,0
+4,Lipitor (atorvastatin) 40 mg,1,0,0,0,0,0,1,0,0,0,0
+4,Major depressive disorder,1,1,1,0,0,0,0,0,0,0,0
+4,Malignant neoplasm of digestive organs,1,0,1,0,0,0,0,0,0,0,0
+4,Meclizine (antivert) 25mg,1,0,0,0,0,0,1,0,0,0,0
+4,Metformin (Glucophage) 500mg,1,0,0,0,0,0,1,0,0,0,0
+4,Mild cognitive impairment,1,0,1,0,0,0,0,0,0,0,0
+4,Morphine sulfate (roxanol),1,0,0,0,0,0,1,0,0,0,0
+4,Neurontin (gabapentin) 600 mg,1,0,0,0,0,0,1,0,0,0,0
+4,Non-steroidal anti-inflammatory drugs (NSAIDs) allergy,1,0,0,0,0,0,1,0,0,0,0
+4,Obesity,1,0,1,0,0,0,0,0,1,0,0
+4,Obstructive sleep apnea syndrome,1,0,1,0,0,0,0,0,0,0,0
+4,Oxycodone,1,0,0,0,0,0,1,0,0,0,0
+4,Oxytocin (pitocin) 30units,1,0,0,0,0,0,1,0,0,0,0
+4,Penicillin allergy,1,0,0,0,0,0,1,0,0,0,0
+4,Percocet (oxycodone/acetaminophen) 5/325 mg,1,0,0,0,0,0,1,0,0,0,0
+4,Perphenazine (trilafon) 4mg,1,0,0,0,0,0,1,0,0,0,0
+4,Post-traumatic stress disorder,1,1,1,0,0,0,0,0,0,0,0
+4,Protonix (pantoprazole) 40 mg,1,0,0,0,0,0,1,0,0,0,0
+4,Quetiapine (seroquel) 50mg,1,0,0,0,0,0,1,0,0,0,0
+4,Ranitidine (zantac),1,0,0,0,0,0,1,0,0,0,0
+4,Remeron (mirtazapine) 45 mg,1,0,0,0,0,0,1,0,0,0,0
+4,S/P appendectomy,1,0,1,0,0,0,0,0,0,0,0
+4,S/P tonsillectomy,1,0,1,0,0,0,0,0,0,0,0
+4,Single-family house,1,0,0,0,0,0,0,0,1,0,0
+4,Sleep apnea,1,0,1,0,0,0,0,0,0,0,0
+4,Sodium chloride (salinex aerosol 0.65%,1,0,0,0,0,0,1,0,0,0,0
+4,Trazodone (desyrel) 150mg,1,0,0,0,0,0,1,0,0,0,0
+4,Trileptal (oxcarbazepine) 600 mg,1,0,0,0,0,0,1,0,0,0,0
+4,Tritec (ranitidine) 150 mg,1,0,0,0,0,0,1,0,0,0,0
+4,Type 2 diabetes,1,0,1,0,0,0,0,0,0,0,0
+4,Urinary incontinence,1,0,1,0,0,0,0,0,0,0,0
+4,Voltaren (diclofenac) 75 mg,1,0,0,0,0,0,1,0,0,0,0
+4,Voluntary body piercing,1,0,0,0,0,0,0,0,0,0,1
+4,Woman,1,0,0,0,0,0,0,1,1,0,0
+4,Zithromax (azithromycin) 250 mg,1,0,0,0,0,0,1,0,0,0,0
+5,32-year-old,1,0,0,0,0,0,0,0,0,0,1
+5,"Adderall (amphetamine) XR 5 mg, extended release",1,0,0,0,0,0,1,0,0,0,0
+5,"Alcohol dependence, uncomplicated",1,1,1,0,0,0,0,0,0,0,0
+5,ANA,1,0,0,0,0,0,0,0,0,0,1
+5,Anxiety,1,1,1,0,0,0,0,0,0,0,0
+5,"Attention-deficit hyperactivity disorder (ADHD), other type",1,1,1,0,0,0,0,0,0,0,0
+5,Bentyl (dicyclomine) 20 mg tablet,1,0,0,0,0,0,1,0,0,0,0
+5,Bilateral ovarian cystectomy,1,0,0,0,0,0,0,1,0,0,1
+5,"Bipolar disorder, current episode, manic severe, with psychotic features",1,1,1,0,0,0,0,0,0,0,0
+5,Blood glucose levels,1,0,0,0,0,0,0,0,0,0,1
+5,"Cannabinoids, serum",1,0,0,0,0,0,0,0,0,0,1
+5,Cannabis dependency,1,1,1,0,0,0,0,0,0,0,0
+5,Celexa (citalopram) 20 mg tablet,1,0,0,0,0,0,1,0,0,0,0
+5,Chronic fatigue,1,0,1,0,0,0,0,0,0,0,0
+5,Citalopram (Celexa) 40mg,1,0,0,0,0,0,1,0,0,0,0
+5,Codeine allergy,1,0,1,0,0,0,0,0,0,0,0
+5,Codeine phosphate-guaifenesin (Cheratussin) 2mg/ml-20mg/ml,1,0,0,0,0,0,1,0,0,0,0
+5,Colonoscopy,1,0,0,0,0,0,0,0,0,0,1
+5,Depakote 250 mg tablet,1,0,0,0,0,0,1,0,0,0,0
+5,Dependence on wheelchair,1,0,1,1,0,0,0,0,0,0,0
+5,Dorsalgia,1,0,1,0,0,0,0,0,0,0,0
+5,Effexor (venlafaxine) 75 mg tablet,1,0,0,0,0,0,1,0,0,0,0
+5,Employed,1,0,0,0,0,0,0,0,1,0,0
+5,"Enterococcus species, urine",1,0,0,0,0,0,0,0,0,0,1
+5,Eustachian tube placement,1,0,0,0,0,0,0,0,0,0,1
+5,Factor V Leiden gene mutations,1,0,1,0,0,1,0,0,0,0,0
+5,Fluoxetine (Prozac),1,0,0,0,0,0,1,0,0,0,0
+5,Fluoxetine allergy,1,0,1,0,0,0,0,0,0,0,0
+5,Gabapentin (Neurontin) 300mg,1,0,0,0,0,0,1,0,0,0,0
+5,Gamma glutamyl transferase (GGT),1,0,0,0,0,0,0,0,0,0,1
+5,Gastroesophageal reflux disease without esophagitis,1,0,1,0,0,0,0,0,0,0,0
+5,"HCG, pregnancy test, urine",1,0,0,0,0,0,0,0,0,0,1
+5,Hymenal tear,1,0,1,0,0,0,0,1,0,0,0
+5,Hypertension,1,0,1,0,0,0,0,0,0,0,0
+5,Hypothyroidism,1,0,1,0,0,0,0,0,0,0,0
+5,Insert intrauterine device (IUD),1,0,0,0,0,0,0,0,0,0,1
+5,Lamotrigine (Lamictal) 100 mg tablet,1,0,0,0,0,0,1,0,0,0,0
+5,Lamotrigine (Lamictal) allergy,1,0,0,0,0,0,1,0,0,0,0
+5,Laparoscopic surgical procedure converted to open procedure,1,0,0,0,0,0,0,0,0,0,1
+5,Levomefolate-algal oil (Deplin-Algal Oil) 7.5mg-90.314mg,1,0,0,0,0,0,1,0,0,0,0
+5,Losartan-hydrochlorothiazide (Hyzaar) 50mg-12.5mg,1,0,0,0,0,0,1,0,0,0,0
+5,Menometrorrhagia,1,0,1,0,0,0,0,1,0,0,0
+5,Methadone (Methadose) 10mg,1,0,0,0,0,0,1,0,0,0,0
+5,Mild levoscoliosis,1,0,1,0,0,0,0,0,0,0,0
+5,Morbid obesity,1,0,1,0,0,0,0,0,0,0,0
+5,Mylicon (simethicone),1,0,0,0,0,0,1,0,0,0,0
+5,Nadolol (Corgard) 20mg,1,0,0,0,0,0,1,0,0,0,0
+5,No signs of abuse or neglect,1,0,1,0,0,0,0,0,0,0,0
+5,Olanzapine (Zyprexa) 5mg,1,0,0,0,0,0,1,0,0,0,0
+5,"Opiates, quantitative, urine",1,0,0,0,0,0,0,0,0,0,1
+5,Other specified anxiety disorder,1,1,1,0,0,0,0,0,0,0,0
+5,Oxcarbazepine (Trileptal) 600mg,1,0,0,0,0,0,1,0,0,0,0
+5,Oxycodone (oxycontin) 5 mg,1,0,0,0,0,0,1,0,0,0,0
+5,Perphenazine (Trilafon) 4mg,1,0,0,0,0,0,1,0,0,0,0
+5,Post traumatic stress disorder (PTSD),1,1,1,0,0,0,0,0,0,0,0
+5,Pregnancy,1,0,1,0,0,0,0,1,0,0,0
+5,"Propoxyphene Screen, Urine",1,0,0,0,0,0,0,0,0,0,1
+5,Prostate resection transurethral,1,0,0,0,0,0,0,1,0,0,1
+5,Prozac (fluoxetine) 20 mg capsule,1,0,0,0,0,0,1,0,0,0,0
+5,Psychiatric diagnosis evaluation,1,1,0,0,0,0,0,0,0,0,1
+5,Ranitidine (Wal-Zan 150) 150mg,1,0,0,0,0,0,1,0,0,0,0
+5,"Resection of cervix, open approach",1,0,0,0,0,0,0,1,0,0,1
+5,"Resection of uterus, open approach",1,0,0,0,0,0,0,1,0,0,1
+5,"Scopolamine allergy, anaphylactic",1,0,1,0,0,0,0,0,0,0,0
+5,Senokot (senna),1,0,0,0,0,0,1,0,0,0,0
+5,"Single-family house, shared bathroom",1,0,0,0,0,0,0,0,1,0,0
+5,"Transdermal allergy, swelling",1,0,1,0,0,0,0,0,0,0,0
+5,Ulcer,1,0,1,0,0,0,0,0,0,0,0
+5,Unmarried,1,0,0,0,0,0,0,0,0,0,1
+5,Urinalysis (normal),1,0,0,0,0,0,0,0,0,0,1
+5,Vistaril (hydroxyzine) 25 mg,1,0,0,0,0,0,1,0,0,0,0
+5,Vitamin D (low),1,0,1,0,0,0,0,0,0,0,0
+5,Woman,1,0,0,0,0,0,0,0,0,0,1
+6,47-year-old,1,0,0,0,0,0,0,0,1,0,0
+6,Acute kidney injury,1,0,1,0,0,0,0,0,0,0,0
+6,Albuterol (ProAir HFA 90 mcg/inh),1,0,0,0,0,0,1,0,0,0,0
+6,Antithrombin II Activity (low),1,0,0,0,0,0,0,0,0,0,1
+6,Anxiety disorder,1,1,1,1,0,0,0,0,0,0,0
+6,Asthma,1,0,1,0,0,0,0,0,0,0,0
+6,"Barbiturate Screen, Urine",1,1,0,0,0,0,0,0,0,0,1
+6,Benztropine,1,0,0,0,0,0,1,0,0,0,0
+6,"Bipolar disorder, unspecified",1,1,1,1,0,0,0,0,0,0,0
+6,Buspar (buspirone) 10 mg,1,0,0,0,0,0,1,0,0,0,0
+6,Cardiac rehabilitation,1,0,0,1,0,0,0,0,0,0,1
+6,Cardiolipin antibody IgA IgG IgM (negative),1,0,0,0,0,0,0,0,0,0,1
+6,Cardiomyopathy,1,0,1,1,0,0,0,0,0,0,0
+6,Cephalexin (Keflex) 500mg,1,0,0,0,0,0,1,0,0,0,0
+6,Choriogonadotropin (HCG) tumor marker,1,0,0,0,0,0,0,0,0,0,1
+6,Class III congestive heart failure,1,0,1,1,0,0,0,0,0,0,0
+6,CT right hand,1,0,0,0,0,0,0,0,0,0,1
+6,Depression,1,1,1,1,0,0,0,0,0,0,0
+6,Desyrel (trazodone) 100 mg,1,0,0,0,0,0,1,0,0,0,0
+6,"Edema, unspecified",1,0,1,0,0,0,0,0,0,0,0
+6,EKG 12 lead,1,0,0,0,0,0,0,0,0,0,1
+6,Eliquis (apixaban) 5 mg,1,0,0,0,0,0,1,0,0,0,0
+6,Excessive and frequent menstruation with irregular cycle,1,0,1,1,0,0,0,0,0,0,0
+6,Factor V Leiden Mutation (negative),1,0,0,0,0,1,0,0,0,0,1
+6,Fibromyalgia,1,1,1,1,0,0,0,0,0,0,0
+6,Flexeril (cyclobenzaprine) 10 mg,1,0,0,0,0,0,1,0,0,0,0
+6,Fluoxetine,1,0,0,0,0,0,1,0,0,0,0
+6,Furosemide (Lasix),1,0,0,0,0,0,1,0,0,0,0
+6,Generalized anxiety disorder,1,1,1,1,0,0,0,0,0,0,0
+6,Geodon (ziprasidone) 40 mg,1,0,0,0,0,0,1,0,0,0,0
+6,Glucose,1,0,0,0,0,0,1,0,0,0,1
+6,Glumetza (metformin) 850 mg,1,0,0,0,0,0,1,0,0,0,0
+6,GlycoLax 17 gram/dose oral powder,1,0,0,0,0,0,1,0,0,0,0
+6,HDL Cholesterol,1,0,0,0,0,0,0,0,0,0,1
+6,Humalog (insulin lispro),1,0,0,0,0,0,1,0,0,0,0
+6,"Hypertensive disorder, systemic arterial",1,0,1,0,0,0,0,0,0,0,0
+6,Indocin (indomethacin) 50 mg,1,0,0,0,0,0,1,0,0,0,0
+6,Insomnia,1,0,1,0,0,0,0,0,0,0,0
+6,Irritable bowel syndrome with diarrhea,1,0,1,0,0,0,0,0,0,0,0
+6,Kidney stone,1,0,1,0,0,0,0,0,0,0,0
+6,Lamictal,1,0,0,0,0,0,1,0,0,0,0
+6,Left heart catheterization,1,0,0,0,0,0,0,0,0,0,1
+6,Life vest defibrillator,1,0,0,0,0,0,0,0,0,0,1
+6,Lopressor (metoprolol) 100 mg,1,0,0,0,0,0,1,0,0,0,0
+6,Male,1,0,0,0,0,0,0,1,1,0,0
+6,Medicaid,1,0,0,0,0,0,0,0,0,0,1
+6,Metabolic encephalopathy,1,0,1,0,0,0,0,0,0,0,0
+6,Naproxen (Aleve) 500mg,1,0,0,0,0,0,1,0,0,0,0
+6,No known allergy,1,0,0,0,0,0,0,0,0,0,1
+6,Nocturnal dyspnea,1,0,1,0,0,0,0,0,0,0,0
+6,Obstructive sleep apnea syndrome,1,0,1,0,0,0,0,0,0,0,0
+6,Omeprazole allergy,1,0,0,0,0,0,0,0,0,0,1
+6,Orthopedic disorders,1,0,1,0,0,0,0,0,0,0,1
+6,Other bipolar disorder,1,1,1,1,0,0,0,0,0,0,0
+6,Oxycodone (oxycontin),1,0,0,0,0,0,1,0,0,0,0
+6,Percocet (oxycodone/acetaminophen) 10/325 mg,1,0,0,0,0,0,1,0,0,0,0
+6,Propensity to adverse reactions,1,0,1,0,0,0,0,0,0,0,0
+6,Protein C activity (low),1,0,0,0,0,0,0,0,0,0,1
+6,Recent use of meth and PCP,1,1,1,1,0,0,0,0,0,0,0
+6,Recurrent severe major depressive disorder with psych symptoms,1,1,1,1,0,0,0,0,0,0,0
+6,Right popliteal deep vein thrombosis,1,0,1,0,0,0,0,0,0,0,0
+6,Sleep apnea,1,0,1,1,0,0,0,0,0,0,0
+6,Tardive dyskinesia,1,0,1,1,0,0,0,0,0,0,0
+6,Tobacco status,1,1,0,0,0,0,0,0,0,0,0
+6,Total protein count,1,0,0,0,0,0,0,0,0,0,1
+6,Triiodothyronine (T3),1,0,0,0,0,0,0,0,0,0,1
+6,"TSH, high sensitivity",1,0,0,0,0,0,0,0,0,0,1
+6,Type 2 diabetes,1,0,1,0,0,0,0,0,0,0,0
+6,Unemployed,1,0,0,0,0,0,0,0,1,0,0
+6,Unmarried,1,0,0,0,0,0,0,0,1,0,0
+6,US** ven duplex lower extremity,1,0,0,0,0,0,0,0,0,0,1
+6,Vaginal pain,1,0,0,0,0,0,0,0,0,0,1
+6,X-ray chest,1,0,0,0,0,0,0,0,0,0,1
+7,30-year-old,1,0,0,0,0,0,0,0,1,0,0
+7,Acetaminophen allergy,1,0,0,0,0,0,1,0,0,0,0
+7,Acute psychosis,1,1,1,0,0,0,0,0,0,0,0
+7,"Amenorrhea, unspecified",1,0,0,0,0,0,0,1,0,0,0
+7,Amitriptyline (elavil),1,0,0,0,0,0,1,0,0,0,0
+7,Antibody screen,1,0,0,0,0,1,0,1,0,0,0
+7,Aripiprazole (abilify) 10 mg,1,0,0,0,0,0,1,0,0,0,0
+7,Aspirin allergy,1,0,0,0,0,0,1,0,0,0,0
+7,Baclofen (lioresal) 20 mg,1,0,0,0,0,0,1,0,0,0,0
+7,"Bilirubin, total",1,0,0,0,0,0,0,0,0,0,1
+7,Borderline personality disorder,1,1,1,0,0,0,0,0,0,0,0
+7,Buspar (buspirone) 30 mg,1,0,0,0,0,0,1,0,0,0,0
+7,Calcium,1,0,0,0,0,0,0,0,0,0,1
+7,"Cannabis abuse, uncomplicated",1,1,1,0,0,0,0,0,0,0,0
+7,Catatonia,1,1,0,0,0,0,0,0,0,0,0
+7,Cephalexin (keflex) 500mg,1,0,0,0,0,0,1,0,0,0,0
+7,Chronic migraines,1,0,1,0,0,0,0,0,0,0,0
+7,Dementia,1,0,1,1,0,0,0,0,0,0,0
+7,Depression,1,1,1,1,0,0,0,0,0,0,0
+7,Displaced oblique fracture fourth metacarpal,1,0,0,0,0,0,0,0,0,0,1
+7,"Dysmenorrhea, unspecified",1,0,1,0,0,0,0,1,0,0,0
+7,Dysthymic disorder,1,1,1,0,0,0,0,0,0,0,0
+7,Effexor (venlafaxine) ER 75 mg,1,0,0,0,0,0,1,0,0,0,0
+7,Encounter for screening for infections with a predominantly sexual mode of transmission,1,0,0,0,1,0,0,1,0,0,0
+7,Episodic tension-type headache,1,0,1,0,0,0,0,0,0,0,0
+7,Facial contusion,1,0,0,0,0,0,0,0,0,1,1
+7,Family history of alcohol abuse,1,0,0,0,0,1,0,0,1,0,0
+7,Family history of drug abuse,1,0,0,0,0,1,0,0,1,0,0
+7,Family history of sleep apnea,1,0,0,0,0,1,0,0,0,0,0
+7,Family history of stomach cancer,1,0,0,0,0,1,0,0,0,0,0
+7,Family history of type 2 diabetes,1,0,0,0,0,1,0,0,0,0,0
+7,Fracture at the tip of the nasal bone,1,0,0,0,0,0,0,0,0,1,1
+7,Gay,1,0,0,0,0,0,0,1,0,0,0
+7,"Hallucinogen dependence, uncomplicated",1,1,1,0,0,0,0,0,0,0,0
+7,"HCG, pregnancy test, urine",1,0,0,0,0,0,0,1,0,0,0
+7,"Heart failure, unspecified",1,0,1,0,0,0,0,0,0,0,0
+7,History of domestic altercation,1,0,0,0,0,0,0,0,1,1,0
+7,Hypertension,1,0,1,0,0,0,0,0,0,0,0
+7,Hysterectomy,1,0,0,0,0,0,0,1,0,0,0
+7,Ibuprofen (advil),1,0,0,0,0,0,1,0,0,0,0
+7,Insomnia,1,1,1,0,0,0,0,0,0,0,0
+7,Irritable bowel syndrome with diarrhea,1,0,1,0,0,0,0,0,0,0,0
+7,Kidney stone,1,0,1,0,0,0,0,0,0,0,0
+7,Lamotrigine (lamictal) 200mg,1,0,0,0,0,0,1,0,0,0,0
+7,Lioresal (baclofen) 20 mg,1,0,0,0,0,0,1,0,0,0,0
+7,Lymphocytes,1,0,0,0,0,0,0,0,0,0,1
+7,Male,1,0,0,0,0,0,0,0,1,0,0
+7,Metal left arm,1,0,0,0,0,0,0,0,0,0,1
+7,"Morphine, lo other",1,0,0,0,0,0,1,0,0,0,0
+7,Mouth pain,1,0,1,0,0,0,0,0,0,0,0
+7,"Nicotine dependence, cigarettes, uncomplicated",1,0,1,0,0,0,0,0,0,0,0
+7,Nocturnal dyspnea,1,0,1,0,0,0,0,0,0,0,0
+7,Norco (acetaminophen/hydrocodone) 325 mg-5 mg,1,0,0,0,0,0,1,0,0,0,0
+7,Obesity,1,0,1,0,0,1,0,0,0,0,0
+7,"Omeprazole, anaphylaxis",1,0,0,0,0,0,1,0,0,0,0
+7,Panic disorder,1,1,1,0,0,0,0,0,0,0,0
+7,Post traumatic stress disorder (PTSD),1,1,1,0,0,0,0,0,0,0,0
+7,Prosom (estazolam) 1 mg,1,0,0,0,0,0,1,0,0,0,0
+7,Quetiapine (seroquel) 50mg,1,0,0,0,0,0,1,0,0,0,0
+7,"Ranitidine HCL, anaphylaxis",1,0,0,0,0,0,1,0,0,0,0
+7,Recent use of methamphetamine,1,1,0,0,0,0,0,0,0,0,0
+7,Segmented neutrophils,1,0,0,0,0,0,0,0,0,0,1
+7,Single,1,0,0,0,0,0,0,1,1,0,0
+7,"Sodium chloride (salinex aerosol 0.65%, spray)",1,0,0,0,0,0,1,0,0,0,0
+7,Tardive dyskinesia,1,0,1,0,0,0,0,0,0,0,0
+7,Thyroxine (T4),1,0,0,0,0,0,0,0,0,0,1
+7,Upper abdominal pain,1,0,0,0,0,0,0,0,0,0,1
+7,Venlafaxine (effexor XR) 50mg,1,0,0,0,0,0,1,0,0,0,0
+7,Vistaril (hydroxyzine) HCl 10 mg,1,0,0,0,0,0,1,0,0,0,0
+7,Vitamin D (deficient),1,0,1,0,0,0,0,0,0,0,0
+7,Ziprasidone (geodon) 40mg,1,0,0,0,0,0,1,0,0,0,0
+7,Zoloft (sertraline) 50 mg,1,0,0,0,0,0,1,0,0,0,0
+8,38-year-old,1,0,0,0,0,0,0,0,0,0,1
+8,Acetaminophen allergy,1,0,0,0,0,0,1,0,0,0,0
+8,Acute psychosis,1,1,1,0,0,0,0,0,0,0,0
+8,"Alcohol screen, urine",1,0,0,0,0,0,0,0,0,0,1
+8,Alkaline phosphatase,1,0,0,0,0,0,0,0,0,0,1
+8,"Amenorrhea, unspecified",1,0,1,0,0,0,0,0,0,0,0
+8,Amitriptyline (Elavil),1,0,0,0,0,0,1,0,0,0,0
+8,"Barbiturate screen, urine",1,0,0,0,0,0,0,0,0,0,1
+8,Behavioral health screening to determine eligibility for admission-community mental health center (CMHC),1,1,0,0,0,0,0,0,0,0,1
+8,Benztropine (cogentin) 0.5mg,1,0,0,0,0,0,1,0,0,0,0
+8,Bipolar disorder,1,1,1,0,0,0,0,0,0,0,0
+8,Brethaire (terbutaline)) 1 ml inj,1,0,0,0,0,0,1,0,0,0,0
+8,Calcium,1,0,0,0,0,0,1,0,0,0,1
+8,Calculus of kidney,1,0,1,0,0,0,0,0,0,0,0
+8,Cardiac arrhythmias,1,0,1,0,0,0,0,0,0,0,0
+8,Chromosomal microarray,1,0,0,0,0,1,0,0,0,0,1
+8,Class II obesity,1,0,1,0,0,0,0,0,0,0,0
+8,Complicated pregnancy and delivery.,1,0,1,0,0,0,0,0,0,0,0
+8,Cytogenetics,1,0,0,0,0,1,0,0,0,0,0
+8,Dementia,1,1,1,0,0,0,0,0,0,0,0
+8,"Dental caries, unspecified",1,0,1,0,0,0,0,0,0,0,0
+8,Diabetes mellitus,1,0,1,0,0,0,0,0,0,0,0
+8,Diphenhydramine allergy,1,0,0,0,0,0,1,0,0,0,1
+8,"Effusion, right foot",1,0,1,0,0,0,0,0,0,0,0
+8,Emergent c-section,1,0,1,0,0,0,0,0,0,0,0
+8,Epidural anesthesia,1,0,0,0,0,0,0,0,0,0,1
+8,Excessive and frequent menstruation with irregular cycle,1,0,0,0,0,0,0,1,0,0,0
+8,Female,1,0,0,0,0,0,0,0,0,0,1
+8,Former tobacco user,1,0,0,0,0,0,0,0,1,0,0
+8,Gabapentin (Neurontin) 100mg,1,0,0,0,0,0,1,0,0,0,0
+8,Glucophage (metformin ) 500 mg,1,0,0,0,0,0,1,0,0,0,0
+8,Group B strep - prenatal screen,1,0,0,0,1,0,0,0,0,0,0
+8,Guanfacine (tenex) 1mg,1,0,0,0,0,0,1,0,0,0,0
+8,"Hallucinogen dependence, uncomplicated",1,0,1,0,0,0,0,0,0,0,0
+8,History of domestic violence,1,0,0,0,0,0,0,0,1,1,0
+8,History of falling/tripping,1,0,0,0,0,0,0,0,0,0,1
+8,History of fetal death,1,0,0,0,0,0,0,0,0,0,1
+8,Human immunodeficiency virus (HIV) disease,1,0,1,0,0,0,0,0,0,0,0
+8,Insomnia,1,0,1,0,0,0,0,0,0,0,0
+8,Kapva (clonidine) HCl 0.1 mg,1,0,0,0,0,0,1,0,0,0,0
+8,Latuda (lurasidone) 20 mg,1,0,0,0,0,0,1,0,0,0,0
+8,Ligation of fallopian tube,1,0,0,0,0,0,0,0,0,0,1
+8,Migraine headache with aura without status migrainosus,1,0,1,0,0,0,0,0,0,0,0
+8,MR angio head venous without contrast (MRV),1,0,0,0,0,0,0,0,0,0,1
+8,MRI brain without contrast,1,0,0,0,0,0,0,0,0,0,1
+8,Norco (acetaminophen/hydrocodone) 5/325 mg,1,0,0,0,0,0,1,0,0,0,0
+8,Other chronic pain,1,0,1,0,0,0,0,0,0,0,0
+8,Other long term (current) drug therapy,1,0,1,0,0,0,0,0,0,0,0
+8,Other specified anxiety disorders,1,1,1,0,0,0,0,0,0,0,0
+8,Oxidant screen,1,0,0,0,0,0,0,0,0,0,1
+8,Panic disorder,1,1,1,0,0,0,0,0,0,0,0
+8,Paroxetine HCl (Paxil) 10mg,1,0,0,0,0,0,1,0,0,0,0
+8,Pitocin (oxycontin) 20mu/min,1,0,0,0,0,0,1,0,0,0,0
+8,Polyethylene glycol 3350 (Glycolax 17 g/dose powder),1,0,0,0,0,0,1,0,0,0,0
+8,Post traumatic stress disorder (PTSD),1,1,1,0,0,0,0,0,0,0,0
+8,"Protein, total",1,0,0,0,0,0,0,0,0,0,1
+8,Psych diagnostic evaluation w/MD Svcs,1,0,0,0,0,0,0,0,0,0,1
+8,Right foot pain,1,0,0,0,0,0,0,0,0,0,1
+8,Right lower quadrant pain,1,0,0,0,0,0,0,0,0,0,1
+8,Risperidone (Risperdal) 0.5mg,1,0,0,0,0,0,1,0,0,0,0
+8,Rubella IgG (reactive),1,0,0,0,0,0,0,0,0,0,1
+8,S/P hysterotomy,1,0,0,0,0,0,0,0,0,0,1
+8,S/P spontaneous abortion,1,0,0,0,0,0,0,0,0,0,1
+8,S/P tonsillectomy,1,0,0,0,0,0,0,0,0,0,1
+8,"Strain of muscle, fascia and tendon of lower back",1,0,1,0,0,0,0,0,0,0,0
+8,Streptococcus agalactiae (organism),1,0,0,0,1,0,0,0,0,0,0
+8,"Sulfonamide antibiotics, anaphylaxis",1,0,0,0,0,0,1,0,0,0,1
+8,Tobacco status,1,0,0,0,0,0,0,0,1,0,0
+8,Triglycerides,1,0,0,0,0,0,0,0,0,0,1
+8,Triiodothyronine (T3),1,0,0,0,0,0,0,0,0,0,1
+8,Tubal reversal,1,0,0,0,0,0,0,0,0,0,1
+8,Unsp place in unsp noninstitute (private) residence as place,1,0,0,0,0,0,0,0,0,0,1
+8,Urinalysis (large amount of blood),1,0,0,0,0,0,0,0,0,0,1
+8,Uses interpreter services,1,0,0,0,0,0,0,0,0,0,1
+9,61-year-old,1,0,0,0,0,0,0,0,1,0,1
+9,Abdominal pain,1,0,1,0,0,0,0,0,0,0,0
+9,Acetaminophen allergy,1,0,1,0,0,0,1,0,0,0,0
+9,Acute psychosis,1,1,1,0,0,0,0,0,0,0,0
+9,"Albumin, serum",1,0,0,0,0,0,0,0,0,0,1
+9,Alkaline phosphatase,1,0,0,0,0,0,0,0,0,0,1
+9,Amitriptyline (elavil),1,1,0,0,0,0,1,0,0,0,0
+9,Amnesia,1,1,1,0,0,0,0,0,0,0,0
+9,Anxiety,1,1,1,0,0,0,0,0,0,0,0
+9,Aripiprazole (abilify) 2mg,1,1,0,0,0,0,1,0,0,0,0
+9,Aspirin allergy,1,0,1,0,0,0,1,0,0,0,0
+9,Behavioral health screening to determine eligibility for admission by a certified mental health counselor,1,1,1,0,0,0,0,0,0,0,0
+9,Benztropine allergy,1,0,1,0,0,0,1,0,0,0,0
+9,Calcium,1,0,0,0,0,0,0,0,0,0,1
+9,Carbidopa allergy,1,0,1,0,0,0,1,0,0,0,0
+9,Carpal tunnel syndrome,1,0,1,1,0,0,0,0,0,0,0
+9,"Cholesterol, Total",1,0,0,0,0,0,0,0,0,0,1
+9,Corgard (nadolol) 20 mg,1,0,0,0,0,0,1,0,0,0,0
+9,Crohn’s disease of stomach,1,0,1,0,0,0,0,0,0,0,0
+9,CT chest (abnormal),1,0,1,0,0,0,0,0,0,0,1
+9,CT head/brain/cerv spine w/o contrast (mild degenerative volume loss),1,0,1,1,0,0,0,0,0,0,1
+9,CT maxillofacial area w/o contrast (normal),1,0,0,0,0,0,0,0,0,0,1
+9,Depakote (divalproex) 500 mg,1,0,0,0,0,0,1,0,0,0,0
+9,Diabetes mellitus,1,0,1,0,0,0,0,0,0,0,0
+9,Diphenhydramine allergy,1,0,1,0,0,0,1,0,0,0,0
+9,Epidermal cyst,1,0,1,0,0,0,0,0,0,0,0
+9,"Erectile dysfunction, unspecified erectile dysfunction type",1,0,1,0,0,0,0,1,0,0,0
+9,Escitalopram oxalate (lexapro) 10mg,1,1,0,0,0,0,1,0,0,0,0
+9,Excessive and frequent menstruation with irregular cycle,1,0,1,0,0,0,0,1,0,0,0
+9,Family history of epileptic seizures,1,0,0,0,0,1,0,0,0,0,0
+9,Flomax (tamsulosin) 0.4 mg,1,0,1,0,0,0,1,0,0,0,0
+9,Glumetza (metformin) 500 mg tablet,1,0,1,0,0,0,1,0,0,0,0
+9,H/O syphilis,1,0,1,0,1,0,0,1,0,0,0
+9,Herniated structure,1,0,1,0,0,0,0,0,0,0,0
+9,History of falling,1,0,1,1,0,0,0,0,0,0,0
+9,"Hypertensive disorder, systemic arterial",1,0,1,0,0,0,0,0,0,0,0
+9,Irritable bowel syndrome,1,0,1,0,0,0,0,0,0,0,0
+9,Irritable colon,1,0,1,0,0,0,0,0,0,0,0
+9,LDL cholesterol (normal),1,0,0,0,0,0,0,0,0,0,1
+9,Loratadine (Claritin) 10mg,1,0,1,0,0,0,1,0,0,0,0
+9,Losartan (hyzaar) 50 mg,1,0,1,0,0,0,1,0,0,0,0
+9,Male,1,0,0,0,0,0,0,1,0,0,1
+9,Married,1,0,0,0,0,0,0,0,0,0,1
+9,Medicaid recipient,1,0,0,0,0,0,0,0,1,0,1
+9,mild cognitive impairment,1,1,1,1,0,0,0,0,0,0,0
+9,Nadolol (corgard) 20mg,1,0,0,0,0,0,1,0,0,0,0
+9,No history of alcohol,1,1,0,0,0,0,0,0,0,0,1
+9,No history of drug use,1,1,0,0,0,0,0,0,0,0,1
+9,No history of tobacco use,1,0,0,0,0,0,0,0,0,0,1
+9,Norco (hydrocodone/acetaminophen) 325-5 mg,1,1,0,0,0,0,1,0,0,0,0
+9,"Obesity, unspecified",1,0,1,0,0,0,0,0,0,0,0
+9,Olanzapine (zyprexa) 5mg,1,1,0,0,0,0,1,0,0,0,0
+9,"Opiates Screen, Urine",1,1,0,0,0,0,0,0,0,0,1
+9,Other bipolar disorder,1,1,1,0,0,0,0,0,0,0,0
+9,Oxidant Screen,1,0,0,0,0,0,0,0,0,0,1
+9,Panic disorder,1,1,1,0,0,0,0,0,0,0,0
+9,Pneumonia,1,0,1,0,1,0,0,0,0,0,0
+9,Prilosec (omeprazole) 40 mg,1,0,1,0,0,0,1,0,0,0,0
+9,Propensity to adverse reactions,1,0,1,0,0,0,0,0,0,0,0
+9,Prozac (fluoxetine) 10 mg,1,1,1,0,0,0,1,0,0,0,0
+9,Quetiapine (Seroquel) 400mg,1,1,1,0,0,0,1,0,0,0,0
+9,Ranitidine (Zantac),1,0,0,0,0,0,1,0,0,0,0
+9,Recurrent and moderate major depressive disorder,1,1,1,0,0,0,0,0,0,0,0
+9,Robitussin (codeine-guaifenesin) 5 mL,1,0,0,0,0,0,1,0,0,0,0
+9,S/P brain shunt,1,0,1,0,0,0,0,0,0,0,0
+9,S/P hernia repair,1,0,1,0,0,0,0,0,0,0,0
+9,Saline Nasal 0.65% spray aerosol,1,0,0,0,0,0,1,0,0,0,0
+9,Social Phobia,1,1,1,0,0,0,0,0,0,0,0
+9,Tramadol allergy,1,0,1,0,0,0,1,0,0,0,0
+9,Unspecified bipolar and related disorder,1,1,1,0,0,0,0,0,0,0,0
+9,Uses interpreter services,1,0,0,0,0,0,0,0,1,0,1
+9,Vitamin B12 and folate levels,1,0,0,0,0,0,0,0,0,0,1
+9,Voltaren (diclofenac) 75 mg,1,0,0,0,0,0,1,0,0,0,0
+9,Zithromax (azithromycin) 250 mg,1,0,0,0,1,0,1,0,0,0,0
+10,40-year-old,1,0,0,0,0,0,0,0,0,0,1
+10,Abdominal pain,1,0,0,0,0,0,0,1,0,1,0
+10,Acetaminophen allergy,1,0,1,0,0,0,1,0,0,0,0
+10,Active smoker,1,1,0,0,0,0,0,0,0,0,0
+10,Acute psychosis,1,0,1,0,0,0,0,0,0,0,0
+10,Acute sinusitis,1,0,1,0,1,0,0,0,0,0,0
+10,Adrenalin (epinephrine) IM,1,0,0,0,0,0,1,0,0,0,0
+10,Alcohol frequency - weekly,1,0,0,0,0,0,0,0,1,0,0
+10,Anxiety,1,1,1,0,0,0,0,0,0,1,0
+10,Aripiprazole (abilify) 2mg,1,0,0,0,0,0,1,0,0,0,0
+10,BCR-ABL1,1,0,0,0,0,1,0,0,0,0,0
+10,Benztropine allergy,1,0,1,0,0,0,1,0,0,0,0
+10,Bipolar disorder,1,0,1,0,0,0,0,0,0,0,0
+10,Borderline personality disorder,1,1,1,0,0,0,0,0,0,0,0
+10,Calcium (low),1,0,1,0,0,0,0,0,0,0,1
+10,Chest pain on exertion,1,0,1,0,0,0,0,0,0,0,0
+10,Chlamydia trachomatis/Neisseria gonorrhoeae,1,0,0,0,1,0,0,0,0,1,1
+10,Chronic bilateral low back pain without sciatica,1,0,1,0,0,0,0,0,0,0,0
+10,Cough,1,0,1,0,1,0,0,0,0,0,0
+10,Creatinine (elevated),1,0,0,0,0,0,1,0,0,0,1
+10,Depression,1,1,1,0,0,0,0,0,0,1,0
+10,Diabetes mellitus type 2 (disorder),1,0,1,0,0,0,0,0,0,0,0
+10,Diphenhydramine allergy,1,0,1,0,0,0,1,0,0,0,0
+10,Disorder of thyroid,1,0,1,0,0,0,0,1,0,0,0
+10,Dobutrex (dobutamine) IV,1,0,0,0,0,0,1,0,0,0,0
+10,Drug abuse screening test (10 drugs),1,1,0,0,0,0,0,0,0,1,0
+10,Edema,1,0,1,0,0,0,0,0,0,0,0
+10,Elevated liver enzymes,1,1,0,0,1,0,1,0,0,0,0
+10,Episodic tension-type headache,1,0,1,0,0,0,0,0,0,0,0
+10,Erectile dysfunction,1,0,1,0,0,0,0,1,0,0,0
+10,Estradiol (Estrace) 1mg,1,0,0,0,0,0,1,1,0,0,0
+10,Fibromyalgia,1,0,1,0,0,0,0,0,0,0,0
+10,Furosemide (Lasix),1,0,0,0,0,0,1,0,0,0,0
+10,Gabapentin (Neurontin) 400mg,1,0,0,0,0,0,1,0,0,0,0
+10,Healed traumatic fracture,1,0,1,0,0,0,0,0,0,1,0
+10,HGB & HCT (low),1,0,1,0,0,0,0,1,0,0,1
+10,Hyperlipidemia,1,0,1,0,0,0,0,0,0,0,0
+10,Hypertension,1,0,1,0,0,0,0,0,0,0,0
+10,Hypovolemic Shock,1,0,1,0,0,0,0,0,0,1,0
+10,Ibuprofen (advil),1,0,0,0,0,0,1,0,0,0,0
+10,Insomnia,1,1,1,0,0,0,0,0,0,1,0
+10,Internal hemorrhoid,1,0,1,0,0,0,0,0,0,0,0
+10,Lamotrigine (lamictal) 200mg,1,0,0,0,0,0,1,0,0,0,0
+10,Lioresal (baclofen) 20 mg,1,0,0,0,0,0,1,0,0,0,0
+10,Liver enzymes (elevated),1,1,0,0,1,0,1,0,0,0,0
+10,Lopressor (metoprolol) 25 mg,1,0,0,0,0,0,1,0,0,0,0
+10,Lymphocyte count,1,0,0,0,1,0,0,0,0,0,1
+10,Male,1,0,0,0,0,0,0,0,0,0,1
+10,Meclizine (antivert) 25mg,1,0,0,0,0,0,1,0,0,0,0
+10,Methylnaltrexone bromide (relistor) 20mg/ml,1,1,0,0,0,0,1,0,0,0,0
+10,Mobic (meloxicam) 15 mg,1,0,0,0,0,0,1,0,0,0,0
+10,Nabumetone (relafen),1,0,0,0,0,0,1,0,0,0,0
+10,Nocturnal dyspnea,1,0,1,0,0,0,0,0,0,0,0
+10,Obese,1,0,1,0,0,0,0,0,1,0,0
+10,Opiates screen,1,1,0,0,0,0,0,0,0,1,0
+10,Pain in throat,1,0,1,0,1,0,0,0,0,0,0
+10,Paliperidone palmitate (Invega Trinza) 819mg/2.625ml,1,0,0,0,0,0,1,0,0,0,0
+10,Perphenazine (trilafon) 2mg,1,0,0,0,0,0,1,0,0,0,0
+10,Pheniramine,1,0,0,0,0,0,1,0,0,0,0
+10,Phenylephrine,1,0,0,0,0,0,1,0,0,0,0
+10,RBC (low),1,0,0,0,0,0,0,0,0,1,1
+10,Rectal bleeding,1,0,1,0,0,0,0,0,0,1,0
+10,S/P leg surgery,1,0,0,0,0,0,0,0,0,0,1
+10,Schizoaffective disorder,1,0,1,0,0,0,0,0,0,0,0
+10,Seborrheic dermatitis,1,0,1,0,0,0,0,0,0,0,0
+10,Seroquel (quetiapine) 400 mg,1,0,0,0,0,0,1,0,0,0,0
+10,Strep A assay with optic,1,0,0,0,1,0,0,0,0,0,1
+10,Ultrasound of lower extremity,1,0,0,0,0,0,0,0,0,0,1
+10,Unspecified abdominal pain,1,1,1,0,0,0,0,0,0,1,0
+10,Valley fever,1,0,1,0,1,0,0,0,0,0,0
+10,Venlafaxine (Effexor),1,1,0,0,0,0,1,0,0,1,0
+10,Vistaril (hydroxyzine) 50 mg,1,1,0,0,0,0,1,0,0,0,0
+10,Vitamin B12,1,0,0,0,0,0,0,0,1,0,1
+10,Xanax (alprazolam) 0.5 mg,1,1,0,0,0,0,1,0,0,0,0
+11,18-year-old,1,1,0,0,0,0,0,1,1,1,0
+11,Albumin (elevated),1,0,1,0,0,0,0,0,0,0,0
+11,Alpha-1-fetoprotein (AFP) and choriogonadotropin (HCG) tumor markers,1,0,1,0,0,0,0,0,0,0,0
+11,Amnesia,1,1,0,0,0,0,0,0,0,0,0
+11,Amphetamine screen,1,0,0,0,0,0,1,0,0,0,0
+11,"Anxiety disorder, unspecified",1,1,0,0,0,0,0,0,0,0,0
+11,Arthritis,1,0,0,1,0,0,0,0,0,0,0
+11,Aspartate aminotransferase (AST) level,1,0,1,0,0,0,0,0,0,0,0
+11,Ativan (Lorazepam) 1 mg,1,0,0,0,0,0,1,0,0,0,0
+11,Bipolar disorder,1,1,0,0,0,0,0,0,0,0,0
+11,"Cannabis dependence, uncomplicated",1,1,0,0,0,0,0,0,0,0,0
+11,EEG,1,0,1,0,0,0,0,0,0,0,0
+11,"Enthesopathy, unspecified",1,0,0,1,0,0,0,0,0,0,0
+11,"Ergocalciferol (vitamin D2) (Calciferol) 50,000unit",1,0,0,0,0,0,1,0,0,0,0
+11,"Fentanyl, quantitative, urine",1,1,1,0,0,0,1,0,0,0,0
+11,Fluoxetine (Prozac) 10mg,1,0,0,0,0,0,1,0,0,0,0
+11,Hallucinations,1,1,0,1,0,0,0,0,0,0,0
+11,Haloperidol (Haldol) 10mg,1,0,0,0,0,0,1,0,0,0,0
+11,Haloperidol (Haldol) 2mg,1,0,0,0,0,0,1,0,0,0,0
+11,Hemoglobin,1,0,1,0,0,0,0,0,0,0,0
+11,"Hepatitis C antibody, HCV RNA, quantitative, RT-PCR",1,0,1,0,1,0,0,0,0,0,0
+11,Hypercholesterolemia,1,0,1,0,0,0,0,0,0,0,0
+11,Individual therapy- community mental health center (CMHC)- 15 mins unit,1,1,0,0,0,0,0,0,0,0,0
+11,Language processing issues,1,0,0,1,0,0,0,0,0,0,0
+11,Learning disability,1,0,0,1,0,0,0,0,0,0,0
+11,Leukocytosis,1,0,1,0,0,0,0,0,0,0,0
+11,Lipase (normal),1,0,1,0,0,0,0,0,0,0,0
+11,Losartan-hydrochlorothiazide (Hyzaar) 50mg-12.5mg,1,0,0,0,0,0,1,0,0,0,0
+11,Lumbar puncture,1,0,1,0,0,0,0,0,0,0,0
+11,Magnesium (normal),1,0,1,0,0,0,0,0,0,0,0
+11,Male,1,1,0,0,0,1,0,1,1,1,0
+11,Medication monitoring MD/DO/NP/PA,1,0,0,0,0,0,1,0,0,0,0
+11,Metformin (glucophage) 850mg,1,0,0,0,0,0,1,0,0,0,0
+11,Mirtazapine (remeron) 45mg,1,0,0,0,0,0,1,0,0,0,0
+11,Morphine allergy,1,0,0,0,0,0,1,0,0,0,0
+11,Morphine sulfate (Roxanol) 2mg/0.5ml,1,0,0,0,0,0,1,0,0,0,0
+11,MRI of brain,1,0,1,0,0,0,0,0,0,0,0
+11,Multivitamins,1,0,0,0,0,0,1,0,0,0,0
+11,Nadolol (Corgard) 20mg,1,0,0,0,0,0,1,0,0,0,0
+11,Nausea,1,0,0,0,0,0,0,0,0,0,1
+11,"No history of sexual, physical abuse",1,0,0,0,0,0,0,1,0,0,0
+11,No known allergies,1,0,0,0,0,0,1,0,0,0,0
+11,Not employed,1,0,0,0,0,0,0,0,1,0,0
+11,Not verbally responsive,1,1,0,0,0,0,0,0,0,0,0
+11,Opiate screen,1,1,0,0,0,0,1,0,0,0,0
+11,Overweight,1,1,0,1,0,1,0,0,0,0,0
+11,Oxybutynin chloride (ditropan) 5mg,1,0,0,0,0,0,1,0,0,0,0
+11,Oxytocin (pitocin) 30units,1,0,0,0,0,0,1,0,0,0,0
+11,Paliperidone palmitate (Invega Trinza) 819mg/2.625ml,1,0,0,0,0,0,1,0,0,0,0
+11,Pantoprazole (Protonix) 40mg,1,0,0,0,0,0,1,0,0,0,0
+11,Paranoia,1,1,0,0,0,0,0,0,0,0,0
+11,Phenylephrine hydrochloride allergy,1,0,0,0,0,0,1,0,0,0,0
+11,Prenatal multivitamin with folic acid (Prenatal Plus),1,0,0,0,0,0,1,0,0,0,0
+11,Propoxyphene screen,1,0,0,0,0,0,1,0,0,0,0
+11,Protein (elevated),1,0,1,0,0,0,0,0,0,0,0
+11,Psychomotor agitation,1,1,0,0,0,0,0,0,0,0,0
+11,Reports a “telepathic” sexual relationship with ex-girlfriend,1,1,0,0,0,0,0,0,0,0,0
+11,Schizophrenia,1,1,0,0,0,0,0,0,0,0,0
+11,Spinal fluid culture and gram stain,1,0,1,0,0,0,0,0,0,0,0
+11,"Spine, cervical view",1,0,1,0,0,0,0,0,0,0,0
+11,"Spine, thoracic View",1,0,1,0,0,0,0,0,0,0,0
+11,Stress,1,1,0,0,0,0,0,0,0,0,0
+11,Tamsulosin (Flomax) 0.4mg,1,0,0,0,0,0,1,0,0,0,0
+11,Temazepam (restoril),1,0,0,0,0,0,1,0,0,0,0
+11,Tricyclic screen,1,0,1,0,0,0,1,0,0,0,0
+11,Triglycerides,1,0,1,0,0,0,0,0,0,0,0
+11,Triiodothyronine (T3),1,0,1,0,0,0,0,0,0,0,0
+11,TSH (normal),1,0,1,0,0,0,0,0,0,0,0
+11,"Urinalysis, complete",1,0,1,0,0,0,0,0,0,0,0
+11,Venlafaxine (Effexor XR) 50mg,1,0,0,0,0,0,1,0,0,0,0
+11,Venlafaxine (Effexor XR) 75mg,1,0,0,0,0,0,1,0,0,0,0
+11,Vitamin D (low),1,0,1,0,0,0,0,0,0,0,0
+11,Vitek enteric urine rapid ID,1,0,1,0,0,0,0,0,0,0,0
+11,Zofran (ondansetron) 10 mg,1,0,0,0,0,0,1,0,0,0,0
+12,64-year-old,1,0,0,0,0,0,0,0,1,0,0
+12,Abdominal pain,1,0,1,0,0,0,0,0,0,0,0
+12,Albuterol 0.83MG/ML inhalant solution,1,0,0,0,0,0,1,0,0,0,0
+12,Atenolol (Tenormin) 25mg,1,0,0,0,0,0,1,0,0,0,0
+12,Blood glucose levels,1,0,1,0,0,0,0,0,0,0,0
+12,Bronchial asthma,1,0,1,0,0,0,0,0,0,0,0
+12,Buspar (buspirone) 15 mg,1,0,0,0,0,0,1,0,0,0,0
+12,"Cannabis dependence, uncomplicated",1,0,0,0,0,0,0,0,1,0,0
+12,Chest pain,1,0,1,0,0,0,0,0,0,0,0
+12,Cholesterol (high),1,0,1,0,0,0,0,0,0,0,0
+12,Cough,1,0,1,0,0,0,0,0,0,0,0
+12,Cozaar (losartan potassium) 50 mg,1,0,0,0,0,0,1,0,0,0,0
+12,CT abdomen and pelvis with contrast,1,0,0,0,0,0,0,0,0,0,1
+12,Docusate sodium (Colace),1,0,0,0,0,0,1,0,0,0,0
+12,Encounter for full-term uncomplicated delivery,1,0,1,0,0,0,0,0,0,0,0
+12,Estradiol allergy,1,0,0,0,0,0,1,0,0,0,0
+12,Female,1,0,0,0,0,0,0,0,1,0,0
+12,Fluoxetine (prozac) 10mg,1,0,0,0,0,0,1,0,0,0,0
+12,Fosamax (alendronate) 70 mg,1,0,0,0,0,0,1,0,0,0,0
+12,Gastritis,1,0,1,0,0,0,0,0,0,0,0
+12,Glaucoma,1,0,1,0,0,0,0,0,0,0,0
+12,H/O coronary artery disease with a stent,1,0,1,0,0,0,0,0,0,0,0
+12,"HCG, pregnancy test, urine",1,0,0,0,0,0,0,1,0,0,0
+12,Hepatic function panel,1,0,0,0,0,0,0,0,0,0,1
+12,"Hepatitis C antibody, HCV RNA, quantitative, RT-PCR",1,0,0,0,0,0,0,0,0,0,1
+12,Hypercholesterolemia,1,0,1,0,0,0,0,0,0,0,0
+12,Iron/iron binding capacity total (TIBC),1,0,0,0,0,0,0,0,0,0,1
+12,Lactic acid (high),1,0,0,0,0,0,0,0,0,0,1
+12,Lamotrigine (Lamictal) allergy,1,0,0,0,0,0,1,0,0,0,0
+12,Latanoprost ophthalmic 0.005% solution,1,0,0,0,0,0,1,0,0,0,0
+12,"Leiomyoma of uterus, unspecified",1,0,1,0,0,0,0,0,0,0,0
+12,Lorazepam (Ativan) 0.5mg,1,0,0,0,0,0,1,0,0,0,0
+12,"Major depressive disorder, recurrent episode, unspecified",1,1,1,0,0,0,0,0,0,0,0
+12,"Methadone metabolite, urine",1,0,0,0,0,0,0,0,0,0,1
+12,Microzide (hydrochlorothiazide) 25 mg,1,0,0,0,0,0,1,0,0,0,0
+12,Migraine,1,0,1,0,0,0,0,0,0,0,0
+12,Nadolol (Corgard) 20mg,1,0,0,0,0,0,1,0,0,0,0
+12,No known allergies,1,0,1,0,0,0,0,0,0,0,0
+12,No signs or symptoms of abuse,1,0,0,0,0,0,0,0,0,0,1
+12,Nonsmoker,1,0,1,0,0,0,0,0,0,0,0
+12,Numbness and droop of the right side of the face,1,0,1,0,0,0,0,0,0,0,0
+12,Occasional drinker,1,0,0,0,0,0,0,0,1,0,0
+12,Optive ophthalmic solution (OTC),1,0,0,0,0,0,1,0,0,0,0
+12,Osteoarthritis,1,0,1,0,0,0,0,0,0,0,0
+12,Periapical abscess without sinus,1,0,1,0,0,0,0,0,0,0,0
+12,Pheniramine maleate allergy,1,0,0,0,0,0,1,0,0,0,0
+12,Platelet count,1,0,0,0,0,0,0,0,0,0,1
+12,Pregabalin allergy,1,0,0,0,0,0,1,0,0,0,0
+12,Prilosec (omeprazole ) 20 mg,1,0,0,0,0,0,1,0,0,0,0
+12,Propensity to adverse reactions,1,0,1,0,0,0,0,0,0,0,0
+12,Recurrent and moderate major depressive disorder,1,1,0,0,0,0,0,0,0,0,0
+12,Remeron (mirtazapine) 45 mg,1,0,0,0,0,0,1,0,0,0,0
+12,Reticulocyte count,1,0,0,0,0,0,0,0,0,0,1
+12,S/P carpal tunnel release,1,0,1,0,0,0,0,0,0,0,0
+12,S/P cesarean section,1,0,1,0,0,0,0,0,0,0,0
+12,S/P hysterectomy,1,0,1,0,0,0,0,0,0,0,0
+12,S/P percutaneous transluminal coronary angioplasty (PTCA),1,0,1,0,0,0,0,0,0,0,0
+12,Sexually transmitted pathogens panel,1,0,0,0,0,0,0,0,0,0,1
+12,Speech therapy,1,0,0,0,0,0,0,0,0,0,1
+12,Sucralfate (carafate) 1 Gm,1,0,0,0,0,0,1,0,0,0,0
+12,Symbicort 160/4.5 inhalation aerosol,1,0,0,0,0,0,1,0,0,0,0
+12,Tessalon pearls (benzonatate) 200 mg,1,0,0,0,0,0,1,0,0,0,0
+12,Topamax (topiramate) 25 mg,1,0,0,0,0,0,1,0,0,0,0
+12,Tramadol allergy,1,0,0,0,0,0,1,0,0,0,0
+12,Trigeminal neuralgia,1,0,1,0,0,0,0,0,0,0,0
+12,Triglycerides (high),1,0,0,0,0,0,0,0,0,0,1
+12,Unemployed,1,0,0,0,0,0,0,0,1,0,0
+12,Vicodin (hydrocodone) 325-5 mg,1,0,0,0,0,0,1,0,0,0,0
+12,Vitek enteric urine rapid ID,1,0,0,0,0,0,0,0,0,0,1
+12,X-ray chest frontal and lateral views of the chest,1,0,0,0,0,0,0,0,0,0,1
+12,Ziprasidone (Geodon) 40mg,1,0,0,0,0,0,1,0,0,0,0
+12,Zithromax (azithromycin) 250 mg,1,0,0,0,0,0,1,0,0,0,0
+1,53-year-old,2,0,0,0,0,0,0,1,0,0,0
+1,"ACL tear, left",2,0,1,0,0,0,0,0,0,0,0
+1,Acute psychosis,2,0,1,0,0,0,0,0,0,0,0
+1,Albumin 3.2 g/dL (3.4-5.0),2,0,1,0,0,0,0,0,0,0,0
+1,"Amphetamine screen, urine",2,0,0,0,0,0,1,0,0,0,0
+1,Aspirin (Bayer Aspirin) 81mg,2,0,0,0,0,0,1,0,0,0,0
+1,Back pain,2,0,1,0,0,0,0,0,0,0,0
+1,Bipolar disorder,2,0,1,0,0,0,0,0,0,0,0
+1,Borderline personality disorder,2,1,0,0,0,0,0,0,0,0,0
+1,"Cannabis dependence, uncomplicated",2,0,0,0,0,0,0,0,1,0,0
+1,Cardiac arrest,2,0,1,0,0,0,0,0,0,0,0
+1,Cardizem (diltiazem) 240 mg,2,0,0,0,0,0,1,0,0,0,0
+1,Case management by behavioral health professional - office,2,0,0,0,0,0,0,0,1,0,0
+1,Cervicalgia,2,0,1,0,0,0,0,0,0,0,0
+1,Chronic obstructive pulmonary disease (2° toxic exposure),2,0,1,0,0,0,0,0,0,0,0
+1,Chronic pain syndrome,2,0,1,0,0,0,0,0,0,0,0
+1,Clonidine HCl (Catapres) 0.1mg,2,0,0,0,0,0,1,0,0,0,0
+1,Codeine allergy,2,0,0,0,0,0,1,0,0,0,0
+1,Cogentin (benztropine) 1 mg,2,0,0,0,0,0,1,0,0,0,0
+1,Complete metabolic panel,2,0,1,0,0,0,0,0,0,0,0
+1,Depression,2,0,1,0,0,0,0,0,0,0,0
+1,Diclofenac sodium (Voltaren) 75mg,2,0,0,0,0,0,1,0,0,0,0
+1,"Disorder of thyroid, unspecified",2,0,1,0,0,0,0,0,0,0,0
+1,Docusate sodium (Colace),2,0,0,0,0,0,1,0,0,0,0
+1,Echocardiogram (normal),2,0,0,0,0,0,0,0,0,0,1
+1,EKG (abnormal),2,0,1,0,0,0,0,0,0,0,0
+1,Employed,2,0,0,0,0,0,0,0,1,0,0
+1,"Episodic tension-type headache, not intractable",2,0,1,0,0,0,0,0,0,0,0
+1,"Erectile dysfunction, unspecified erectile dysfunction type",2,0,1,0,0,0,0,0,0,0,0
+1,Estradiol (Estrace) 1mg,2,0,0,0,0,0,1,0,0,0,0
+1,Excessive and frequent menstruation with irregular cycle,2,0,1,0,0,0,0,0,0,0,0
+1,Flomax (tamsulosin) 0.4 mg,2,0,0,0,0,0,1,0,0,0,0
+1,Fluoxetine (Prozac) 20mg,2,0,0,0,0,0,1,0,0,0,0
+1,Furosemide (Lasix),2,0,0,0,0,0,1,0,0,0,0
+1,Gabapentin (Neurontin) 400mg,2,0,0,0,0,0,1,0,0,0,0
+1,Head MRI (no acute stroke),2,0,0,1,0,0,0,0,0,0,0
+1,Hepatic function panel,2,0,0,0,1,0,0,0,0,0,0
+1,HGB 13.4 g/dL (13.5-17.0),2,0,1,0,0,0,0,0,0,0,0
+1,History (HX)-narcotic allergy,2,0,1,0,0,0,0,0,0,0,0
+1,Human immunodeficiency virus (HIV) disease,2,0,0,0,0,0,0,1,0,0,0
+1,Hypokalemia,2,0,1,0,0,0,0,0,0,0,0
+1,Indwelling urinary catheter,2,0,1,0,0,0,0,0,0,0,0
+1,Lamotrigine (Lamictal) 25mg,2,0,0,0,0,0,1,0,0,0,0
+1,Levothyroxine (Levoxyl) 25mcg,2,0,0,0,0,0,1,0,0,0,0
+1,Lipase level,2,0,1,0,0,0,0,0,0,0,0
+1,Lopressor (metoprolol) 25 mg,2,0,0,0,0,0,1,0,0,0,0
+1,Male,2,0,0,0,0,0,0,1,0,0,0
+1,Married,2,0,0,0,0,0,0,0,1,0,0
+1,"Methadone metabolite, urine",2,0,0,0,0,0,1,0,0,0,0
+1,"Microscopic observation, wet prep, cervix or vagina",2,0,1,0,0,0,0,0,0,0,0
+1,No history of substance abuse,2,0,0,0,0,0,0,1,0,0,0
+1,No sign of suspected abuse or neglect,2,0,0,0,0,0,0,1,0,0,0
+1,"Nonsteroidal anti-inflammatory drugs (NSAIDs), lo other",2,0,0,0,0,0,1,0,0,0,0
+1,Paranoid schizophrenia,2,0,1,0,0,0,0,0,0,0,0
+1,Paroxysmal Atrial Fibrillation,2,0,1,0,0,0,0,0,0,0,0
+1,Periapical abscess without sinus,2,0,1,0,0,0,0,0,0,0,0
+1,Personality disorder,2,1,0,0,0,0,0,0,0,0,0
+1,Prediabetes,2,0,1,0,0,0,0,0,0,0,0
+1,Prior construction worker,2,0,0,0,0,0,0,0,1,0,0
+1,Prostate specific antigen (PSA),2,0,1,0,0,0,0,0,0,0,0
+1,Restoril (temazepam) 15 mg,2,0,0,0,0,0,1,0,0,0,0
+1,Retrograde pyelogram,2,0,1,0,0,0,0,0,0,0,0
+1,Risperidone (risperdal) 0.25mg,2,0,0,0,0,0,1,0,0,0,0
+1,Silenor (doxepin) 50 mg,2,0,0,0,0,0,1,0,0,0,0
+1,Single view chest radiograph (normal),2,0,1,0,0,0,0,0,0,0,0
+1,Thyrotropin (TSH high sensitivity),2,0,1,0,0,0,0,0,0,0,0
+1,Toxic metabolic encephalopathy,2,0,1,0,0,0,0,0,0,0,0
+1,Tramadol allergy,2,0,0,0,0,0,1,0,0,0,0
+1,Unemployed,2,0,0,0,0,0,0,0,1,0,0
+1,Urinary Tract Infection,2,0,1,0,0,0,0,0,0,0,0
+1,Vicodin,2,0,0,0,0,0,1,0,0,0,0
+1,Vistaril (hydroxyzine) 50 mg,2,0,0,0,0,0,1,0,0,0,0
+1,Xarelto (rivaroxaban) 20 mg,2,0,0,0,0,0,1,0,0,0,0
+2,27-year-old,2,0,0,0,0,0,0,0,0,0,1
+2,Acute prostatitis,2,0,1,0,0,0,0,0,0,0,0
+2,"Amphetamine screen, urine",2,1,0,0,0,0,0,0,0,0,1
+2,Antibody screen,2,0,1,0,0,0,0,0,0,0,0
+2,Aripiprazole (Abilify) 5mg,2,0,0,0,0,0,1,0,0,0,0
+2,Attention-deficit hyperactivity disorder (ADHD),2,0,1,0,0,0,0,0,0,0,0
+2,Basic metabolic panel,2,0,0,0,0,0,0,0,0,0,1
+2,"Benzodiazepine screen, urine",2,0,0,0,0,0,0,0,0,0,1
+2,Bipolar disorder,2,1,0,0,0,0,0,0,0,0,0
+2,Brexpiprazole (rexulti) 0.25mg,2,0,0,0,0,0,1,0,0,0,0
+2,Buspirone (Buspar) 10mg,2,0,0,0,0,0,1,0,0,0,0
+2,"Cannabinoid (THC 50) screen, urine",2,0,0,0,0,0,0,0,1,0,1
+2,"Case management, licensed certified mental health counselor",2,1,0,0,0,0,0,0,0,0,0
+2,Cephalexin (keflex) 500mg,2,0,0,0,0,0,1,0,0,0,0
+2,Chronic back pain,2,0,1,0,0,0,0,0,0,0,0
+2,Complete Blood Count (normal),2,0,0,0,0,0,0,0,0,0,1
+2,Comprehensive metabolic panel,2,0,0,0,0,0,0,0,0,0,1
+2,Cough,2,0,1,0,0,0,0,0,0,0,0
+2,Diabetes mellitus,2,0,1,0,0,0,0,0,0,0,0
+2,Divalproex (depakote) 500mg,2,0,0,0,0,0,1,0,0,0,0
+2,"Estrogen, fractionated",2,0,0,0,0,0,0,0,0,0,1
+2,Extracorporeal shockwave lithotripsy (left kidney),2,0,0,0,0,0,0,0,0,0,1
+2,Fetal nonstress test,2,0,0,0,0,0,0,0,0,0,1
+2,Flexeril (cyclobenzaprine) 10 mg,2,1,0,0,0,0,1,0,0,0,0
+2,Fluoxetine (Prozac) 20mg,2,1,0,0,0,0,1,0,0,0,0
+2,Generalized anxiety disorder,2,1,1,0,0,0,0,0,0,0,0
+2,Geodon (ziprasidone) 40mg,2,1,0,0,0,0,1,0,0,0,0
+2,Glipizide (glucotrol) 5mg,2,0,1,0,0,0,1,0,0,0,0
+2,Gynecologic Pap,2,0,0,0,0,0,0,0,0,0,1
+2,"Heart failure, unspecified",2,0,1,0,0,0,0,0,0,0,0
+2,Hemoglobin A1C (normal),2,0,0,0,0,0,0,0,0,0,1
+2,"Human papilloma virus (HPV) mRNA, cervix",2,0,1,0,0,0,0,0,0,0,0
+2,Hydrocodone bitartrate-acetaminophen (Norco 5/325) 5mg-325mg,2,0,0,0,0,0,1,0,0,0,0
+2,Hydronephrosis,2,0,1,0,0,0,0,0,0,0,0
+2,Individual therapy,2,0,0,0,0,0,1,0,0,0,0
+2,Insomnia,2,0,1,0,0,0,0,0,0,0,0
+2,Interpreter services,2,0,0,0,0,0,0,0,1,0,0
+2,Keflex (cephalexin) 500 mg,2,0,0,0,0,0,1,0,0,0,0
+2,Laceration repair,2,0,0,0,0,0,0,0,0,0,1
+2,Latuda (lurasidone) 20mg,2,1,0,0,0,0,1,0,0,0,0
+2,Levothyroxine (Synthroid),2,1,0,0,0,0,1,0,0,0,0
+2,Low back pain,2,0,1,0,0,0,0,0,0,0,0
+2,Maternal serum screen (normal),2,0,0,0,0,0,0,0,0,0,1
+2,Metformin (Glucophage) 500mg,2,0,1,0,0,0,1,0,0,0,0
+2,Motor vehicle accident,2,0,0,0,0,0,0,0,0,0,1
+2,Naproxen (aleve) 500mg,2,0,0,0,0,0,1,0,0,0,0
+2,Neurontin (gabapentin) 300mg,2,0,0,0,0,0,1,0,0,0,0
+2,No alcohol use,2,0,0,0,0,0,0,0,1,0,0
+2,No known allergies,2,0,0,0,0,0,0,0,0,0,1
+2,No safety concerns,2,0,0,0,0,0,0,0,0,0,1
+2,Nocturnal dyspnea,2,0,1,0,0,0,0,0,0,0,0
+2,Nonemergency transportation,2,0,0,0,0,0,0,0,1,0,0
+2,Nonsmoker,2,0,0,0,0,0,0,0,1,0,0
+2,Obesity,2,0,0,0,0,0,0,0,1,0,0
+2,Other specified anxiety disorder,2,1,0,0,0,0,0,0,1,0,0
+2,Oxybutynin chloride (ditropan) 5mg,2,1,0,0,0,0,1,0,0,0,0
+2,Panic disorder without agoraphobia,2,0,1,0,0,0,0,0,1,0,0
+2,Parental-biological child conflict,2,0,0,0,0,0,0,0,1,1,0
+2,Paroxetine HCl (paxil) 10mg,2,1,0,0,0,0,1,0,0,0,0
+2,Phoenix health plan,2,0,0,0,0,0,0,0,1,0,0
+2,Post traumatic stress disorder (PTSD),2,0,1,0,0,0,0,0,1,0,0
+2,Prenatal multivitamin with folic acid (Prenatal Plus),2,0,0,0,0,0,1,0,0,0,0
+2,Psych diagnostic evaluation with MD service,2,1,0,0,0,0,0,0,1,0,0
+2,Reticulocyte count,2,0,0,0,0,0,0,0,0,0,1
+2,Right leg laceration,2,0,1,0,0,0,0,0,0,0,0
+2,S/P Laparoscopic tubal cautery,2,0,0,0,0,0,0,0,0,0,1
+2,Trihexyphenidyl allergy,2,0,1,0,0,0,1,0,0,0,0
+2,TSH (normal),2,0,0,0,0,0,0,0,0,0,1
+2,Urinary Tract Infection,2,0,1,0,0,0,0,0,0,0,0
+2,Urogram,2,0,0,0,0,0,0,0,0,0,1
+2,Vicodin (hydrocodone) 5/500 mg,2,0,0,0,0,0,1,0,1,0,0
+2,Vitamin D (normal),2,0,0,0,0,0,0,0,0,0,1
+2,Woman,2,0,0,0,0,0,0,0,0,0,1
+3,57-year-old,2,0,1,0,0,0,0,1,1,0,0
+3,Amitriptyline (elavil),2,0,0,0,0,0,1,0,0,0,0
+3,Amoxicillin (amoxil),2,0,0,0,0,0,1,0,0,0,0
+3,Aspartate aminotransferase,2,0,0,0,0,0,0,0,0,0,1
+3,Attention deficit hyperactivity disorder (ADHD),2,1,1,0,0,0,0,0,0,0,0
+3,Basic metabolic panel,2,0,0,0,0,0,0,0,0,0,1
+3,Bipolar II disorder,2,1,1,0,0,0,0,0,0,0,0
+3,Blood urea nitrogen (low),2,0,0,0,0,0,0,0,0,0,1
+3,Calcium carbonate allergy,2,0,1,0,0,0,0,0,0,0,0
+3,Cargard (nadolol) 20 mg,2,0,0,0,0,0,1,0,0,0,0
+3,Chronic lower back pain,2,0,1,0,0,0,0,0,0,0,0
+3,Chronic pain,2,0,1,0,0,0,0,0,0,0,0
+3,Chronic pulmonary disease,2,0,1,0,0,0,0,0,0,0,0
+3,Complete blood count with auto differential panel,2,0,0,0,0,0,0,0,0,0,1
+3,Creatinine (low),2,0,0,0,0,0,0,0,0,0,1
+3,Degeneration of lumbosacral intervertebral disc,2,0,1,0,0,0,0,0,0,0,0
+3,Deltasone (prednisone) 10 mg,2,0,0,0,0,0,1,0,0,0,0
+3,Desyrel (trazodone) 150 mg tablet,2,0,0,0,0,0,1,0,0,0,0
+3,Dilation & curettage,2,0,0,0,0,0,0,0,0,0,1
+3,"Episodic tension-type headache, not intractable",2,0,1,0,0,0,0,0,0,0,0
+3,Epstein-Barr virus VCA AB IGG (positive),2,0,1,0,0,0,0,0,0,0,1
+3,"Ergocalciferol (vitamin D2) (Calciferol) 50,000unit",2,0,0,0,0,0,1,0,0,0,0
+3,Escitalopram oxalate (Lexapro) 5mg,2,0,0,0,0,0,1,0,0,0,0
+3,Estradiol allergy,2,0,1,0,0,0,0,0,0,0,0
+3,Gamma glutamyl transferase (GGT),2,0,0,0,0,0,0,0,0,0,1
+3,Gastroesophageal reflux disease,2,0,1,0,0,0,0,0,0,0,0
+3,Headaches,2,0,0,0,0,0,0,0,0,0,1
+3,Hemorrhoids,2,0,1,0,0,0,0,0,0,0,0
+3,Human insulin (novolin R),2,0,0,0,0,0,1,0,0,0,0
+3,Ibuprofen (advil) 800mg,2,0,0,0,0,0,1,0,0,0,0
+3,Idiopathic pancreatitis,2,0,1,0,0,0,0,0,0,0,0
+3,"Invega (paliperidone), cloud consciousness & joint pain",2,0,0,0,0,0,1,0,0,0,1
+3,Ipratropium-albuterol (duoneb),2,0,0,0,0,0,1,0,0,0,0
+3,Irritable bowel syndrome,2,0,1,0,0,0,0,0,0,0,0
+3,Left upper quadrant pain,2,0,0,0,0,0,0,0,0,0,1
+3,Lesbian,2,1,0,0,0,0,0,1,1,0,0
+3,Lioresal (baclofen) 10 mg,2,0,0,0,0,0,1,0,0,0,0
+3,Lorazepam (Ativan) 0.5mg,2,0,0,0,0,0,1,0,0,0,0
+3,"Lyrica (pregabalin), moody",2,0,0,0,0,0,1,0,0,0,0
+3,"Methadone screen, urine",2,0,0,0,0,0,0,0,0,0,1
+3,Methotrexate sodium (Rasuvo) 2.5mg,2,0,0,0,0,0,1,0,0,0,0
+3,Methylprednisolone (Medrol Dosepak) 4mg,2,0,0,0,0,0,1,0,0,0,0
+3,Metoprolol tartrate (Lopressor) 25mg,2,0,0,0,0,0,1,0,0,0,0
+3,Montelukast (Singulair) 10mg,2,0,0,0,0,0,1,0,0,0,0
+3,MRI Brain w/wo contrast,2,0,0,0,0,0,0,0,0,0,1
+3,Mycobacterium tuberculosis (TB) antigen (IGRA),2,0,0,0,0,0,0,0,0,0,1
+3,Obstructive sleep apnea syndrome.,2,0,1,0,0,0,0,0,0,0,0
+3,Osteopenia,2,0,1,0,0,0,0,0,0,0,0
+3,Oxytocin (pitocin) 30units,2,0,0,0,0,0,1,0,0,0,0
+3,Paliperidone palmitate (Invega Trinza) 819mg/2.625ml,2,0,0,0,0,0,1,0,0,0,0
+3,Post traumatic stress disorder (PTSD),2,0,1,0,0,0,0,0,0,0,0
+3,Propoxyphene napsylate allergy,2,0,1,0,0,0,0,0,0,0,0
+3,Protonix (pantoprazole) 40 mg,2,0,0,0,0,0,1,0,0,0,0
+3,Quetiapine (Seroquel) 300mg,2,0,0,0,0,0,1,0,0,0,0
+3,Red meat allergy,2,0,1,0,0,0,0,0,0,0,0
+3,Repair of musculotendinous cuff of shoulder,2,0,0,0,0,0,0,0,0,0,1
+3,S/P appendectomy,2,0,0,0,0,0,0,0,0,0,1
+3,S/P hysterectomy,2,0,0,0,0,0,0,0,0,0,1
+3,"Schizoaffective disorder, unspecified",2,0,1,0,0,0,0,0,0,0,0
+3,Scopolamine allergy,2,0,1,0,0,0,0,0,0,0,0
+3,Severe mixed bipolar I disorder,2,0,1,0,0,0,0,0,0,0,0
+3,"Sinemet (carbidopa) allergy,  vomiting & dizziness",2,0,1,0,0,0,0,0,0,0,0
+3,Single,2,0,0,0,0,0,0,0,1,0,0
+3,"Sodium (Na), serum",2,0,0,0,0,0,0,0,0,0,1
+3,Thyrotropin (TSH high sensitivity),2,0,0,0,0,0,0,0,0,0,1
+3,Tizanidine (zanaflex) 4mg,2,0,0,0,0,0,1,0,0,0,0
+3,"Toradol (ketorolac), eruption of skin",2,0,0,0,0,0,1,0,0,0,1
+3,Triiodothyronine (T3),2,0,0,0,0,0,0,0,0,0,1
+3,"Trileptal (oxcarbazepine), chest pain",2,0,0,0,0,0,1,0,0,0,1
+3,Troponin-I (low),2,0,0,0,0,0,0,0,0,0,1
+3,Woman,2,0,0,0,0,0,0,0,1,0,0
+3,Xanax (alprazolam) 1 mg,2,0,0,0,0,0,1,0,0,0,0
+3,Zantac (ranitidine) 150 mg,2,0,0,0,0,0,1,0,0,0,0
+3,Zithromax (azithromycin) 250 mg,2,0,0,0,0,0,1,0,0,0,0
+4,40-year-old,2,0,0,0,0,0,0,0,1,0,0
+4,Abilify (aripiprazole) 20 mg,2,1,0,0,0,0,1,0,0,0,0
+4,Amitriptyline (elavil),2,1,0,0,0,0,1,0,0,0,0
+4,Arthritis,2,0,1,0,0,0,0,0,0,0,0
+4,Assistance with personal bathing & showering,2,0,0,0,0,0,0,0,1,0,0
+4,Asthma,2,0,1,0,0,0,0,0,0,0,0
+4,Barbiturate screen,2,1,0,0,0,0,1,0,0,0,0
+4,Barett's disease,2,0,1,0,0,0,0,0,0,0,0
+4,Bipolar disorder,2,1,1,0,0,0,0,0,0,0,0
+4,Calcaneal spur,2,0,1,0,0,0,0,0,0,0,0
+4,Carpal tunnel syndrome,2,0,1,0,0,0,0,0,0,0,0
+4,Cesarean section (c-section),2,0,1,0,0,0,0,0,0,0,0
+4,CMP (normal range),2,0,1,0,0,0,0,0,0,0,0
+4,Cocaine metabolite screen,2,1,1,0,0,0,0,0,0,0,0
+4,Colonic polyps,2,0,1,0,0,0,0,0,0,0,0
+4,Complete Blood Count (normal),2,0,1,0,0,0,0,0,0,0,0
+4,Comprehensive metabolic panel,2,0,1,0,0,0,0,0,0,0,0
+4,Congenital malformations of intestine,2,0,1,0,0,0,0,0,0,0,0
+4,Conjugated estrogens (Premarin) allergy,2,0,1,0,0,0,0,0,0,0,0
+4,Cozaar (losartan potassium) 50 mg,2,0,0,0,0,0,1,0,0,0,0
+4,Dental caries,2,0,1,0,0,0,0,0,0,0,0
+4,Dual eligible (Medicare & Medicaid),2,0,0,0,0,0,0,0,1,0,0
+4,Enthesopathy,2,0,1,0,0,0,0,0,0,0,0
+4,Extracorporeal shockwave lithotripsy (left kidney),2,0,0,0,0,0,0,0,0,0,1
+4,Gastroesophageal reflux disease,2,0,1,0,0,0,0,0,0,0,0
+4,Gout,2,0,1,0,0,0,0,0,0,0,0
+4,Gynecologic Pap,2,0,1,0,0,0,0,0,0,0,0
+4,Haldol (haloperidol) 2 mg,2,0,0,0,0,0,1,0,0,0,0
+4,Hearing loss,2,0,1,0,0,0,0,0,0,0,0
+4,Hepatitis C antibody,2,0,1,0,0,0,0,0,0,0,0
+4,Hernia repair,2,0,1,0,0,0,0,0,0,0,0
+4,Herpes zoster,2,0,1,0,1,0,0,0,0,0,0
+4,Hyperlipidemia,2,0,1,0,0,0,0,0,0,0,0
+4,Hypothyroidism,2,0,1,0,0,0,0,0,0,0,0
+4,Ipratropium-albuterol (duoneb),2,0,0,0,0,0,1,0,0,0,0
+4,Kidney stone,2,0,1,0,0,0,0,0,0,0,0
+4,Lexapro (escitalopram) 20 mg,2,1,0,0,0,0,1,0,0,0,0
+4,Ligation of fallopian tube,2,0,1,0,0,0,0,0,0,0,0
+4,Lipitor (atorvastatin) 40 mg,2,0,0,0,0,0,1,0,0,0,0
+4,Major depressive disorder,2,1,1,0,0,0,0,0,0,0,0
+4,Malignant neoplasm of digestive organs,2,0,1,0,0,0,0,0,0,0,0
+4,Meclizine (antivert) 25mg,2,0,0,0,0,0,1,0,0,0,0
+4,Metformin (Glucophage) 500mg,2,0,0,0,0,0,1,0,0,0,0
+4,Mild cognitive impairment,2,1,1,0,0,0,0,0,1,0,0
+4,Morphine sulfate (roxanol),2,0,0,0,0,0,1,0,0,0,0
+4,Neurontin (gabapentin) 600 mg,2,0,0,0,0,0,1,0,0,0,0
+4,Non-steroidal anti-inflammatory drugs (NSAIDs) allergy,2,0,1,0,0,0,1,0,0,0,0
+4,Obesity,2,0,1,0,0,0,0,0,0,0,0
+4,Obstructive sleep apnea syndrome,2,0,1,0,0,0,0,0,0,0,0
+4,Oxycodone,2,0,0,0,0,0,1,0,0,0,0
+4,Oxytocin (pitocin) 30units,2,0,0,0,0,0,1,1,0,0,0
+4,Penicillin allergy,2,0,1,0,0,0,1,0,0,0,0
+4,Percocet (oxycodone/acetaminophen) 5/325 mg,2,0,0,0,0,0,1,0,0,0,0
+4,Perphenazine (trilafon) 4mg,2,0,0,0,0,0,1,0,0,0,0
+4,Post-traumatic stress disorder,2,1,1,0,0,0,0,0,0,0,0
+4,Protonix (pantoprazole) 40 mg,2,0,0,0,0,0,1,0,0,0,0
+4,Quetiapine (seroquel) 50mg,2,1,0,0,0,0,1,0,0,0,0
+4,Ranitidine (zantac),2,0,0,0,0,0,1,0,0,0,0
+4,Remeron (mirtazapine) 45 mg,2,1,0,0,0,0,1,0,0,0,0
+4,S/P appendectomy,2,0,1,0,0,0,0,0,0,0,0
+4,S/P tonsillectomy,2,0,1,0,0,0,0,0,0,0,0
+4,Single-family house,2,0,0,0,0,0,0,0,1,0,0
+4,Sleep apnea,2,0,1,0,0,0,0,0,0,0,0
+4,Sodium chloride (salinex aerosol 0.65%,2,0,0,0,0,0,1,0,0,0,0
+4,Trazodone (desyrel) 150mg,2,1,0,0,0,0,1,0,0,0,0
+4,Trileptal (oxcarbazepine) 600 mg,2,0,0,0,0,0,1,0,0,0,0
+4,Tritec (ranitidine) 150 mg,2,0,0,0,0,0,1,0,0,0,0
+4,Type 2 diabetes,2,0,1,0,0,0,0,0,0,0,0
+4,Urinary incontinence,2,0,1,0,0,0,0,0,0,0,0
+4,Voltaren (diclofenac) 75 mg,2,0,0,0,0,0,1,0,0,0,0
+4,Voluntary body piercing,2,0,1,0,0,0,0,0,0,0,0
+4,Woman,2,0,0,0,0,1,0,1,0,0,0
+4,Zithromax (azithromycin) 250 mg,2,0,0,0,1,0,1,0,0,0,0
+5,32-year-old,2,0,0,0,0,0,0,0,1,0,0
+5,"Adderall (amphetamine) XR 5 mg, extended release",2,1,0,0,0,0,1,0,0,0,0
+5,"Alcohol dependence, uncomplicated",2,1,0,0,0,0,0,0,1,0,0
+5,ANA,2,0,0,0,0,0,0,0,0,0,1
+5,Anxiety,2,1,0,0,0,0,0,0,0,0,0
+5,"Attention-deficit hyperactivity disorder (ADHD), other type",2,1,0,0,0,0,0,0,0,0,0
+5,Bentyl (dicyclomine) 20 mg tablet,2,0,0,0,0,0,1,0,0,0,0
+5,Bilateral ovarian cystectomy,2,0,1,0,0,0,0,0,0,0,0
+5,"Bipolar disorder, current episode, manic severe, with psychotic features",2,1,0,0,0,0,0,0,0,0,0
+5,Blood glucose levels,2,0,0,0,0,0,0,0,0,0,1
+5,"Cannabinoids, serum",2,0,0,0,0,0,0,0,1,0,0
+5,Cannabis dependency,2,1,0,0,0,0,0,0,1,0,0
+5,Celexa (citalopram) 20 mg tablet,2,1,0,0,0,0,1,0,0,0,0
+5,Chronic fatigue,2,0,1,0,0,0,0,0,0,0,0
+5,Citalopram (Celexa) 40mg,2,1,0,0,0,0,1,0,0,0,0
+5,Codeine allergy,2,0,0,0,0,0,0,0,0,0,1
+5,Codeine phosphate-guaifenesin (Cheratussin) 2mg/ml-20mg/ml,2,0,0,0,0,0,1,0,0,0,0
+5,Colonoscopy,2,0,0,0,0,0,0,0,0,0,1
+5,Depakote 250 mg tablet,2,1,0,0,0,0,1,0,0,0,0
+5,Dependence on wheelchair,2,0,0,1,0,0,0,0,1,0,0
+5,Dorsalgia,2,0,1,0,0,0,0,0,0,0,0
+5,Effexor (venlafaxine) 75 mg tablet,2,1,0,0,0,0,1,0,0,0,0
+5,Employed,2,0,0,0,0,0,0,0,1,0,0
+5,"Enterococcus species, urine",2,0,0,0,1,0,0,0,0,0,0
+5,Eustachian tube placement,2,0,1,0,0,0,0,0,0,0,0
+5,Factor V Leiden gene mutations,2,0,1,0,0,0,0,0,0,0,0
+5,Fluoxetine (Prozac),2,1,0,0,0,0,1,0,0,0,0
+5,Fluoxetine allergy,2,1,0,0,0,0,0,0,0,0,0
+5,Gabapentin (Neurontin) 300mg,2,0,0,0,0,0,1,0,0,0,0
+5,Gamma glutamyl transferase (GGT),2,0,0,0,0,0,0,0,0,0,1
+5,Gastroesophageal reflux disease without esophagitis,2,0,1,0,0,0,0,0,0,0,0
+5,"HCG, pregnancy test, urine",2,0,0,0,0,0,0,1,0,0,0
+5,Hymenal tear,2,0,0,0,0,0,0,1,0,0,0
+5,Hypertension,2,0,1,0,0,0,0,0,0,0,0
+5,Hypothyroidism,2,0,1,0,0,0,0,0,0,0,0
+5,Insert intrauterine device (IUD),2,0,0,0,0,0,0,1,0,0,0
+5,Lamotrigine (Lamictal) 100 mg tablet,2,0,1,0,0,0,1,0,0,0,0
+5,Lamotrigine (Lamictal) allergy,2,0,1,0,0,0,0,0,0,0,0
+5,Laparoscopic surgical procedure converted to open procedure,2,0,0,0,0,0,0,0,0,0,1
+5,Levomefolate-algal oil (Deplin-Algal Oil) 7.5mg-90.314mg,2,0,1,0,0,0,1,0,0,0,0
+5,Losartan-hydrochlorothiazide (Hyzaar) 50mg-12.5mg,2,0,1,0,0,0,1,0,0,0,0
+5,Menometrorrhagia,2,0,1,0,0,0,0,0,0,0,0
+5,Methadone (Methadose) 10mg,2,0,1,0,0,0,1,0,0,0,0
+5,Mild levoscoliosis,2,0,1,0,0,0,0,0,0,0,0
+5,Morbid obesity,2,0,1,0,0,0,0,0,1,0,0
+5,Mylicon (simethicone),2,0,0,0,0,0,1,0,0,0,0
+5,Nadolol (Corgard) 20mg,2,0,1,0,0,0,1,0,0,0,0
+5,No signs of abuse or neglect,2,0,0,0,0,0,0,0,0,0,1
+5,Olanzapine (Zyprexa) 5mg,2,1,0,0,0,0,1,0,0,0,0
+5,"Opiates, quantitative, urine",2,1,0,0,0,0,0,0,0,0,0
+5,Other specified anxiety disorder,2,1,0,0,0,0,0,0,0,0,0
+5,Oxcarbazepine (Trileptal) 600mg,2,0,1,0,0,0,1,0,0,0,0
+5,Oxycodone (oxycontin) 5 mg,2,0,0,0,0,0,1,0,0,0,0
+5,Perphenazine (Trilafon) 4mg,2,1,0,0,0,0,1,0,0,0,0
+5,Post traumatic stress disorder (PTSD),2,1,1,0,0,0,0,0,0,0,0
+5,Pregnancy,2,0,0,0,0,0,0,1,0,0,0
+5,"Propoxyphene Screen, Urine",2,1,0,0,0,0,0,0,0,0,0
+5,Prostate resection transurethral,2,0,1,0,0,0,0,0,0,0,0
+5,Prozac (fluoxetine) 20 mg capsule,2,1,0,0,0,0,1,0,0,0,0
+5,Psychiatric diagnosis evaluation,2,1,0,0,0,0,0,0,0,0,0
+5,Ranitidine (Wal-Zan 150) 150mg,2,0,0,0,0,0,1,0,0,0,0
+5,"Resection of cervix, open approach",2,0,0,0,0,0,0,1,0,0,0
+5,"Resection of uterus, open approach",2,0,0,0,0,0,0,1,0,0,0
+5,"Scopolamine allergy, anaphylactic",2,0,0,0,0,0,0,0,0,0,1
+5,Senokot (senna),2,0,0,0,0,0,1,0,0,0,0
+5,"Single-family house, shared bathroom",2,0,0,0,0,0,0,0,1,0,0
+5,"Transdermal allergy, swelling",2,0,0,0,0,0,0,0,0,0,1
+5,Ulcer,2,0,1,0,0,0,0,0,0,0,0
+5,Unmarried,2,0,0,0,0,0,0,0,1,0,0
+5,Urinalysis (normal),2,0,0,0,0,0,0,0,0,0,1
+5,Vistaril (hydroxyzine) 25 mg,2,0,0,0,0,0,1,0,0,0,0
+5,Vitamin D (low),2,0,1,0,0,0,0,0,0,0,0
+5,Woman,2,0,0,0,0,0,0,0,0,0,1
+6,47-year-old,2,0,0,0,0,0,0,1,0,0,0
+6,Acute kidney injury,2,0,0,0,0,0,0,0,0,1,0
+6,Albuterol (ProAir HFA 90 mcg/inh),2,0,0,1,0,0,0,0,0,0,0
+6,Antithrombin II Activity (low),2,0,0,0,0,1,0,0,0,0,0
+6,Anxiety disorder,2,1,0,0,0,0,0,0,0,0,0
+6,Asthma,2,0,0,1,0,0,0,0,0,0,0
+6,"Barbiturate Screen, Urine",2,1,0,0,0,0,0,0,0,0,0
+6,Benztropine,2,0,0,0,0,0,1,0,0,0,0
+6,"Bipolar disorder, unspecified",2,1,0,0,0,0,0,0,0,0,0
+6,Buspar (buspirone) 10 mg,2,0,0,0,0,0,1,0,0,0,0
+6,Cardiac rehabilitation,2,0,0,0,0,0,0,0,0,0,1
+6,Cardiolipin antibody IgA IgG IgM (negative),2,0,0,0,0,1,0,0,0,0,0
+6,Cardiomyopathy,2,0,1,0,0,0,0,0,0,0,0
+6,Cephalexin (Keflex) 500mg,2,0,0,0,0,0,1,0,0,0,0
+6,Choriogonadotropin (HCG) tumor marker,2,0,1,0,0,0,0,0,0,0,0
+6,Class III congestive heart failure,2,0,1,0,0,0,0,0,0,0,0
+6,CT right hand,2,0,1,0,0,0,0,0,0,0,0
+6,Depression,2,1,0,0,0,0,0,0,0,0,0
+6,Desyrel (trazodone) 100 mg,2,0,0,0,0,0,1,0,0,0,0
+6,"Edema, unspecified",2,0,1,0,0,0,0,0,0,0,0
+6,EKG 12 lead,2,0,1,0,0,0,0,0,0,0,0
+6,Eliquis (apixaban) 5 mg,2,0,0,0,0,0,1,0,0,0,0
+6,Excessive and frequent menstruation with irregular cycle,2,0,0,0,0,0,0,1,0,0,0
+6,Factor V Leiden Mutation (negative),2,0,0,0,0,1,0,0,0,0,0
+6,Fibromyalgia,2,0,1,0,0,0,0,0,0,0,0
+6,Flexeril (cyclobenzaprine) 10 mg,2,0,0,0,0,0,1,0,0,0,0
+6,Fluoxetine,2,0,0,0,0,0,0,0,0,0,1
+6,Furosemide (Lasix),2,0,0,0,0,0,1,0,0,0,0
+6,Generalized anxiety disorder,2,1,0,0,0,0,0,0,0,0,0
+6,Geodon (ziprasidone) 40 mg,2,0,0,0,0,0,1,0,0,0,0
+6,Glucose,2,0,0,0,0,0,0,0,0,0,1
+6,Glumetza (metformin) 850 mg,2,0,0,0,0,0,1,0,0,0,0
+6,GlycoLax 17 gram/dose oral powder,2,0,0,0,0,0,1,0,0,0,0
+6,HDL Cholesterol,2,0,1,0,0,0,0,0,0,0,0
+6,Humalog (insulin lispro),2,0,0,0,0,0,1,0,0,0,0
+6,"Hypertensive disorder, systemic arterial",2,0,1,0,0,0,0,0,0,0,0
+6,Indocin (indomethacin) 50 mg,2,0,0,0,0,0,1,0,0,0,0
+6,Insomnia,2,0,1,0,0,0,0,0,0,0,0
+6,Irritable bowel syndrome with diarrhea,2,0,1,0,0,0,0,0,0,0,0
+6,Kidney stone,2,0,1,0,0,0,0,0,0,0,0
+6,Lamictal,2,0,0,0,0,0,1,0,0,0,0
+6,Left heart catheterization,2,0,1,0,0,0,0,0,0,0,0
+6,Life vest defibrillator,2,0,0,0,0,0,0,0,0,0,1
+6,Lopressor (metoprolol) 100 mg,2,0,0,0,0,0,1,0,0,0,0
+6,Male,2,0,0,0,0,0,0,0,0,0,1
+6,Medicaid,2,0,0,0,0,0,0,0,0,0,1
+6,Metabolic encephalopathy,2,0,1,0,0,0,0,0,0,0,0
+6,Naproxen (Aleve) 500mg,2,0,0,0,0,0,1,0,0,0,0
+6,No known allergy,2,0,1,0,0,0,0,0,0,0,0
+6,Nocturnal dyspnea,2,0,1,0,0,0,0,0,0,0,0
+6,Obstructive sleep apnea syndrome,2,0,1,0,0,0,0,0,0,0,0
+6,Omeprazole allergy,2,0,1,0,0,0,0,0,0,0,0
+6,Orthopedic disorders,2,0,1,0,0,0,0,0,0,0,0
+6,Other bipolar disorder,2,1,0,0,0,0,0,0,0,0,0
+6,Oxycodone (oxycontin),2,0,0,0,0,0,1,0,0,0,0
+6,Percocet (oxycodone/acetaminophen) 10/325 mg,2,0,0,0,0,0,1,0,0,0,0
+6,Propensity to adverse reactions,2,0,1,0,0,0,0,0,0,0,0
+6,Protein C activity (low),2,0,0,0,0,1,0,0,0,0,0
+6,Recent use of meth and PCP,2,1,0,0,0,0,0,0,0,0,0
+6,Recurrent severe major depressive disorder with psych symptoms,2,1,0,0,0,0,0,0,0,0,0
+6,Right popliteal deep vein thrombosis,2,0,1,0,0,0,0,0,0,0,0
+6,Sleep apnea,2,0,1,0,0,0,0,0,0,0,0
+6,Tardive dyskinesia,2,0,1,0,0,0,0,0,0,0,0
+6,Tobacco status,2,0,1,0,0,0,0,0,0,0,0
+6,Total protein count,2,0,1,0,0,0,0,0,0,0,0
+6,Triiodothyronine (T3),2,0,1,0,0,0,0,0,0,0,0
+6,"TSH, high sensitivity",2,0,1,0,0,0,0,0,0,0,0
+6,Type 2 diabetes,2,0,1,0,0,0,0,0,0,0,0
+6,Unemployed,2,0,0,0,0,0,0,0,1,0,0
+6,Unmarried,2,0,0,0,0,0,0,0,1,0,0
+6,US** ven duplex lower extremity,2,0,1,0,0,0,0,0,0,0,0
+6,Vaginal pain,2,0,0,0,0,0,0,1,0,0,0
+6,X-ray chest,2,0,1,0,0,0,0,0,0,0,0
+7,30-year-old,2,0,0,0,0,0,0,0,0,0,1
+7,Acetaminophen allergy,2,0,0,0,0,0,1,0,0,0,1
+7,Acute psychosis,2,0,1,0,0,0,0,0,0,0,0
+7,"Amenorrhea, unspecified",2,0,1,0,0,0,0,1,0,0,0
+7,Amitriptyline (elavil),2,1,0,0,0,0,1,0,0,0,0
+7,Antibody screen,2,0,0,0,0,0,0,0,0,0,1
+7,Aripiprazole (abilify) 10 mg,2,1,0,0,0,0,1,0,0,0,0
+7,Aspirin allergy,2,0,0,0,0,0,1,0,0,0,0
+7,Baclofen (lioresal) 20 mg,2,0,0,0,0,0,1,0,0,0,0
+7,"Bilirubin, total",2,0,0,0,0,0,0,0,0,0,1
+7,Borderline personality disorder,2,1,1,1,0,1,0,0,0,0,0
+7,Buspar (buspirone) 30 mg,2,1,0,0,0,0,1,0,0,0,0
+7,Calcium,2,0,0,0,0,0,1,0,0,0,1
+7,"Cannabis abuse, uncomplicated",2,1,1,0,0,0,0,0,1,0,0
+7,Catatonia,2,1,0,1,0,0,0,0,0,0,0
+7,Cephalexin (keflex) 500mg,2,0,0,0,1,0,1,0,0,0,0
+7,Chronic migraines,2,0,1,1,0,1,0,0,0,0,0
+7,Dementia,2,0,1,1,0,1,0,0,0,0,0
+7,Depression,2,1,1,1,0,1,0,0,1,0,0
+7,Displaced oblique fracture fourth metacarpal,2,0,1,0,0,0,0,0,0,1,0
+7,"Dysmenorrhea, unspecified",2,0,1,0,0,0,0,1,0,0,0
+7,Dysthymic disorder,2,1,1,1,0,0,0,0,0,0,0
+7,Effexor (venlafaxine) ER 75 mg,2,1,0,0,0,0,1,0,0,0,0
+7,Encounter for screening for infections with a predominantly sexual mode of transmission,2,0,0,0,0,0,0,1,0,0,1
+7,Episodic tension-type headache,2,0,1,0,0,0,0,0,0,0,0
+7,Facial contusion,2,0,0,0,0,0,0,0,0,1,0
+7,Family history of alcohol abuse,2,1,0,0,0,1,0,0,0,0,0
+7,Family history of drug abuse,2,1,0,0,0,1,0,0,0,0,0
+7,Family history of sleep apnea,2,0,0,0,0,1,0,0,0,0,0
+7,Family history of stomach cancer,2,0,0,0,0,1,0,0,0,0,0
+7,Family history of type 2 diabetes,2,0,0,0,0,1,0,0,0,0,0
+7,Fracture at the tip of the nasal bone,2,0,1,0,0,0,0,0,0,1,0
+7,Gay,2,1,0,0,0,0,0,1,0,0,0
+7,"Hallucinogen dependence, uncomplicated",2,1,0,0,0,0,0,0,1,0,0
+7,"HCG, pregnancy test, urine",2,0,0,0,0,0,0,1,0,0,1
+7,"Heart failure, unspecified",2,0,1,0,0,0,0,0,0,0,0
+7,History of domestic altercation,2,1,0,0,0,0,0,0,1,0,0
+7,Hypertension,2,0,1,0,0,0,0,0,0,0,0
+7,Hysterectomy,2,0,0,0,0,0,0,0,0,0,1
+7,Ibuprofen (advil),2,0,0,0,0,0,1,0,0,0,0
+7,Insomnia,2,1,1,0,0,0,0,0,0,0,0
+7,Irritable bowel syndrome with diarrhea,2,0,1,0,0,0,0,0,0,0,0
+7,Kidney stone,2,0,1,0,0,1,0,0,0,0,0
+7,Lamotrigine (lamictal) 200mg,2,1,0,0,0,0,1,0,0,0,0
+7,Lioresal (baclofen) 20 mg,2,0,0,0,0,0,1,0,0,0,0
+7,Lymphocytes,2,0,0,0,1,0,0,0,0,0,1
+7,Male,2,0,0,0,0,0,0,0,0,0,1
+7,Metal left arm,2,0,0,0,0,0,0,0,0,0,1
+7,"Morphine, lo other",2,0,0,0,0,0,1,0,0,0,0
+7,Mouth pain,2,0,0,0,0,0,0,0,0,0,1
+7,"Nicotine dependence, cigarettes, uncomplicated",2,1,0,0,0,0,0,0,1,0,0
+7,Nocturnal dyspnea,2,0,0,0,0,0,0,0,0,0,1
+7,Norco (acetaminophen/hydrocodone) 325 mg-5 mg,2,0,0,0,0,0,1,0,0,0,0
+7,Obesity,2,0,1,0,0,0,0,0,0,0,0
+7,"Omeprazole, anaphylaxis",2,0,0,0,0,0,1,0,0,0,1
+7,Panic disorder,2,1,1,1,0,1,0,0,0,0,0
+7,Post traumatic stress disorder (PTSD),2,1,1,1,0,1,0,0,0,0,0
+7,Prosom (estazolam) 1 mg,2,1,0,0,0,0,1,0,0,0,0
+7,Quetiapine (seroquel) 50mg,2,1,0,0,0,0,1,0,0,0,0
+7,"Ranitidine HCL, anaphylaxis",2,0,0,0,0,0,1,0,0,0,1
+7,Recent use of methamphetamine,2,0,0,0,0,0,0,0,1,0,0
+7,Segmented neutrophils,2,0,0,0,1,0,0,0,0,0,1
+7,Single,2,0,0,0,0,0,0,0,1,0,1
+7,"Sodium chloride (salinex aerosol 0.65%, spray)",2,0,0,0,0,0,1,0,0,0,0
+7,Tardive dyskinesia,2,0,0,1,0,0,0,0,0,0,0
+7,Thyroxine (T4),2,0,0,0,0,0,0,0,0,0,1
+7,Upper abdominal pain,2,0,0,0,0,0,0,0,0,0,1
+7,Venlafaxine (effexor XR) 50mg,2,1,0,0,0,0,1,0,0,0,0
+7,Vistaril (hydroxyzine) HCl 10 mg,2,1,0,0,0,0,1,0,0,0,0
+7,Vitamin D (deficient),2,0,0,0,0,0,0,0,0,0,1
+7,Ziprasidone (geodon) 40mg,2,1,0,0,0,0,1,0,0,0,0
+7,Zoloft (sertraline) 50 mg,2,1,0,0,0,0,1,0,0,0,0
+8,38-year-old,2,0,0,0,0,0,0,0,0,0,1
+8,Acetaminophen allergy,2,0,1,0,0,0,0,0,0,0,0
+8,Acute psychosis,2,1,1,0,0,0,0,0,0,0,0
+8,"Alcohol screen, urine",2,0,0,0,0,0,0,0,0,0,1
+8,Alkaline phosphatase,2,0,0,0,0,0,0,0,0,0,1
+8,"Amenorrhea, unspecified",2,0,1,0,0,0,0,1,0,0,0
+8,Amitriptyline (Elavil),2,0,0,0,0,0,1,0,0,0,0
+8,"Barbiturate screen, urine",2,0,0,0,0,0,1,0,0,0,0
+8,Behavioral health screening to determine eligibility for admission-community mental health center (CMHC),2,1,0,0,0,0,0,0,0,0,0
+8,Benztropine (cogentin) 0.5mg,2,1,0,0,0,0,1,0,0,0,0
+8,Bipolar disorder,2,1,1,0,0,0,0,0,0,0,0
+8,Brethaire (terbutaline)) 1 ml inj,2,0,0,0,0,0,1,0,0,0,0
+8,Calcium,2,0,0,0,0,0,0,0,0,0,1
+8,Calculus of kidney,2,0,1,0,0,0,0,0,0,0,0
+8,Cardiac arrhythmias,2,0,1,0,0,0,0,0,0,0,0
+8,Chromosomal microarray,2,0,0,0,0,0,0,0,0,0,1
+8,Class II obesity,2,0,1,0,0,0,0,0,0,0,0
+8,Complicated pregnancy and delivery.,2,0,1,0,0,0,0,1,0,0,0
+8,Cytogenetics,2,0,0,0,0,0,0,0,0,0,1
+8,Dementia,2,1,1,0,0,0,0,0,0,0,0
+8,"Dental caries, unspecified",2,0,1,0,0,0,0,0,0,0,0
+8,Diabetes mellitus,2,0,1,0,0,0,0,0,0,0,0
+8,Diphenhydramine allergy,2,0,1,0,0,0,0,0,0,0,0
+8,"Effusion, right foot",2,0,1,0,0,0,0,0,0,0,0
+8,Emergent c-section,2,0,0,0,0,0,0,1,0,0,0
+8,Epidural anesthesia,2,0,0,0,0,0,0,0,0,0,1
+8,Excessive and frequent menstruation with irregular cycle,2,0,1,0,0,0,0,1,0,0,0
+8,Female,2,0,0,0,0,0,0,0,0,0,1
+8,Former tobacco user,2,0,1,0,0,0,0,0,0,0,0
+8,Gabapentin (Neurontin) 100mg,2,0,0,0,0,0,1,0,0,0,0
+8,Glucophage (metformin ) 500 mg,2,0,0,0,0,0,1,0,0,0,0
+8,Group B strep - prenatal screen,2,0,0,0,1,0,0,1,0,0,0
+8,Guanfacine (tenex) 1mg,2,1,0,0,0,0,1,0,0,0,0
+8,"Hallucinogen dependence, uncomplicated",2,1,1,0,0,0,0,0,0,0,0
+8,History of domestic violence,2,1,1,0,0,0,0,0,1,1,0
+8,History of falling/tripping,2,0,1,1,0,0,0,0,0,0,0
+8,History of fetal death,2,0,1,0,0,0,0,1,0,0,0
+8,Human immunodeficiency virus (HIV) disease,2,0,1,0,1,0,0,0,0,0,0
+8,Insomnia,2,0,1,0,0,0,0,0,0,0,0
+8,Kapva (clonidine) HCl 0.1 mg,2,0,0,0,0,0,1,0,0,0,0
+8,Latuda (lurasidone) 20 mg,2,1,0,0,0,0,1,0,0,0,0
+8,Ligation of fallopian tube,2,0,0,0,0,0,0,1,0,0,0
+8,Migraine headache with aura without status migrainosus,2,0,1,0,0,0,0,0,0,0,0
+8,MR angio head venous without contrast (MRV),2,0,0,0,0,0,0,0,0,0,1
+8,MRI brain without contrast,2,0,0,0,0,0,0,0,0,0,1
+8,Norco (acetaminophen/hydrocodone) 5/325 mg,2,0,0,0,0,0,1,0,0,0,0
+8,Other chronic pain,2,0,1,0,0,0,0,0,0,0,0
+8,Other long term (current) drug therapy,2,0,1,0,0,0,1,0,0,0,0
+8,Other specified anxiety disorders,2,1,1,0,0,0,0,0,0,0,0
+8,Oxidant screen,2,0,0,0,0,0,0,0,0,0,1
+8,Panic disorder,2,1,1,0,0,0,0,0,0,0,0
+8,Paroxetine HCl (Paxil) 10mg,2,1,0,0,0,0,1,0,0,0,0
+8,Pitocin (oxycontin) 20mu/min,2,0,0,0,0,0,1,1,0,0,0
+8,Polyethylene glycol 3350 (Glycolax 17 g/dose powder),2,0,0,0,0,0,1,0,0,0,0
+8,Post traumatic stress disorder (PTSD),2,1,1,0,0,0,0,0,0,0,0
+8,"Protein, total",2,0,0,0,0,0,0,0,0,0,1
+8,Psych diagnostic evaluation w/MD Svcs,2,1,0,0,0,0,0,0,0,0,0
+8,Right foot pain,2,0,1,0,0,0,0,0,0,0,0
+8,Right lower quadrant pain,2,0,1,0,0,0,0,0,0,0,0
+8,Risperidone (Risperdal) 0.5mg,2,1,0,0,0,0,1,0,0,0,0
+8,Rubella IgG (reactive),2,0,0,0,1,0,0,0,0,0,0
+8,S/P hysterotomy,2,0,1,0,0,0,0,1,0,0,0
+8,S/P spontaneous abortion,2,0,1,0,0,0,0,1,0,0,0
+8,S/P tonsillectomy,2,0,1,0,0,0,0,0,0,0,0
+8,"Strain of muscle, fascia and tendon of lower back",2,0,1,0,0,0,0,0,0,0,0
+8,Streptococcus agalactiae (organism),2,0,0,0,1,0,0,0,0,0,0
+8,"Sulfonamide antibiotics, anaphylaxis",2,0,1,0,0,0,0,0,0,0,0
+8,Tobacco status,2,0,0,0,0,0,0,0,0,0,1
+8,Triglycerides,2,0,0,0,0,0,0,0,0,0,1
+8,Triiodothyronine (T3),2,0,0,0,0,0,0,0,0,0,1
+8,Tubal reversal,2,0,0,0,0,0,0,1,0,0,0
+8,Unsp place in unsp noninstitute (private) residence as place,2,0,0,0,0,0,0,0,0,0,1
+8,Urinalysis (large amount of blood),2,0,0,0,0,0,0,0,0,0,1
+8,Uses interpreter services,2,0,0,0,0,0,0,0,0,0,1
+9,61-year-old,2,0,0,0,0,0,0,0,1,0,0
+9,Abdominal pain,2,0,1,0,1,0,0,0,0,0,0
+9,Acetaminophen allergy,2,0,1,0,0,0,0,0,0,0,0
+9,Acute psychosis,2,1,1,0,0,0,0,0,0,0,0
+9,"Albumin, serum",2,0,1,0,0,0,0,0,1,0,1
+9,Alkaline phosphatase,2,0,1,0,0,0,0,0,0,0,0
+9,Amitriptyline (elavil),2,1,0,0,0,0,0,0,0,0,0
+9,Amnesia,2,1,0,0,0,0,0,0,0,0,0
+9,Anxiety,2,1,0,0,0,0,0,0,0,0,0
+9,Aripiprazole (abilify) 2mg,2,0,0,0,0,0,1,0,0,0,0
+9,Aspirin allergy,2,0,1,0,0,0,0,0,0,0,0
+9,Behavioral health screening to determine eligibility for admission by a certified mental health counselor,2,1,0,0,0,0,0,0,1,0,0
+9,Benztropine allergy,2,0,1,0,0,0,0,0,0,0,0
+9,Calcium,2,0,1,0,0,0,0,0,0,0,0
+9,Carbidopa allergy,2,0,1,0,0,0,0,0,0,0,0
+9,Carpal tunnel syndrome,2,0,1,1,0,0,0,0,0,0,0
+9,"Cholesterol, Total",2,0,1,0,0,0,0,0,0,0,0
+9,Corgard (nadolol) 20 mg,2,0,0,0,0,0,1,0,0,0,0
+9,Crohn’s disease of stomach,2,0,1,0,0,0,0,0,0,0,0
+9,CT chest (abnormal),2,0,1,0,0,0,0,0,0,0,0
+9,CT head/brain/cerv spine w/o contrast (mild degenerative volume loss),2,0,1,0,0,0,0,0,0,0,0
+9,CT maxillofacial area w/o contrast (normal),2,0,1,0,0,0,0,0,0,0,0
+9,Depakote (divalproex) 500 mg,2,0,0,0,0,0,1,0,0,0,0
+9,Diabetes mellitus,2,0,1,0,0,0,0,0,1,0,0
+9,Diphenhydramine allergy,2,0,1,0,0,0,0,0,0,0,0
+9,Epidermal cyst,2,0,1,0,0,0,0,0,0,0,0
+9,"Erectile dysfunction, unspecified erectile dysfunction type",2,0,1,1,0,0,0,1,0,0,0
+9,Escitalopram oxalate (lexapro) 10mg,2,0,0,0,0,0,1,0,0,0,0
+9,Excessive and frequent menstruation with irregular cycle,2,0,1,0,0,0,0,1,0,0,0
+9,Family history of epileptic seizures,2,0,1,0,0,0,0,0,0,0,0
+9,Flomax (tamsulosin) 0.4 mg,2,0,0,0,0,0,1,0,0,0,0
+9,Glumetza (metformin) 500 mg tablet,2,0,0,0,0,0,1,0,0,0,0
+9,H/O syphilis,2,0,1,0,1,0,0,1,0,0,0
+9,Herniated structure,2,0,1,0,0,0,0,0,0,0,0
+9,History of falling,2,0,0,1,0,0,0,0,1,0,0
+9,"Hypertensive disorder, systemic arterial",2,0,1,0,0,0,0,0,1,0,0
+9,Irritable bowel syndrome,2,0,1,0,0,0,0,0,0,0,0
+9,Irritable colon,2,0,1,0,0,0,0,0,0,0,0
+9,LDL cholesterol (normal),2,0,1,0,0,0,0,0,0,0,0
+9,Loratadine (Claritin) 10mg,2,0,0,0,0,0,1,0,0,0,0
+9,Losartan (hyzaar) 50 mg,2,0,0,0,0,0,1,0,0,0,0
+9,Male,2,0,0,0,0,0,0,0,1,0,0
+9,Married,2,0,0,0,0,0,0,0,1,0,0
+9,Medicaid recipient,2,0,0,0,0,0,0,0,1,0,0
+9,mild cognitive impairment,2,1,0,0,0,0,0,0,1,0,0
+9,Nadolol (corgard) 20mg,2,0,0,0,0,0,1,0,0,0,0
+9,No history of alcohol,2,0,0,0,0,0,0,0,1,0,0
+9,No history of drug use,2,0,0,0,0,0,0,0,1,0,0
+9,No history of tobacco use,2,0,0,0,0,0,0,0,1,0,0
+9,Norco (hydrocodone/acetaminophen) 325-5 mg,2,0,0,0,0,0,1,0,0,0,0
+9,"Obesity, unspecified",2,0,1,1,0,0,0,0,1,0,0
+9,Olanzapine (zyprexa) 5mg,2,0,0,0,0,0,1,0,0,0,0
+9,"Opiates Screen, Urine",2,0,1,0,0,0,0,0,0,0,0
+9,Other bipolar disorder,2,1,0,0,0,0,0,0,1,0,0
+9,Oxidant Screen,2,0,1,0,0,0,0,0,0,0,0
+9,Panic disorder,2,1,0,0,0,0,0,0,0,0,0
+9,Pneumonia,2,0,1,0,1,0,0,0,0,0,0
+9,Prilosec (omeprazole) 40 mg,2,0,0,0,0,0,1,0,0,0,0
+9,Propensity to adverse reactions,2,0,1,0,0,0,0,0,0,0,0
+9,Prozac (fluoxetine) 10 mg,2,0,0,0,0,0,1,0,0,0,0
+9,Quetiapine (Seroquel) 400mg,2,0,0,0,0,0,1,0,0,0,0
+9,Ranitidine (Zantac),2,0,0,0,0,0,1,0,0,0,0
+9,Recurrent and moderate major depressive disorder,2,1,1,0,0,0,0,0,1,0,0
+9,Robitussin (codeine-guaifenesin) 5 mL,2,0,0,0,0,0,1,0,0,0,0
+9,S/P brain shunt,2,0,1,0,0,0,0,0,1,0,0
+9,S/P hernia repair,2,0,1,0,0,0,0,0,0,0,0
+9,Saline Nasal 0.65% spray aerosol,2,0,0,0,0,0,1,0,0,0,0
+9,Social Phobia,2,1,1,0,0,0,0,0,1,0,0
+9,Tramadol allergy,2,0,1,0,0,0,0,0,0,0,0
+9,Unspecified bipolar and related disorder,2,1,1,0,0,0,0,0,1,0,0
+9,Uses interpreter services,2,0,0,0,0,0,0,0,1,0,0
+9,Vitamin B12 and folate levels,2,0,1,0,0,0,0,0,0,0,0
+9,Voltaren (diclofenac) 75 mg,2,0,0,0,0,0,1,0,0,0,0
+9,Zithromax (azithromycin) 250 mg,2,0,0,0,0,0,1,0,0,0,0
+10,40-year-old,2,0,0,0,0,0,0,0,0,0,1
+10,Abdominal pain,2,0,1,0,0,0,0,0,0,1,0
+10,Acetaminophen allergy,2,0,0,0,0,0,1,0,0,0,0
+10,Active smoker,2,0,0,0,0,0,0,0,0,0,1
+10,Acute psychosis,2,1,0,0,0,0,0,0,0,0,0
+10,Acute sinusitis,2,0,1,0,0,0,0,0,0,0,0
+10,Adrenalin (epinephrine) IM,2,0,0,0,0,0,1,0,0,0,0
+10,Alcohol frequency - weekly,2,1,0,0,0,0,0,0,0,0,0
+10,Anxiety,2,1,0,0,0,0,0,0,0,0,0
+10,Aripiprazole (abilify) 2mg,2,0,0,0,0,0,1,0,0,0,0
+10,BCR-ABL1,2,0,0,0,0,1,0,0,0,0,0
+10,Benztropine allergy,2,0,0,0,0,0,1,0,0,0,0
+10,Bipolar disorder,2,1,1,0,0,0,0,0,0,0,0
+10,Borderline personality disorder,2,1,1,0,0,0,0,0,0,0,0
+10,Calcium (low),2,0,1,0,0,0,0,0,0,0,0
+10,Chest pain on exertion,2,0,1,0,0,0,0,0,0,0,0
+10,Chlamydia trachomatis/Neisseria gonorrhoeae,2,0,0,0,1,0,0,0,0,0,0
+10,Chronic bilateral low back pain without sciatica,2,0,1,1,0,0,0,0,0,0,0
+10,Cough,2,0,1,0,0,0,0,0,0,0,0
+10,Creatinine (elevated),2,0,1,0,0,0,0,0,0,0,0
+10,Depression,2,1,0,0,0,0,0,0,0,0,0
+10,Diabetes mellitus type 2 (disorder),2,0,1,0,0,0,0,0,0,0,0
+10,Diphenhydramine allergy,2,0,0,0,0,0,1,0,0,0,0
+10,Disorder of thyroid,2,0,1,0,0,0,0,0,0,0,0
+10,Dobutrex (dobutamine) IV,2,0,0,0,0,0,1,0,0,0,0
+10,Drug abuse screening test (10 drugs),2,0,1,0,0,0,0,0,0,0,0
+10,Edema,2,0,1,0,0,0,0,0,0,0,0
+10,Elevated liver enzymes,2,0,1,0,0,0,0,0,0,0,0
+10,Episodic tension-type headache,2,0,1,0,0,0,0,0,0,0,0
+10,Erectile dysfunction,2,0,1,0,0,0,0,0,0,0,0
+10,Estradiol (Estrace) 1mg,2,0,0,0,0,0,1,0,0,0,0
+10,Fibromyalgia,2,0,1,0,0,0,0,0,0,0,0
+10,Furosemide (Lasix),2,0,0,0,0,0,1,0,0,0,0
+10,Gabapentin (Neurontin) 400mg,2,0,0,0,0,0,1,0,0,0,0
+10,Healed traumatic fracture,2,0,1,0,0,0,0,0,0,0,0
+10,HGB & HCT (low),2,0,1,0,0,0,0,0,0,0,0
+10,Hyperlipidemia,2,0,1,0,0,0,0,0,0,0,0
+10,Hypertension,2,0,1,0,0,0,0,0,0,0,0
+10,Hypovolemic Shock,2,0,1,0,0,0,0,0,0,0,0
+10,Ibuprofen (advil),2,0,0,0,0,0,1,0,0,0,0
+10,Insomnia,2,0,1,0,0,0,0,0,0,0,0
+10,Internal hemorrhoid,2,0,1,0,0,0,0,0,0,0,0
+10,Lamotrigine (lamictal) 200mg,2,0,0,0,0,0,1,0,0,0,0
+10,Lioresal (baclofen) 20 mg,2,0,0,0,0,0,1,0,0,0,0
+10,Liver enzymes (elevated),2,0,1,0,0,0,0,0,0,0,0
+10,Lopressor (metoprolol) 25 mg,2,0,0,0,0,0,1,0,0,0,0
+10,Lymphocyte count,2,0,1,0,0,0,0,0,0,0,0
+10,Male,2,0,0,0,0,0,0,1,0,0,1
+10,Meclizine (antivert) 25mg,2,0,0,0,0,0,1,0,0,0,0
+10,Methylnaltrexone bromide (relistor) 20mg/ml,2,0,0,0,0,0,1,0,0,0,0
+10,Mobic (meloxicam) 15 mg,2,0,0,0,0,0,1,0,0,0,0
+10,Nabumetone (relafen),2,0,0,0,0,0,1,0,0,0,0
+10,Nocturnal dyspnea,2,0,1,0,0,0,0,0,0,0,0
+10,Obese,2,0,1,0,0,0,0,0,0,0,0
+10,Opiates screen,2,0,1,0,0,0,0,0,0,0,0
+10,Pain in throat,2,0,1,0,0,0,0,0,0,0,0
+10,Paliperidone palmitate (Invega Trinza) 819mg/2.625ml,2,0,0,0,0,0,1,0,0,0,0
+10,Perphenazine (trilafon) 2mg,2,0,0,0,0,0,1,0,0,0,0
+10,Pheniramine,2,0,0,0,0,0,1,0,0,0,0
+10,Phenylephrine,2,0,0,0,0,0,1,0,0,0,0
+10,RBC (low),2,0,1,0,0,0,0,0,0,0,0
+10,Rectal bleeding,2,0,1,0,0,0,0,0,0,0,0
+10,S/P leg surgery,2,0,1,0,0,0,0,0,0,0,0
+10,Schizoaffective disorder,2,1,0,0,0,0,0,0,0,0,0
+10,Seborrheic dermatitis,2,0,1,0,0,0,0,0,0,0,0
+10,Seroquel (quetiapine) 400 mg,2,0,0,0,0,0,1,0,0,0,0
+10,Strep A assay with optic,2,0,1,0,1,0,0,0,0,0,0
+10,Ultrasound of lower extremity,2,0,0,0,0,0,0,0,0,0,1
+10,Unspecified abdominal pain,2,1,1,0,0,0,0,0,0,0,0
+10,Valley fever,2,0,1,0,1,0,0,0,0,0,0
+10,Venlafaxine (Effexor),2,0,0,0,1,0,0,0,0,0,0
+10,Vistaril (hydroxyzine) 50 mg,2,0,0,0,0,0,1,0,0,0,0
+10,Vitamin B12,2,0,0,0,0,0,1,0,0,0,0
+10,Xanax (alprazolam) 0.5 mg,2,0,0,0,0,0,1,0,0,0,0
+11,18-year-old,2,1,0,0,1,0,1,1,1,1,0
+11,Albumin (elevated),2,1,1,1,0,1,1,0,1,0,0
+11,Alpha-1-fetoprotein (AFP) and choriogonadotropin (HCG) tumor markers,2,1,1,1,1,1,1,1,1,0,0
+11,Amnesia,2,1,1,1,1,1,1,0,1,1,0
+11,Amphetamine screen,2,1,0,1,1,1,1,1,1,1,0
+11,"Anxiety disorder, unspecified",2,1,1,1,0,1,1,1,1,1,0
+11,Arthritis,2,1,1,1,1,1,1,1,1,0,0
+11,Aspartate aminotransferase (AST) level,2,1,1,1,1,1,1,1,1,1,0
+11,Ativan (Lorazepam) 1 mg,2,1,1,1,0,0,1,1,1,0,0
+11,Bipolar disorder,2,1,1,1,0,1,1,1,1,1,0
+11,"Cannabis dependence, uncomplicated",2,1,1,1,0,1,1,1,1,1,0
+11,EEG,2,1,0,1,0,1,1,0,1,0,0
+11,"Enthesopathy, unspecified",2,1,1,1,0,0,1,1,1,0,0
+11,"Ergocalciferol (vitamin D2) (Calciferol) 50,000unit",2,1,1,0,0,1,1,1,1,0,0
+11,"Fentanyl, quantitative, urine",2,1,0,1,1,1,1,1,1,0,0
+11,Fluoxetine (Prozac) 10mg,2,1,1,1,0,1,1,1,1,0,0
+11,Hallucinations,2,1,1,1,0,1,1,1,1,1,0
+11,Haloperidol (Haldol) 10mg,2,1,0,1,0,0,1,0,0,0,0
+11,Haloperidol (Haldol) 2mg,2,1,0,1,0,0,1,1,1,0,0
+11,Hemoglobin,2,0,0,0,0,0,0,0,0,0,1
+11,"Hepatitis C antibody, HCV RNA, quantitative, RT-PCR",2,1,0,1,1,1,1,1,1,1,0
+11,Hypercholesterolemia,2,1,1,1,0,1,1,1,1,0,0
+11,Individual therapy- community mental health center (CMHC)- 15 mins unit,2,1,0,1,0,1,0,1,1,1,0
+11,Language processing issues,2,1,1,1,1,1,1,0,1,1,0
+11,Learning disability,2,1,1,1,0,1,1,1,1,0,0
+11,Leukocytosis,2,1,1,0,1,1,1,1,1,1,0
+11,Lipase (normal),2,1,0,0,0,1,0,0,1,0,0
+11,Losartan-hydrochlorothiazide (Hyzaar) 50mg-12.5mg,2,1,1,1,0,1,1,1,1,0,0
+11,Lumbar puncture,2,1,1,0,1,1,0,0,1,1,0
+11,Magnesium (normal),2,1,1,0,0,1,1,0,1,0,0
+11,Male,2,1,1,0,1,1,1,1,1,1,0
+11,Medication monitoring MD/DO/NP/PA,2,1,1,1,1,1,1,1,1,0,0
+11,Metformin (glucophage) 850mg,2,1,1,1,0,1,1,1,1,0,0
+11,Mirtazapine (remeron) 45mg,2,1,1,1,0,1,1,1,1,0,0
+11,Morphine allergy,2,0,1,1,0,1,1,1,1,0,0
+11,Morphine sulfate (Roxanol) 2mg/0.5ml,2,1,1,1,0,1,1,1,1,0,0
+11,MRI of brain,2,1,1,1,1,1,1,1,1,1,0
+11,Multivitamins,2,1,1,1,0,1,1,1,1,0,0
+11,Nadolol (Corgard) 20mg,2,1,1,1,1,1,1,1,1,0,0
+11,Nausea,2,0,1,1,0,1,1,0,1,0,0
+11,"No history of sexual, physical abuse",2,1,0,1,1,1,1,1,1,0,0
+11,No known allergies,2,0,0,0,0,1,1,0,1,0,0
+11,Not employed,2,1,1,1,1,1,0,0,1,0,0
+11,Not verbally responsive,2,1,1,1,1,1,1,1,1,1,0
+11,Opiate screen,2,1,0,1,0,1,1,1,1,0,0
+11,Overweight,2,1,1,1,0,1,1,1,1,0,0
+11,Oxybutynin chloride (ditropan) 5mg,2,1,1,1,1,0,1,1,1,0,0
+11,Oxytocin (pitocin) 30units,2,1,1,0,0,0,1,1,0,0,0
+11,Paliperidone palmitate (Invega Trinza) 819mg/2.625ml,2,1,1,1,0,1,1,1,1,1,0
+11,Pantoprazole (Protonix) 40mg,2,1,1,1,1,1,1,1,1,0,0
+11,Paranoia,2,1,1,1,0,1,1,1,1,1,0
+11,Phenylephrine hydrochloride allergy,2,0,1,1,0,1,1,1,1,0,0
+11,Prenatal multivitamin with folic acid (Prenatal Plus),2,1,1,1,0,1,1,1,1,0,0
+11,Propoxyphene screen,2,1,0,1,0,1,1,1,1,0,0
+11,Protein (elevated),2,1,1,0,1,1,1,1,1,0,0
+11,Psychomotor agitation,2,1,1,1,1,1,1,1,1,1,0
+11,Reports a “telepathic” sexual relationship with ex-girlfriend,2,1,1,1,1,1,1,1,1,0,0
+11,Schizophrenia,2,1,1,1,0,1,1,1,1,0,0
+11,Spinal fluid culture and gram stain,2,1,0,1,1,0,0,0,1,0,0
+11,"Spine, cervical view",2,1,0,1,1,1,0,1,1,1,0
+11,"Spine, thoracic View",2,1,0,1,1,1,0,1,1,1,0
+11,Stress,2,1,1,1,0,1,0,1,1,1,0
+11,Tamsulosin (Flomax) 0.4mg,2,1,0,1,1,0,1,1,1,0,0
+11,Temazepam (restoril),2,1,0,1,0,1,1,1,1,0,0
+11,Tricyclic screen,2,1,0,1,0,1,1,1,1,0,0
+11,Triglycerides,2,1,1,0,0,1,1,1,1,0,0
+11,Triiodothyronine (T3),2,0,1,0,0,1,1,1,1,0,0
+11,TSH (normal),2,1,1,1,0,1,1,1,1,0,0
+11,"Urinalysis, complete",2,1,1,1,1,1,1,1,1,0,0
+11,Venlafaxine (Effexor XR) 50mg,2,1,1,1,0,1,1,1,1,0,0
+11,Venlafaxine (Effexor XR) 75mg,2,1,1,1,0,1,1,1,1,0,0
+11,Vitamin D (low),2,1,1,1,0,1,1,1,1,0,0
+11,Vitek enteric urine rapid ID,2,1,1,1,1,0,0,1,1,0,0
+11,Zofran (ondansetron) 10 mg,2,1,1,1,1,1,1,1,1,0,0
+12,64-year-old,2,0,0,0,0,0,0,0,0,0,1
+12,Abdominal pain,2,0,1,0,0,0,0,0,0,0,0
+12,Albuterol 0.83MG/ML inhalant solution,2,0,1,0,0,0,1,0,0,0,0
+12,Atenolol (Tenormin) 25mg,2,0,1,0,0,0,1,0,0,0,0
+12,Blood glucose levels,2,0,1,0,0,0,0,0,0,0,0
+12,Bronchial asthma,2,0,1,0,0,0,0,0,0,0,0
+12,Buspar (buspirone) 15 mg,2,0,1,0,0,0,1,0,0,0,0
+12,"Cannabis dependence, uncomplicated",2,1,1,0,0,0,1,0,1,0,0
+12,Chest pain,2,0,1,0,0,0,1,1,0,0,0
+12,Cholesterol (high),2,0,1,0,0,1,1,1,0,0,0
+12,Cough,2,0,1,0,0,0,0,0,0,0,0
+12,Cozaar (losartan potassium) 50 mg,2,0,1,0,0,0,1,0,0,0,0
+12,CT abdomen and pelvis with contrast,2,0,1,0,0,0,0,1,0,0,1
+12,Docusate sodium (Colace),2,0,1,0,0,0,1,0,0,0,0
+12,Encounter for full-term uncomplicated delivery,2,0,0,0,0,1,0,1,0,0,0
+12,Estradiol allergy,2,0,1,0,0,0,0,0,0,0,0
+12,Female,2,0,0,0,0,1,0,1,1,1,0
+12,Fluoxetine (prozac) 10mg,2,1,1,0,0,0,1,0,0,0,0
+12,Fosamax (alendronate) 70 mg,2,0,1,0,0,1,1,0,0,0,0
+12,Gastritis,2,0,1,0,1,0,0,0,0,0,0
+12,Glaucoma,2,0,1,1,0,0,1,0,1,0,0
+12,H/O coronary artery disease with a stent,2,0,1,0,0,0,1,1,0,0,0
+12,"HCG, pregnancy test, urine",2,0,1,0,0,0,0,1,0,0,0
+12,Hepatic function panel,2,0,1,0,1,1,1,0,0,0,0
+12,"Hepatitis C antibody, HCV RNA, quantitative, RT-PCR",2,1,1,0,1,0,1,1,1,0,0
+12,Hypercholesterolemia,2,0,1,0,0,1,0,0,0,0,0
+12,Iron/iron binding capacity total (TIBC),2,0,1,0,0,1,1,0,0,0,0
+12,Lactic acid (high),2,0,1,0,0,0,0,0,0,0,0
+12,Lamotrigine (Lamictal) allergy,2,0,1,0,0,0,1,0,0,0,0
+12,Latanoprost ophthalmic 0.005% solution,2,0,1,1,0,0,1,0,1,0,0
+12,"Leiomyoma of uterus, unspecified",2,0,1,0,0,0,0,1,0,0,0
+12,Lorazepam (Ativan) 0.5mg,2,1,1,0,0,0,1,0,0,0,0
+12,"Major depressive disorder, recurrent episode, unspecified",2,1,1,1,0,1,1,0,0,0,0
+12,"Methadone metabolite, urine",2,1,1,0,0,0,1,0,1,0,0
+12,Microzide (hydrochlorothiazide) 25 mg,2,0,1,0,0,0,1,0,0,0,0
+12,Migraine,2,0,1,0,0,0,1,0,0,0,0
+12,Nadolol (Corgard) 20mg,2,0,1,0,0,0,1,0,0,0,0
+12,No known allergies,2,0,0,0,0,0,0,0,0,0,1
+12,No signs or symptoms of abuse,2,0,0,0,0,0,0,0,0,1,0
+12,Nonsmoker,2,0,1,0,0,0,0,0,0,0,0
+12,Numbness and droop of the right side of the face,2,0,1,0,0,0,0,0,0,0,0
+12,Occasional drinker,2,0,1,0,0,0,0,0,1,0,0
+12,Optive ophthalmic solution (OTC),2,0,1,0,0,0,1,0,0,0,0
+12,Osteoarthritis,2,0,1,0,0,0,1,0,0,0,0
+12,Periapical abscess without sinus,2,0,1,0,1,0,1,0,0,0,0
+12,Pheniramine maleate allergy,2,0,1,0,0,0,1,0,0,0,0
+12,Platelet count,2,0,1,0,0,1,1,0,0,0,0
+12,Pregabalin allergy,2,0,1,0,0,0,1,0,0,0,0
+12,Prilosec (omeprazole ) 20 mg,2,0,1,0,0,0,1,0,0,0,0
+12,Propensity to adverse reactions,2,0,1,0,0,0,0,0,0,0,0
+12,Recurrent and moderate major depressive disorder,2,1,1,0,0,1,1,0,0,0,0
+12,Remeron (mirtazapine) 45 mg,2,0,1,0,0,0,1,0,0,0,0
+12,Reticulocyte count,2,0,1,0,0,0,0,0,0,0,0
+12,S/P carpal tunnel release,2,0,1,0,0,0,0,0,0,0,0
+12,S/P cesarean section,2,0,1,0,0,0,0,1,0,0,0
+12,S/P hysterectomy,2,0,1,0,0,0,0,1,0,0,0
+12,S/P percutaneous transluminal coronary angioplasty (PTCA),2,0,1,0,0,0,1,0,0,0,0
+12,Sexually transmitted pathogens panel,2,0,1,0,1,0,0,1,1,0,0
+12,Speech therapy,2,0,1,0,0,0,0,0,0,0,0
+12,Sucralfate (carafate) 1 Gm,2,0,1,0,0,0,1,0,0,0,0
+12,Symbicort 160/4.5 inhalation aerosol,2,0,1,0,0,0,1,0,0,0,0
+12,Tessalon pearls (benzonatate) 200 mg,2,0,1,0,0,0,1,0,0,0,0
+12,Topamax (topiramate) 25 mg,2,0,1,0,0,0,1,0,0,0,0
+12,Tramadol allergy,2,0,1,0,0,0,1,0,0,0,0
+12,Trigeminal neuralgia,2,0,1,0,0,0,1,0,0,0,0
+12,Triglycerides (high),2,0,1,0,0,0,1,0,0,0,0
+12,Unemployed,2,0,1,0,0,0,0,0,1,0,0
+12,Vicodin (hydrocodone) 325-5 mg,2,0,1,0,0,0,1,0,0,0,0
+12,Vitek enteric urine rapid ID,2,0,1,0,1,0,1,1,0,0,0
+12,X-ray chest frontal and lateral views of the chest,2,0,1,0,0,0,0,0,0,0,1
+12,Ziprasidone (Geodon) 40mg,2,0,1,0,0,0,1,0,0,0,0
+12,Zithromax (azithromycin) 250 mg,2,0,1,0,1,0,1,1,0,0,0
