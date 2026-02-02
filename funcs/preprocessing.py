@@ -29,7 +29,7 @@ def run(cfg: dict) -> dict:
     classes_list = cfg.get("classes", [])
 
     # Read train/test from CSV using the helper
-    df_train, df_test = read_train_test_csv_dir(train_path, test_path)
+    df_train, df_test = read_train_test_csv_dir(input_dir)
 
     merged_train, count_train = merge_rows_by_patient_item(
         df_train, patient_col, physician_col, item_col, classes_list, split_name="train"
