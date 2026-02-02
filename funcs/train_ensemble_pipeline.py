@@ -1,4 +1,5 @@
 import os
+import sys
 import itertools
 import logging
 import joblib
@@ -8,29 +9,43 @@ from copy import deepcopy
 from sklearn.metrics import f1_score, accuracy_score, precision_score, recall_score
 from iterstrat.ml_stratifiers import MultilabelStratifiedKFold
 
-# Import helper functions from local files
-from set_seeds import set_seeds
-from augment_train import augment_train
-from train_single_model import train_single_model
-from fit_calibrators import fit_calibrators
-from apply_calibrators import apply_calibrators
-from threshold_tuning import threshold_tuning
-from compute_metrics_and_save import compute_metrics_and_save
-from plot_ensemble_figures import plot_ensemble_figures
+
+from .set_seeds import set_seeds
+from .augment_train import augment_train
+from .train_single_model import train_single_model
+from .fit_calibrators import fit_calibrators
+from .apply_calibrators import apply_calibrators
+from .threshold_tuning import threshold_tuning
+from .compute_metrics_and_save import compute_metrics_and_save
+from .plot_ensemble_figures import plot_ensemble_figures
+
+
+
+# Get the absolute path of the directory above the current working directory
+module_path = os.path.abspath(os.path.join('..'))
+# Insert the path into sys.path at index 0 to ensure it is checked first
+if module_path not in sys.path:
+    sys.path.insert(0, module_path)
+
+from cls.Preprocessor import Preprocessor
+from cls.EnsemblePredictor import EnsemblePredictor
+
+
 
 # Placeholders for missing classes/variables
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-class Preprocessor:
-    def __init__(self, var): self.var = var
-    def fit(self, x): return self
-    def transform(self, x): return x
 
-class EnsemblePredictor:
-    def __init__(self, models, preps, calibs, thresh, device):
-        self.models, self.preps, self.calibs, self.thresh, self.device = models, preps, calibs, thresh, device
-    def predict_proba(self, X):
-        # Simplified ensemble logic: average of probabilities
-        return np.mean([probs for probs in range(len(self.models))], axis=0) 
+# class Preprocessor:
+#     def __init__(self, var): self.var = var
+#     def fit(self, x): return self
+#     def transform(self, x): return x
+
+# class EnsemblePredictor:
+#     def __init__(self, models, preps, calibs, thresh, device):
+#         self.models, self.preps, self.calibs, self.thresh, self.device = models, preps, calibs, thresh, device
+#     def predict_proba(self, X):
+#         # Simplified ensemble logic: average of probabilities
+#         return np.mean([probs for probs in range(len(self.models))], axis=0) 
 
 def train_ensemble_pipeline(X_train, Y_train, X_test, Y_test, class_list, cfg):
     set_seeds(cfg['global_seed'])
