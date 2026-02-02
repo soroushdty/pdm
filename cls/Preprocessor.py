@@ -32,9 +32,8 @@ class Preprocessor:
         d = np.argmax(cumsum >= self.target_variance) + 1
         self.n_components_ = d
         self.pca = PCA(n_components=d)
-        self.pca.fit(X_scaled)
+        self.pca.fit(X)
         return self
 
     def transform(self, X):
-        X_scaled = self.scaler.transform(X)
-        return self.pca.transform(X_scaled)
+        return self.pca.transform(X)
