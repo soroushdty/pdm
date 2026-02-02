@@ -34,4 +34,4 @@ def get_dataset_from_npz(x_npz, y_train, y_test, merge_map_train_path, merge_map
     X_train = build_x_matrix(y_train, train_map)
     X_test = build_x_matrix(y_test, test_map)
 
-    return X_train, X_test, y_train, y_test
+    return X_train, X_test
