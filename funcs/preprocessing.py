@@ -22,9 +22,6 @@ def run(cfg: dict) -> dict:
     input_dir = Path.cwd() / "DIR_INPUT"
     train_path = input_dir / "train.csv"
     test_path = input_dir / "test.csv"
-
-    output_path = Path(cfg["output_path"])
-
     patient_col = cfg["patient_col"]
     physician_col = cfg["physician_col"]
     item_col = cfg["item_col"]
