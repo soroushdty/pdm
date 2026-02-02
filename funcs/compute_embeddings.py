@@ -1,3 +1,12 @@
+import torch
+import numpy as np
+import pandas as pdimport torch
+import numpy as np
+import pandas as pd
+from transformers import AutoTokenizer, AutoModel
+from sentence_transformers import SentenceTransformer
+from .logger_setup import logger
+
 def compute_embeddings(model_id, texts, batch_size):
     """
     Universal function to compute embeddings.
@@ -11,7 +20,7 @@ def compute_embeddings(model_id, texts, batch_size):
         
     Returns: numpy array of embeddings
     """
-    print(f"Computing embeddings for {model_id}...")
+    logger(f"Computing embeddings for {model_id}...")
 
     # 1. Try SentenceTransformer
     try:
