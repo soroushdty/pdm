@@ -4,7 +4,7 @@ import pandas as pd
 import torch
 import numpy as np
 import pandas as pd
-import logging
+# import logging
 from transformers import AutoTokenizer, AutoModel
 from sentence_transformers import SentenceTransformer
 
@@ -23,7 +23,7 @@ def compute_embeddings(model_id, texts, batch_size):
         
     Returns: numpy array of embeddings
     """
-    logging(f"Computing embeddings for {model_id}...")
+    print(f"Computing embeddings for {model_id}...")
 
     # 1. Try SentenceTransformer
     try:
