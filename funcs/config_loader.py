@@ -20,10 +20,19 @@ def load_config(config_path: str | Path) -> Dict[str, Any]:
     return cfg
 
 def validate_config(cfg: Dict[str, Any]) -> Dict[str, Any]:
-    """Validate/normalize the config in-place and return it."""
-    # required-ish keys
-    if "dataset" not in cfg:
-        raise ValueError("Config is missing required key: 'dataset' (path to xlsx).")
+    """Validate/normalize the config in-place and return it.
+
+    This function prefers the 'DIR_INPUT' key for the input dataset. For backward
+    compatibility it still accepts 'dataset' and will copy 'DIR_INPUT' into
+    'dataset' when present so the rest of the code can continue to use
+    cfg['dataset'].
+    """
+    # required-ish keys: prefer DIR_INPUT but accept dataset for compatibility
+    if "DIR_INPUT" in cfg:
+        # mirror into 'dataset' so downstream code that expects 'dataset' keeps working
+        cfg.setdefault("dataset", cfg["DIR_INPUT"]) 
+    elif "dataset" not in cfg:
+        raise ValueError("Config is missing required key: 'DIR_INPUT' (path to xlsx) or 'dataset'.")
 
     # defaults
     cfg.setdefault("patient_col", "Patient")
