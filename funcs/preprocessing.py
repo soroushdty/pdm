@@ -22,7 +22,7 @@ def run(cfg: dict) -> dict:
     input_dir = Path.cwd() / "DIR_INPUT"
     train_path = input_dir / "train.csv"
     test_path = input_dir / "test.csv"
-    output_path = Path.cwd() / cfg["output_path"]
+    output_path = Path.cwd() / cfg["DIR_OUTPUT"]
     patient_col = cfg["patient_col"]
     physician_col = cfg["physician_col"]
     item_col = cfg["item_col"]
