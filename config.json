@@ -1,6 +1,6 @@
 {
-  "DIR_INPUT": "./input",
-  "output_path": "./output",
+  "DIR_INPUT": "input",
+  "output_path": "output",
 
   "patient_col": "Patient",
   "physician_col": "Physician",
