@@ -1,48 +1,81 @@
-def is_package_importable(requirement: str) -> bool:
+"""Utilities for managing Python package requirements in Google Colab.
+
+- Reads requirements.txt
+- Checks if module already present
+- If not, try to import module
+- If not, try to install missing packages via pip
+"""
+
+from __future__ import annotations
+import sys
+import logging
+import subprocess
+import importlib
+from pathlib import Path
+from typing import List, Tuple
+
+def _extract_module_name(raw: str) -> str:
     """
-    Check if the package specified in the requirement string is importable.
+    Normalize a requirement or import statement to a module name.
+    Supports:
+      - requirements: numpy==1.26.4
+      - import statements: import numpy as np
+      - from-import: from x.y import z
     """
-    name = _extract_module_name(requirement)
-    if not name:
-        return False
-    try:
-        __import__(name)
-        return True
-    except ImportError:
-        return False
+    line = raw.strip()
+    if line.startswith("import "):
+        remainder = line[len("import "):].strip()
+        first = remainder.split(",")[0].strip()
+        module = first.split(" as ")[0].strip()
+        return module
+    if line.startswith("from "):
+        remainder = line[len("from "):].strip()
+        module = remainder.split(" ")[0].strip()
+        return module
+    sanitized = line.split("==")[0].split(">=")[0].split("<=")[0].strip()
+    return sanitized.replace("-", "_")
 
 
-def _iter_requirements_lines(requirements_path):
+def _iter_requirements(requirements_path: str | Path) -> List[Tuple[str, str]]:
     """
-    Generator that yields non-empty, non-comment lines from the requirements file.
+    Read requirements.txt (or import-like lines) and return (spec, module_name).
     """
-    with open(requirements_path) as f:
-        for line in f:
-            line = line.strip()
-            if line and not line.startswith('#'):
-                yield line
+    if not requirements_path.exists():
+        raise FileNotFoundError(f"requirements file not found: {requirements_path}")
+    reqs: List[Tuple[str, str]] = []
+    for raw in requirements_path.read_text(encoding="utf-8").splitlines():
+        line = raw.strip()
+        if line and not line.startswith("#"):
+            module_name = _extract_module_name(line)
+            if module_name not in sys.modules:
+                reqs.append((line, module_name))
+                logging.info(f"Package '{module_name}' is missing.")
+        
+    return reqs
 
 
-def install_missing(requirements_path, quiet=False):
+def install_missing_packages(requirements_path: str | Path):
     """
-    Install missing packages listed in the requirements file using pip.
+    Imports / installs missing packages listed in requirements.txt
+    Returns a list of missing packages.
     """
+    reqs = _iter_requirements(requirements_path)
     missing = []
-    for requirement in _iter_requirements_lines(requirements_path):
-        if not is_package_importable(requirement):
-            missing.append(requirement)
-
-    if missing:
-        import subprocess
-        import sys
-        command = [sys.executable, '-m', 'pip', 'install'] + missing
-        if quiet:
-            subprocess.run(command, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-        else:
-            subprocess.run(command)
-
-
-# Existing functionality for backward compatibility
-
-def install_missing_packages(requirements_path):
-    install_missing(requirements_path)
+    for spec, module_name in reqs:
+        try:
+            importlib.import_module(module_name)
+        except ModuleNotFoundError:
+            logging.error(f"{module_name} is not installed.")
+            missing.append(spec)
+    return missing
+   
+def requirements_utils (requirements_path: str | Path, quiet: bool = True) -> None:
+    """
+    Installs missing packages via pip.
+    """
+    missing = install_missing_packages(requirements_path)
+    pip_cmd = [sys.executable, "-m", "pip", "install"]
+    if quiet:
+        pip_cmd.append("-q")
+    pip_cmd.extend(missing)
+    subprocess.check_call(pip_cmd)
