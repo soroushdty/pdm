@@ -29,6 +29,18 @@ def _iter_requirements_lines(requirements_path: str | Path) -> List[str]:
         reqs.append(line)
     return reqs
 
+
+def is_package_installed(requirements_path: str | Path) -> bool:
+    """
+    Check whether all packages listed in requirements.txt are installed.
+    """
+    reqs = _iter_requirements_lines(requirements_path)
+    for r in reqs:
+        if not is_package_importable(r):
+            return False
+    return True
+
+
 def is_package_importable(requirement: str) -> bool:
     """
     Check whether a requirement is importable.
@@ -40,6 +52,7 @@ def is_package_importable(requirement: str) -> bool:
         return importlib.util.find_spec(name) is not None
     except (ModuleNotFoundError, ValueError):
         return False
+
 
 def install_missing(requirements_path: str | Path, quiet: bool = False) -> List[str]:
     """
