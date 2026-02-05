@@ -54,7 +54,7 @@ def _iter_requirements(requirements_path: str | Path) -> List[Tuple[str, str]]:
     return reqs
 
 
-def install_missing_packages(requirements_path: str | Path):
+def install_missing(requirements_path: str | Path):
     """
     Imports / installs missing packages listed in requirements.txt
     Returns a list of missing packages.
@@ -73,7 +73,7 @@ def requirements_utils (requirements_path: str | Path, quiet: bool = True) -> No
     """
     Installs missing packages via pip.
     """
-    missing = install_missing_packages(requirements_path)
+    missing = install_missing(requirements_path)
     pip_cmd = [sys.executable, "-m", "pip", "install"]
     if quiet:
         pip_cmd.append("-q")
