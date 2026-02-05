@@ -7,65 +7,54 @@
 """
 
 from __future__ import annotations
-
-import importlib
+import logging
 import subprocess
 import sys
 from pathlib import Path
-from typing import Iterable, List
+from typing import List
+import importlib
 
-def _iter_requirements_lines(requirements_path: str | Path) -> List[str]:
+def _iter_requirements(requirements_path: str | Path) -> List[str]:
     """
-    Parse requirements.txt file
+    Check whether any of packages listed in requirements.txt already exists in work environment
     """
-    path = Path(requirements_path)
-    if not path.exists():
-        raise FileNotFoundError(f"requirements file not found: {path}")
+    if not requirements_path.exists():
+        raise FileNotFoundError(f"requirements file not found: {requirements_path}")
     reqs: List[str] = []
-    for raw in path.read_text(encoding="utf-8").splitlines():
+    for raw in requirements_path.read_text(encoding="utf-8").splitlines():
         line = raw.strip()
-        if not line or line.startswith("#"):
-            continue
-        reqs.append(line)
+        if line and not line.startswith("#"):
+            sanitized = line.split("==")[0].split(">=")[0].split("<=")[0].strip().replace("-", "_")
+            if sanitized not in sys.modules:
+                reqs.append(line)
+        
     return reqs
 
 
-def is_package_installed(requirements_path: str | Path) -> bool:
-    """
-    Check whether all packages listed in requirements.txt are installed.
-    """
-    reqs = _iter_requirements_lines(requirements_path)
-    for r in reqs:
-        if not is_package_importable(r):
-            return False
-    return True
-
-
-def is_package_importable(requirement: str) -> bool:
-    """
-    Check whether a requirement is importable.
-    """
-    for sep in ["==", ">=", "<=", "~=", ">", "<"]:
-        if sep in requirement:
-            name = requirement.split(sep, 1)[0].strip()
+def is_package_importable(package_name: str) -> bool:
     try:
-        return importlib.util.find_spec(name) is not None
-    except (ModuleNotFoundError, ValueError):
+        importlib.import_module(package_name)
+        logging.info(f"Package '{package_name}' is already imported.")
+        return True
+    except ModuleNotFoundError:
         return False
 
-
-def install_missing(requirements_path: str | Path, quiet: bool = False) -> List[str]:
+def requirements_utils(requirements_path: str | Path, quiet: bool = False) -> List[str]:
     """
-    Install missing packages listed in requirements.txt. Returns installed requirements."""
-    reqs = _iter_requirements_lines(requirements_path)
-    missing = [r for r in reqs if not is_package_importable(r)]
-    if not missing:
-        return []
-
+    Imports / installs missing packages listed in requirements.txt
+    """
+    reqs = _iter_requirements(requirements_path)
+    missing = [ ]
+    for r in reqs:
+        logging.info(f"Package '{r}' is missing and will be installed.")
+        if is_package_importable(r):
+            continue
+        else:
+            missing.append(r)
+   
     pip_cmd = [sys.executable, "-m", "pip", "install"]
     if quiet:
         pip_cmd.append("-q")
     pip_cmd.extend(missing)
-
     subprocess.check_call(pip_cmd)
-    return missing
+    logging.info("The following missing packages have been installed: " + ", ".join(missing))
