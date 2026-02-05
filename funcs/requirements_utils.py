@@ -54,13 +54,6 @@ def _iter_requirements(requirements_path: str | Path) -> List[Tuple[str, str]]:
     return reqs
 
 
-def is_package_importable(package_name: str) -> bool:
-    try:
-        importlib.import_module(package_name)
-        return True
-    except ModuleNotFoundError:
-        return False
-
 def install_missing_packages(requirements_path: str | Path):
     """
     Imports / installs missing packages listed in requirements.txt
@@ -76,10 +69,11 @@ def install_missing_packages(requirements_path: str | Path):
             missing.append(spec)
     return missing
    
-def requirements_utils (missing: List[str], quiet: bool = True) -> None:
+def requirements_utils (requirements_path: str | Path, quiet: bool = True) -> None:
     """
     Installs missing packages via pip.
     """
+    missing = install_missing_packages(requirements_path)
     pip_cmd = [sys.executable, "-m", "pip", "install"]
     if quiet:
         pip_cmd.append("-q")
