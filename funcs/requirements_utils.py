@@ -66,7 +66,7 @@ def install_missing(requirements_path: str | Path):
             importlib.import_module(module_name)
         except ModuleNotFoundError:
             logging.error(f"{module_name} is not installed.")
-            missing.append(spec)
+            missing.append(module_name+spec)
     return missing
    
 def requirements_utils (requirements_path: str | Path, quiet: bool = True) -> None:
