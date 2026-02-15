@@ -3,7 +3,7 @@
 - Reads requirements.txt
 - Checks if module already present
 - If not, try to import module
-- If not, try to install missing packages via pip
+# - If not, try to install missing packages via pip
 """
 
 from __future__ import annotations
@@ -15,7 +15,7 @@ from pathlib import Path
 from typing import List, Tuple
 
 def _extract_module_name(raw: str) -> str:
-    """
+    """CalledProcessError
     Normalize a requirement or import statement to a module name.
     Supports:
       - requirements: numpy==1.26.4
@@ -36,40 +36,47 @@ def _extract_module_name(raw: str) -> str:
     return sanitized.replace("-", "_")
 
 
-def _iter_requirements(requirements_path: str | Path) -> List[Tuple[str, str]]:
+def _iter_requirements(requirements_path: str | Path) -> List[Tuple[str, str, bool]]:
     """
     Read requirements.txt (or import-like lines) and return (spec, module_name).
     """
     if not requirements_path.exists():
         raise FileNotFoundError(f"requirements file not found: {requirements_path}")
-    reqs: List[Tuple[str, str]] = []
+    reqs: List[Tuple[str, str, bool]] = []
     for raw in requirements_path.read_text(encoding="utf-8").splitlines():
         line = raw.strip()
         if line and not line.startswith("#"):
             module_name = _extract_module_name(line)
             if module_name not in sys.modules:
-                reqs.append((line, module_name))
+                reqs.append((line, module_name, False))
                 logging.info(f"Package '{module_name}' is missing.")
         
     return reqs
 
 
-def install_missing(requirements_path: str | Path):
+def install_missing(requirements_path: str | Path,
+                    # imports_path: str | Path | None = None
+                    )-> List[str]:
     """
-    Imports / installs missing packages listed in requirements.txt
+    Installs [and imports] missing packages listed in requirements.txt
     Returns a list of missing packages.
     """
     reqs = _iter_requirements(requirements_path)
+    # if imports_path is not None:
+    #     reqs.extend(_iter_imports(imports_path))
     missing = []
-    for spec, module_name in reqs:
+    for spec, module_name, is_import in reqs:
+        if module_name.startswith("pdm.") or module_name.startswith("funcs."):
+            continue
         try:
             importlib.import_module(module_name)
         except ModuleNotFoundError:
             logging.error(f"{module_name} is not installed.")
-            missing.append(module_name+spec)
+            missing.append(module_name if is_import else spec)
     return missing
    
-def requirements_utils (requirements_path: str | Path, quiet: bool = True) -> None:
+def requirements_utils (
+    requirements_path: str | Path, quiet: bool = True,) -> None:
     """
     Installs missing packages via pip.
     """
@@ -77,5 +84,6 @@ def requirements_utils (requirements_path: str | Path, quiet: bool = True) -> No
     pip_cmd = [sys.executable, "-m", "pip", "install"]
     if quiet:
         pip_cmd.append("-q")
-    pip_cmd.extend(missing)
-    subprocess.check_call(pip_cmd)
+    if missing:
+        pip_cmd.extend(missing)
+        subprocess.check_call(pip_cmd)
