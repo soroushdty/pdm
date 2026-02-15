@@ -58,13 +58,18 @@ def requirements_utils (
     Args:
         requirements_path (str | Path): Path to requirements.txt file.
         quiet (bool): If True, suppresses pip output.
+    Returns:
+        List of installed packages.
     """
     missing = install_missing(requirements_path)
     pip_cmd = [sys.executable, "-m", "pip", "install"]
     if quiet:
         pip_cmd.append("-q")
     if missing:
+        installed = []
         for pkg in missing:
             logging.info(f"Installing missing package: {pkg}")
+            installed.append(pkg)
             pip_cmd.extend(missing)
             subprocess.check_call(pip_cmd)
+    return installed
