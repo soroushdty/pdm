@@ -12,7 +12,7 @@ import logging
 import subprocess
 import importlib
 from pathlib import Path
-from typing import List, Tuple
+from typing import List
 
 
 def _iter_requirements(requirements_path: str | Path) -> List[str]:

@@ -1,0 +1,264 @@
+22:28:48  02-14-26  INFO:  START LOGGING AT: /home/soroush/Desktop/pdm
+22:36:59  02-14-26  INFO:  START LOGGING AT: /home/soroush/Desktop/pdm
+22:38:21  02-14-26  INFO:  START LOGGING AT: /home/soroush/Desktop/pdm
+22:39:50  02-14-26  DEBUG:  Config loaded from: /home/soroush/Desktop/pdm/config.json
+22:39:50  02-14-26  DEBUG:  Config: {'DIR_INPUT': 'input', 'DIR_OUTPUT': 'output', 'patient_col': 'Patient', 'physician_col': 'Physician', 'item_col': 'Item', 'classes': ['Behavioral health', 'Diagnoses', 'Disabilities', 'Infectious diseases', 'Genetics', 'Medications', 'Sexual and reproductive health', 'Social determinants of health', 'Violence', 'Other'], 'other_class': ['Disabilities', 'Infectious diseases', 'Genetics', 'Sexual and reproductive health', 'Violence', 'Social determinants of health'], 'llms': ['sentence-transformers/all-MiniLM-L6-v2', 'sentence-transformers/all-mpnet-base-v2', 'sentence-transformers/multi-qa-MiniLM-L6-cos-v1', 'pritamdeka/BioBERT-mnli-snli-scinli-scitail-mednli-stsb', 'sentence-transformers/biomed-mpnet-base', 'cambridgeltl/SapBERT-from-PubMedBERT-fulltext', 'bert-base-uncased', 'roberta-base', 'distilbert-base-uncased', 'nreimers/MiniLM-L6-H384-uncased', 'emilyalsentzer/Bio_ClinicalBERT', 'monologg/biobert_v1.1_pubmed', 'bionlp/bluebert_pubmed_mimic_uncased_L-24_H-1024_A-16', 'microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext', 'yikuan8/Clinical-Longformer'], 'BATCH_SIZE': 128, 'tokenizer_model_max_length': 512, 'padding': 'max_length', 'truncation': True, 'normalization': 1, 'pooling_strategy': 'mean', 'default_classes': ['Behavioral health', 'Diagnoses', 'Medications', 'Other'], 'save_standardized': False, 'ensemble_sub_dir': 'ensemble', 'global_seed': 13, 'objective': 'AP', 'pca_variance': 0.9, 'outer_folds': 5, 'inner_folds': 3, 'lr_options': [0.001, 0.0001], 'weight_decay_options': [0.0001, 1e-05], 'batch_size_options': [32, 64], 'focal_gamma_options': [1.0, 2.0], 'num_epochs': 50, 'early_stopping_patience': 5, 'smote_option': 'A', 'smote_rarity_cutoff': 0.05, 'smote_pos_threshold': 0.5, 'smote_min_samples_for_smote': 3, 'pos_weight_clamp': [1.0, 100.0], 'pos_weight_smoothing': 1.0, 'threshold_multipliers': [0.8, 1.0, 1.2], 'eval_pos_threshold': 0.5, 'calibrator_min_samples_isotonic': 200}
+22:40:49  02-14-26  DEBUG:  Config loaded from: /home/soroush/Desktop/pdm/config.json
+22:40:49  02-14-26  DEBUG:    DIR_INPUT: input
+22:40:49  02-14-26  DEBUG:    DIR_OUTPUT: output
+22:40:49  02-14-26  DEBUG:    patient_col: Patient
+22:40:49  02-14-26  DEBUG:    physician_col: Physician
+22:40:49  02-14-26  DEBUG:    item_col: Item
+22:40:49  02-14-26  DEBUG:    classes: ['Behavioral health', 'Diagnoses', 'Disabilities', 'Infectious diseases', 'Genetics', 'Medications', 'Sexual and reproductive health', 'Social determinants of health', 'Violence', 'Other']
+22:40:49  02-14-26  DEBUG:    other_class: ['Disabilities', 'Infectious diseases', 'Genetics', 'Sexual and reproductive health', 'Violence', 'Social determinants of health']
+22:40:49  02-14-26  DEBUG:    llms: ['sentence-transformers/all-MiniLM-L6-v2', 'sentence-transformers/all-mpnet-base-v2', 'sentence-transformers/multi-qa-MiniLM-L6-cos-v1', 'pritamdeka/BioBERT-mnli-snli-scinli-scitail-mednli-stsb', 'sentence-transformers/biomed-mpnet-base', 'cambridgeltl/SapBERT-from-PubMedBERT-fulltext', 'bert-base-uncased', 'roberta-base', 'distilbert-base-uncased', 'nreimers/MiniLM-L6-H384-uncased', 'emilyalsentzer/Bio_ClinicalBERT', 'monologg/biobert_v1.1_pubmed', 'bionlp/bluebert_pubmed_mimic_uncased_L-24_H-1024_A-16', 'microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext', 'yikuan8/Clinical-Longformer']
+22:40:49  02-14-26  DEBUG:    BATCH_SIZE: 128
+22:40:49  02-14-26  DEBUG:    tokenizer_model_max_length: 512
+22:40:49  02-14-26  DEBUG:    padding: max_length
+22:40:49  02-14-26  DEBUG:    truncation: True
+22:40:49  02-14-26  DEBUG:    normalization: 1
+22:40:49  02-14-26  DEBUG:    pooling_strategy: mean
+22:40:49  02-14-26  DEBUG:    default_classes: ['Behavioral health', 'Diagnoses', 'Medications', 'Other']
+22:40:49  02-14-26  DEBUG:    save_standardized: False
+22:40:49  02-14-26  DEBUG:    ensemble_sub_dir: ensemble
+22:40:49  02-14-26  DEBUG:    global_seed: 13
+22:40:49  02-14-26  DEBUG:    objective: AP
+22:40:49  02-14-26  DEBUG:    pca_variance: 0.9
+22:40:49  02-14-26  DEBUG:    outer_folds: 5
+22:40:49  02-14-26  DEBUG:    inner_folds: 3
+22:40:49  02-14-26  DEBUG:    lr_options: [0.001, 0.0001]
+22:40:49  02-14-26  DEBUG:    weight_decay_options: [0.0001, 1e-05]
+22:40:49  02-14-26  DEBUG:    batch_size_options: [32, 64]
+22:40:49  02-14-26  DEBUG:    focal_gamma_options: [1.0, 2.0]
+22:40:49  02-14-26  DEBUG:    num_epochs: 50
+22:40:49  02-14-26  DEBUG:    early_stopping_patience: 5
+22:40:49  02-14-26  DEBUG:    smote_option: A
+22:40:49  02-14-26  DEBUG:    smote_rarity_cutoff: 0.05
+22:40:49  02-14-26  DEBUG:    smote_pos_threshold: 0.5
+22:40:49  02-14-26  DEBUG:    smote_min_samples_for_smote: 3
+22:40:49  02-14-26  DEBUG:    pos_weight_clamp: [1.0, 100.0]
+22:40:49  02-14-26  DEBUG:    pos_weight_smoothing: 1.0
+22:40:49  02-14-26  DEBUG:    threshold_multipliers: [0.8, 1.0, 1.2]
+22:40:49  02-14-26  DEBUG:    eval_pos_threshold: 0.5
+22:40:49  02-14-26  DEBUG:    calibrator_min_samples_isotonic: 200
+22:41:51  02-14-26  INFO:  START LOGGING AT: /home/soroush/Desktop/pdm
+22:41:55  02-14-26  DEBUG:  Config loaded from: /home/soroush/Desktop/pdm/config.json
+22:41:55  02-14-26  DEBUG:    COLAB: False
+22:41:55  02-14-26  DEBUG:    DIR_INPUT: input
+22:41:55  02-14-26  DEBUG:    DIR_OUTPUT: output
+22:41:55  02-14-26  DEBUG:    patient_col: Patient
+22:41:55  02-14-26  DEBUG:    physician_col: Physician
+22:41:55  02-14-26  DEBUG:    item_col: Item
+22:41:55  02-14-26  DEBUG:    classes: ['Behavioral health', 'Diagnoses', 'Disabilities', 'Infectious diseases', 'Genetics', 'Medications', 'Sexual and reproductive health', 'Social determinants of health', 'Violence', 'Other']
+22:41:55  02-14-26  DEBUG:    other_class: ['Disabilities', 'Infectious diseases', 'Genetics', 'Sexual and reproductive health', 'Violence', 'Social determinants of health']
+22:41:55  02-14-26  DEBUG:    llms: ['sentence-transformers/all-MiniLM-L6-v2', 'sentence-transformers/all-mpnet-base-v2', 'sentence-transformers/multi-qa-MiniLM-L6-cos-v1', 'pritamdeka/BioBERT-mnli-snli-scinli-scitail-mednli-stsb', 'sentence-transformers/biomed-mpnet-base', 'cambridgeltl/SapBERT-from-PubMedBERT-fulltext', 'bert-base-uncased', 'roberta-base', 'distilbert-base-uncased', 'nreimers/MiniLM-L6-H384-uncased', 'emilyalsentzer/Bio_ClinicalBERT', 'monologg/biobert_v1.1_pubmed', 'bionlp/bluebert_pubmed_mimic_uncased_L-24_H-1024_A-16', 'microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext', 'yikuan8/Clinical-Longformer']
+22:41:55  02-14-26  DEBUG:    BATCH_SIZE: 128
+22:41:55  02-14-26  DEBUG:    tokenizer_model_max_length: 512
+22:41:55  02-14-26  DEBUG:    padding: max_length
+22:41:55  02-14-26  DEBUG:    truncation: True
+22:41:55  02-14-26  DEBUG:    normalization: 1
+22:41:55  02-14-26  DEBUG:    pooling_strategy: mean
+22:41:55  02-14-26  DEBUG:    default_classes: ['Behavioral health', 'Diagnoses', 'Medications', 'Other']
+22:41:55  02-14-26  DEBUG:    save_standardized: False
+22:41:55  02-14-26  DEBUG:    ensemble_sub_dir: ensemble
+22:41:55  02-14-26  DEBUG:    global_seed: 13
+22:41:55  02-14-26  DEBUG:    objective: AP
+22:41:55  02-14-26  DEBUG:    pca_variance: 0.9
+22:41:55  02-14-26  DEBUG:    outer_folds: 5
+22:41:55  02-14-26  DEBUG:    inner_folds: 3
+22:41:55  02-14-26  DEBUG:    lr_options: [0.001, 0.0001]
+22:41:55  02-14-26  DEBUG:    weight_decay_options: [0.0001, 1e-05]
+22:41:55  02-14-26  DEBUG:    batch_size_options: [32, 64]
+22:41:55  02-14-26  DEBUG:    focal_gamma_options: [1.0, 2.0]
+22:41:55  02-14-26  DEBUG:    num_epochs: 50
+22:41:55  02-14-26  DEBUG:    early_stopping_patience: 5
+22:41:55  02-14-26  DEBUG:    smote_option: A
+22:41:55  02-14-26  DEBUG:    smote_rarity_cutoff: 0.05
+22:41:55  02-14-26  DEBUG:    smote_pos_threshold: 0.5
+22:41:55  02-14-26  DEBUG:    smote_min_samples_for_smote: 3
+22:41:55  02-14-26  DEBUG:    pos_weight_clamp: [1.0, 100.0]
+22:41:55  02-14-26  DEBUG:    pos_weight_smoothing: 1.0
+22:41:55  02-14-26  DEBUG:    threshold_multipliers: [0.8, 1.0, 1.2]
+22:41:55  02-14-26  DEBUG:    eval_pos_threshold: 0.5
+22:41:55  02-14-26  DEBUG:    calibrator_min_samples_isotonic: 200
+22:45:57  02-14-26  INFO:  Package 'numpy' is required.
+22:45:57  02-14-26  INFO:  Package 'pandas' is required.
+22:45:57  02-14-26  INFO:  Package 'matplotlib' is required.
+22:45:57  02-14-26  INFO:  Package 'seaborn' is required.
+22:45:57  02-14-26  INFO:  Package 'scipy' is required.
+22:45:57  02-14-26  INFO:  Package 'torch' is required.
+22:45:57  02-14-26  INFO:  Package 'openpyxl' is required.
+22:45:57  02-14-26  INFO:  Package 'joblib' is required.
+22:45:57  02-14-26  INFO:  Package 'sklearn' is required.
+22:45:57  02-14-26  INFO:  Package 'imbalanced-learn' is required.
+22:45:57  02-14-26  INFO:  Package 'iterative-stratification' is required.
+22:45:57  02-14-26  ERROR:  numpy cannot be imported.
+22:45:57  02-14-26  DEBUG:  Installed modules: ['numpy']
+22:45:57  02-14-26  ERROR:  pandas cannot be imported.
+22:45:57  02-14-26  DEBUG:  Installed modules: ['numpy', 'pandas']
+22:45:57  02-14-26  ERROR:  matplotlib cannot be imported.
+22:45:57  02-14-26  DEBUG:  Installed modules: ['numpy', 'pandas', 'matplotlib']
+22:45:57  02-14-26  ERROR:  seaborn cannot be imported.
+22:45:57  02-14-26  DEBUG:  Installed modules: ['numpy', 'pandas', 'matplotlib', 'seaborn']
+22:45:57  02-14-26  ERROR:  scipy cannot be imported.
+22:45:57  02-14-26  DEBUG:  Installed modules: ['numpy', 'pandas', 'matplotlib', 'seaborn', 'scipy']
+22:45:57  02-14-26  ERROR:  torch cannot be imported.
+22:45:57  02-14-26  DEBUG:  Installed modules: ['numpy', 'pandas', 'matplotlib', 'seaborn', 'scipy', 'torch']
+22:45:57  02-14-26  ERROR:  openpyxl cannot be imported.
+22:45:57  02-14-26  DEBUG:  Installed modules: ['numpy', 'pandas', 'matplotlib', 'seaborn', 'scipy', 'torch', 'openpyxl']
+22:45:57  02-14-26  ERROR:  joblib cannot be imported.
+22:45:57  02-14-26  DEBUG:  Installed modules: ['numpy', 'pandas', 'matplotlib', 'seaborn', 'scipy', 'torch', 'openpyxl', 'joblib']
+22:45:57  02-14-26  ERROR:  sklearn cannot be imported.
+22:45:57  02-14-26  DEBUG:  Installed modules: ['numpy', 'pandas', 'matplotlib', 'seaborn', 'scipy', 'torch', 'openpyxl', 'joblib', 'sklearn']
+22:45:57  02-14-26  ERROR:  imbalanced-learn cannot be imported.
+22:45:57  02-14-26  DEBUG:  Installed modules: ['numpy', 'pandas', 'matplotlib', 'seaborn', 'scipy', 'torch', 'openpyxl', 'joblib', 'sklearn', 'imbalanced-learn']
+22:45:57  02-14-26  ERROR:  iterative-stratification cannot be imported.
+22:45:57  02-14-26  DEBUG:  Installed modules: ['numpy', 'pandas', 'matplotlib', 'seaborn', 'scipy', 'torch', 'openpyxl', 'joblib', 'sklearn', 'imbalanced-learn', 'iterative-stratification']
+22:45:57  02-14-26  INFO:  Installing missing package: numpy
+22:48:00  02-14-26  INFO:  Package 'numpy' is required.
+22:48:00  02-14-26  INFO:  Package 'pandas' is required.
+22:48:00  02-14-26  INFO:  Package 'matplotlib' is required.
+22:48:00  02-14-26  INFO:  Package 'seaborn' is required.
+22:48:00  02-14-26  INFO:  Package 'scipy' is required.
+22:48:00  02-14-26  INFO:  Package 'torch' is required.
+22:48:00  02-14-26  INFO:  Package 'openpyxl' is required.
+22:48:00  02-14-26  INFO:  Package 'joblib' is required.
+22:48:00  02-14-26  INFO:  Package 'scikit-learn' is required.
+22:48:00  02-14-26  INFO:  Package 'imbalanced-learn' is required.
+22:48:00  02-14-26  INFO:  Package 'iterative-stratification' is required.
+22:48:00  02-14-26  ERROR:  numpy cannot be imported.
+22:48:00  02-14-26  DEBUG:  Installed modules: ['numpy']
+22:48:00  02-14-26  ERROR:  pandas cannot be imported.
+22:48:00  02-14-26  DEBUG:  Installed modules: ['numpy', 'pandas']
+22:48:00  02-14-26  ERROR:  matplotlib cannot be imported.
+22:48:00  02-14-26  DEBUG:  Installed modules: ['numpy', 'pandas', 'matplotlib']
+22:48:00  02-14-26  ERROR:  seaborn cannot be imported.
+22:48:00  02-14-26  DEBUG:  Installed modules: ['numpy', 'pandas', 'matplotlib', 'seaborn']
+22:48:00  02-14-26  ERROR:  scipy cannot be imported.
+22:48:00  02-14-26  DEBUG:  Installed modules: ['numpy', 'pandas', 'matplotlib', 'seaborn', 'scipy']
+22:48:00  02-14-26  ERROR:  torch cannot be imported.
+22:48:00  02-14-26  DEBUG:  Installed modules: ['numpy', 'pandas', 'matplotlib', 'seaborn', 'scipy', 'torch']
+22:48:00  02-14-26  ERROR:  openpyxl cannot be imported.
+22:48:00  02-14-26  DEBUG:  Installed modules: ['numpy', 'pandas', 'matplotlib', 'seaborn', 'scipy', 'torch', 'openpyxl']
+22:48:00  02-14-26  ERROR:  joblib cannot be imported.
+22:48:00  02-14-26  DEBUG:  Installed modules: ['numpy', 'pandas', 'matplotlib', 'seaborn', 'scipy', 'torch', 'openpyxl', 'joblib']
+22:48:00  02-14-26  ERROR:  scikit-learn cannot be imported.
+22:48:00  02-14-26  DEBUG:  Installed modules: ['numpy', 'pandas', 'matplotlib', 'seaborn', 'scipy', 'torch', 'openpyxl', 'joblib', 'scikit-learn']
+22:48:00  02-14-26  ERROR:  imbalanced-learn cannot be imported.
+22:48:00  02-14-26  DEBUG:  Installed modules: ['numpy', 'pandas', 'matplotlib', 'seaborn', 'scipy', 'torch', 'openpyxl', 'joblib', 'scikit-learn', 'imbalanced-learn']
+22:48:00  02-14-26  ERROR:  iterative-stratification cannot be imported.
+22:48:00  02-14-26  DEBUG:  Installed modules: ['numpy', 'pandas', 'matplotlib', 'seaborn', 'scipy', 'torch', 'openpyxl', 'joblib', 'scikit-learn', 'imbalanced-learn', 'iterative-stratification']
+22:48:00  02-14-26  INFO:  Installing missing package: numpy
+22:50:36  02-14-26  INFO:  START LOGGING AT: /home/soroush/Desktop/pdm
+22:50:39  02-14-26  DEBUG:  Config loaded from: /home/soroush/Desktop/pdm/config.json
+22:50:39  02-14-26  DEBUG:    COLAB: False
+22:50:39  02-14-26  DEBUG:    DIR_INPUT: input
+22:50:39  02-14-26  DEBUG:    DIR_OUTPUT: output
+22:50:39  02-14-26  DEBUG:    patient_col: Patient
+22:50:39  02-14-26  DEBUG:    physician_col: Physician
+22:50:39  02-14-26  DEBUG:    item_col: Item
+22:50:39  02-14-26  DEBUG:    classes: ['Behavioral health', 'Diagnoses', 'Disabilities', 'Infectious diseases', 'Genetics', 'Medications', 'Sexual and reproductive health', 'Social determinants of health', 'Violence', 'Other']
+22:50:39  02-14-26  DEBUG:    other_class: ['Disabilities', 'Infectious diseases', 'Genetics', 'Sexual and reproductive health', 'Violence', 'Social determinants of health']
+22:50:39  02-14-26  DEBUG:    llms: ['sentence-transformers/all-MiniLM-L6-v2', 'sentence-transformers/all-mpnet-base-v2', 'sentence-transformers/multi-qa-MiniLM-L6-cos-v1', 'pritamdeka/BioBERT-mnli-snli-scinli-scitail-mednli-stsb', 'sentence-transformers/biomed-mpnet-base', 'cambridgeltl/SapBERT-from-PubMedBERT-fulltext', 'bert-base-uncased', 'roberta-base', 'distilbert-base-uncased', 'nreimers/MiniLM-L6-H384-uncased', 'emilyalsentzer/Bio_ClinicalBERT', 'monologg/biobert_v1.1_pubmed', 'bionlp/bluebert_pubmed_mimic_uncased_L-24_H-1024_A-16', 'microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext', 'yikuan8/Clinical-Longformer']
+22:50:39  02-14-26  DEBUG:    BATCH_SIZE: 128
+22:50:39  02-14-26  DEBUG:    tokenizer_model_max_length: 512
+22:50:39  02-14-26  DEBUG:    padding: max_length
+22:50:39  02-14-26  DEBUG:    truncation: True
+22:50:39  02-14-26  DEBUG:    normalization: 1
+22:50:39  02-14-26  DEBUG:    pooling_strategy: mean
+22:50:39  02-14-26  DEBUG:    default_classes: ['Behavioral health', 'Diagnoses', 'Medications', 'Other']
+22:50:39  02-14-26  DEBUG:    save_standardized: False
+22:50:39  02-14-26  DEBUG:    ensemble_sub_dir: ensemble
+22:50:39  02-14-26  DEBUG:    global_seed: 13
+22:50:39  02-14-26  DEBUG:    objective: AP
+22:50:39  02-14-26  DEBUG:    pca_variance: 0.9
+22:50:39  02-14-26  DEBUG:    outer_folds: 5
+22:50:39  02-14-26  DEBUG:    inner_folds: 3
+22:50:39  02-14-26  DEBUG:    lr_options: [0.001, 0.0001]
+22:50:39  02-14-26  DEBUG:    weight_decay_options: [0.0001, 1e-05]
+22:50:39  02-14-26  DEBUG:    batch_size_options: [32, 64]
+22:50:39  02-14-26  DEBUG:    focal_gamma_options: [1.0, 2.0]
+22:50:39  02-14-26  DEBUG:    num_epochs: 50
+22:50:39  02-14-26  DEBUG:    early_stopping_patience: 5
+22:50:39  02-14-26  DEBUG:    smote_option: A
+22:50:39  02-14-26  DEBUG:    smote_rarity_cutoff: 0.05
+22:50:39  02-14-26  DEBUG:    smote_pos_threshold: 0.5
+22:50:39  02-14-26  DEBUG:    smote_min_samples_for_smote: 3
+22:50:39  02-14-26  DEBUG:    pos_weight_clamp: [1.0, 100.0]
+22:50:39  02-14-26  DEBUG:    pos_weight_smoothing: 1.0
+22:50:39  02-14-26  DEBUG:    threshold_multipliers: [0.8, 1.0, 1.2]
+22:50:39  02-14-26  DEBUG:    eval_pos_threshold: 0.5
+22:50:39  02-14-26  DEBUG:    calibrator_min_samples_isotonic: 200
+22:51:24  02-14-26  INFO:  Config loaded from: /home/soroush/Desktop/pdm/config.json
+22:51:24  02-14-26  DEBUG:    COLAB: False
+22:51:24  02-14-26  DEBUG:    DIR_INPUT: input
+22:51:24  02-14-26  DEBUG:    DIR_OUTPUT: output
+22:51:24  02-14-26  DEBUG:    patient_col: Patient
+22:51:24  02-14-26  DEBUG:    physician_col: Physician
+22:51:24  02-14-26  DEBUG:    item_col: Item
+22:51:24  02-14-26  DEBUG:    classes: ['Behavioral health', 'Diagnoses', 'Disabilities', 'Infectious diseases', 'Genetics', 'Medications', 'Sexual and reproductive health', 'Social determinants of health', 'Violence', 'Other']
+22:51:24  02-14-26  DEBUG:    other_class: ['Disabilities', 'Infectious diseases', 'Genetics', 'Sexual and reproductive health', 'Violence', 'Social determinants of health']
+22:51:24  02-14-26  DEBUG:    llms: ['sentence-transformers/all-MiniLM-L6-v2', 'sentence-transformers/all-mpnet-base-v2', 'sentence-transformers/multi-qa-MiniLM-L6-cos-v1', 'pritamdeka/BioBERT-mnli-snli-scinli-scitail-mednli-stsb', 'sentence-transformers/biomed-mpnet-base', 'cambridgeltl/SapBERT-from-PubMedBERT-fulltext', 'bert-base-uncased', 'roberta-base', 'distilbert-base-uncased', 'nreimers/MiniLM-L6-H384-uncased', 'emilyalsentzer/Bio_ClinicalBERT', 'monologg/biobert_v1.1_pubmed', 'bionlp/bluebert_pubmed_mimic_uncased_L-24_H-1024_A-16', 'microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext', 'yikuan8/Clinical-Longformer']
+22:51:24  02-14-26  DEBUG:    BATCH_SIZE: 128
+22:51:24  02-14-26  DEBUG:    tokenizer_model_max_length: 512
+22:51:24  02-14-26  DEBUG:    padding: max_length
+22:51:24  02-14-26  DEBUG:    truncation: True
+22:51:24  02-14-26  DEBUG:    normalization: 1
+22:51:24  02-14-26  DEBUG:    pooling_strategy: mean
+22:51:24  02-14-26  DEBUG:    default_classes: ['Behavioral health', 'Diagnoses', 'Medications', 'Other']
+22:51:24  02-14-26  DEBUG:    save_standardized: False
+22:51:24  02-14-26  DEBUG:    ensemble_sub_dir: ensemble
+22:51:24  02-14-26  DEBUG:    global_seed: 13
+22:51:24  02-14-26  DEBUG:    objective: AP
+22:51:24  02-14-26  DEBUG:    pca_variance: 0.9
+22:51:24  02-14-26  DEBUG:    outer_folds: 5
+22:51:24  02-14-26  DEBUG:    inner_folds: 3
+22:51:24  02-14-26  DEBUG:    lr_options: [0.001, 0.0001]
+22:51:24  02-14-26  DEBUG:    weight_decay_options: [0.0001, 1e-05]
+22:51:24  02-14-26  DEBUG:    batch_size_options: [32, 64]
+22:51:24  02-14-26  DEBUG:    focal_gamma_options: [1.0, 2.0]
+22:51:24  02-14-26  DEBUG:    num_epochs: 50
+22:51:24  02-14-26  DEBUG:    early_stopping_patience: 5
+22:51:24  02-14-26  DEBUG:    smote_option: A
+22:51:24  02-14-26  DEBUG:    smote_rarity_cutoff: 0.05
+22:51:24  02-14-26  DEBUG:    smote_pos_threshold: 0.5
+22:51:24  02-14-26  DEBUG:    smote_min_samples_for_smote: 3
+22:51:24  02-14-26  DEBUG:    pos_weight_clamp: [1.0, 100.0]
+22:51:24  02-14-26  DEBUG:    pos_weight_smoothing: 1.0
+22:51:24  02-14-26  DEBUG:    threshold_multipliers: [0.8, 1.0, 1.2]
+22:51:24  02-14-26  DEBUG:    eval_pos_threshold: 0.5
+22:51:24  02-14-26  DEBUG:    calibrator_min_samples_isotonic: 200
+22:51:27  02-14-26  INFO:  Package 'numpy' is required.
+22:51:27  02-14-26  INFO:  Package 'pandas' is required.
+22:51:27  02-14-26  INFO:  Package 'matplotlib' is required.
+22:51:27  02-14-26  INFO:  Package 'seaborn' is required.
+22:51:27  02-14-26  INFO:  Package 'scipy' is required.
+22:51:27  02-14-26  INFO:  Package 'torch' is required.
+22:51:27  02-14-26  INFO:  Package 'openpyxl' is required.
+22:51:27  02-14-26  INFO:  Package 'joblib' is required.
+22:51:27  02-14-26  INFO:  Package 'scikit-learn' is required.
+22:51:27  02-14-26  INFO:  Package 'imbalanced-learn' is required.
+22:51:27  02-14-26  INFO:  Package 'iterative-stratification' is required.
+22:51:27  02-14-26  ERROR:  numpy cannot be imported.
+22:51:27  02-14-26  DEBUG:  Installed modules: ['numpy']
+22:51:27  02-14-26  ERROR:  pandas cannot be imported.
+22:51:27  02-14-26  DEBUG:  Installed modules: ['numpy', 'pandas']
+22:51:27  02-14-26  ERROR:  matplotlib cannot be imported.
+22:51:27  02-14-26  DEBUG:  Installed modules: ['numpy', 'pandas', 'matplotlib']
+22:51:27  02-14-26  ERROR:  seaborn cannot be imported.
+22:51:27  02-14-26  DEBUG:  Installed modules: ['numpy', 'pandas', 'matplotlib', 'seaborn']
+22:51:27  02-14-26  ERROR:  scipy cannot be imported.
+22:51:27  02-14-26  DEBUG:  Installed modules: ['numpy', 'pandas', 'matplotlib', 'seaborn', 'scipy']
+22:51:27  02-14-26  ERROR:  torch cannot be imported.
+22:51:27  02-14-26  DEBUG:  Installed modules: ['numpy', 'pandas', 'matplotlib', 'seaborn', 'scipy', 'torch']
+22:51:27  02-14-26  ERROR:  openpyxl cannot be imported.
+22:51:27  02-14-26  DEBUG:  Installed modules: ['numpy', 'pandas', 'matplotlib', 'seaborn', 'scipy', 'torch', 'openpyxl']
+22:51:27  02-14-26  ERROR:  joblib cannot be imported.
+22:51:27  02-14-26  DEBUG:  Installed modules: ['numpy', 'pandas', 'matplotlib', 'seaborn', 'scipy', 'torch', 'openpyxl', 'joblib']
+22:51:27  02-14-26  ERROR:  scikit-learn cannot be imported.
+22:51:27  02-14-26  DEBUG:  Installed modules: ['numpy', 'pandas', 'matplotlib', 'seaborn', 'scipy', 'torch', 'openpyxl', 'joblib', 'scikit-learn']
+22:51:27  02-14-26  ERROR:  imbalanced-learn cannot be imported.
+22:51:27  02-14-26  DEBUG:  Installed modules: ['numpy', 'pandas', 'matplotlib', 'seaborn', 'scipy', 'torch', 'openpyxl', 'joblib', 'scikit-learn', 'imbalanced-learn']
+22:51:27  02-14-26  ERROR:  iterative-stratification cannot be imported.
+22:51:27  02-14-26  DEBUG:  Installed modules: ['numpy', 'pandas', 'matplotlib', 'seaborn', 'scipy', 'torch', 'openpyxl', 'joblib', 'scikit-learn', 'imbalanced-learn', 'iterative-stratification']
+22:51:27  02-14-26  INFO:  Installing missing package: numpy

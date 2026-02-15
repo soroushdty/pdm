@@ -15,7 +15,7 @@ module_path = os.path.abspath(os.path.join('..'))
 if module_path not in sys.path:
     sys.path.insert(0, module_path)
 
-from cls.MultiLabelLogistic import MultiLabelLogistic
+from pdm.cls.MultiLabelLogistic import MultiLabelLogistic
 
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
