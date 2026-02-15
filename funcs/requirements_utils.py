@@ -29,47 +29,25 @@ def _iter_requirements(requirements_path: str | Path) -> List[str]:
             logging.info(f"Package '{line}' is required.")
         
     return reqs
-
-
-def install_missing(missing: List[str])-> List[str]:
-    """
-    Installs missing packages listed in requirements.txt
-    Returns a list of installed packages.
-    """
-    reqs = _iter_requirements(missing)
-    imported = []
-    installed = []
-    for module_name in reqs:
-        try:
-            importlib.import_module(module_name)
-            logging.info(f"{module_name} is already installed.")
-            imported.append(module_name)
-            logging.debug(f"Imported modules: {imported}")
-        except:
-            logging.error(f"{module_name} cannot be imported.")
-            installed.append(module_name)
-            logging.debug(f"Installed modules: {installed}")
-    return installed
    
 def requirements_utils (
     requirements_path: str | Path, quiet: bool = True,) -> None:
     """
-    Parses and installs missing packages from requirements.txt
+    Parses and installs packages from requirements.txt
     Args:
         requirements_path (str | Path): Path to requirements.txt file.
         quiet (bool): If True, suppresses pip output.
     Returns:
         List of installed packages.
     """
-    missing = install_missing(requirements_path)
+    reqs = _iter_requirements(requirements_path)
     pip_cmd = [sys.executable, "-m", "pip", "install"]
     if quiet:
         pip_cmd.append("-q")
-    if missing:
-        installed = []
-        for pkg in missing:
-            logging.info(f"Installing missing package: {pkg}")
-            installed.append(pkg)
-            pip_cmd.extend(missing)
-            subprocess.check_call(pip_cmd)
+    installed = []
+    for pkg in reqs:
+        logging.info(f"Installing required package: {pkg}")
+        installed.append(pkg)
+        pip_cmd.extend(reqs)
+        subprocess.check_call(pip_cmd)
     return installed
