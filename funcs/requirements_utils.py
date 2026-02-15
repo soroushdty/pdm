@@ -54,16 +54,12 @@ def _iter_requirements(requirements_path: str | Path) -> List[Tuple[str, str, bo
     return reqs
 
 
-def install_missing(requirements_path: str | Path,
-                    # imports_path: str | Path | None = None
-                    )-> List[str]:
+def install_missing(requirements_path: str | Path)-> List[str]:
     """
     Installs [and imports] missing packages listed in requirements.txt
     Returns a list of missing packages.
     """
     reqs = _iter_requirements(requirements_path)
-    # if imports_path is not None:
-    #     reqs.extend(_iter_imports(imports_path))
     missing = []
     for spec, module_name, is_import in reqs:
         if module_name.startswith("pdm.") or module_name.startswith("funcs."):
@@ -85,5 +81,7 @@ def requirements_utils (
     if quiet:
         pip_cmd.append("-q")
     if missing:
-        pip_cmd.extend(missing)
-        subprocess.check_call(pip_cmd)
+        for pkg in missing:
+            logging.info(f"Installing missing package: {pkg}")
+            pip_cmd.extend(missing)
+            subprocess.check_call(pip_cmd)

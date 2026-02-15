@@ -6,6 +6,6 @@ scipy
 torch
 openpyxl
 joblib
-scikit-learn
+sklearn
 imbalanced-learn
 iterative-stratification
