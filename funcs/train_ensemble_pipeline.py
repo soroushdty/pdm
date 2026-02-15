@@ -24,8 +24,8 @@ module_path = os.path.abspath(os.path.join('..'))
 if module_path not in sys.path:
     sys.path.insert(0, module_path)
 
-from cls.Preprocessor import Preprocessor
-from cls.EnsemblePredictor import EnsemblePredictor
+from pdm.cls.Preprocessor import Preprocessor
+from pdm.cls.EnsemblePredictor import EnsemblePredictor
 
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
