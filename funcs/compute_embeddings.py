@@ -3,7 +3,7 @@ import pandas as pd
 import torch
 from tqdm import tqdm
 import gc
-# import logging
+import logging
 from pathlib import Path
 from transformers import AutoTokenizer, AutoModel
 from sentence_transformers import SentenceTransformer
