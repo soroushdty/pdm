@@ -3,11 +3,10 @@
 1. Purpose
 ----------
 
-This project provides a modular data preprocessing pipeline for datasets where multiple physicians annotate items for patients.
+This project provides a modular data processing pipeline for automated patient sensitive data segmentation using public LLMs.
 The pipeline:
     • Cleans and merges annotations
-    • Standardizes item names using fuzzy matching
-    • Applies optional manual corrections
+    • Standardizes item names using manual or automated matching
     • Prevents train/test data leakage
     • Produces reproducible, logged outputs
 
@@ -24,7 +23,6 @@ The pipeline is designed to run end-to-end from a single notebook while keeping 
 │   ├── requirements_utils.py   # Dependency handling
 │   ├── config_loader.py        # Configuration loading
 │   ├── paths.py                # Output directory management
-│   ├── logger_setup.py         # Logging configuration
 │   ├── io_dataset.py           # Dataset I/O
 │   ├── merge_physician_rows.py # Merge duplicate annotations
 │   ├── item_standardization.py # Automatic item standardization
