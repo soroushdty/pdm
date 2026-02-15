@@ -22,7 +22,7 @@ def _iter_requirements(requirements_path: str | Path) -> List[str]:
     if not requirements_path.exists():
         raise FileNotFoundError(f"requirements file not found at {requirements_path}")
     reqs = []
-    for raw in requirements_path.read_text(encoding="utf-8").splitlines():
+    for raw in requirements_path.read_text(encoding="urequirements_utilstf-8").splitlines():
         line = raw.strip()
         if line and not line.startswith("#"):
             reqs.append(line)
