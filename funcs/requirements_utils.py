@@ -14,67 +14,50 @@ import importlib
 from pathlib import Path
 from typing import List, Tuple
 
-def _extract_module_name(raw: str) -> str:
-    """CalledProcessError
-    Normalize a requirement or import statement to a module name.
-    Supports:
-      - requirements: numpy==1.26.4
-      - import statements: import numpy as np
-      - from-import: from x.y import z
-    """
-    line = raw.strip()
-    if line.startswith("import "):
-        remainder = line[len("import "):].strip()
-        first = remainder.split(",")[0].strip()
-        module = first.split(" as ")[0].strip()
-        return module
-    if line.startswith("from "):
-        remainder = line[len("from "):].strip()
-        module = remainder.split(" ")[0].strip()
-        return module
-    sanitized = line.split("==")[0].split(">=")[0].split("<=")[0].strip()
-    return sanitized.replace("-", "_")
 
-
-def _iter_requirements(requirements_path: str | Path) -> List[Tuple[str, str, bool]]:
+def _iter_requirements(requirements_path: str | Path) -> List[str]:
     """
-    Read requirements.txt (or import-like lines) and return (spec, module_name).
+    Read requirements.txt and return requirements.
     """
     if not requirements_path.exists():
-        raise FileNotFoundError(f"requirements file not found: {requirements_path}")
-    reqs: List[Tuple[str, str, bool]] = []
+        raise FileNotFoundError(f"requirements file not found at {requirements_path}")
+    reqs = []
     for raw in requirements_path.read_text(encoding="utf-8").splitlines():
         line = raw.strip()
         if line and not line.startswith("#"):
-            module_name = _extract_module_name(line)
-            if module_name not in sys.modules:
-                reqs.append((line, module_name, False))
-                logging.info(f"Package '{module_name}' is missing.")
+            reqs.append(line)
+            logging.info(f"Package '{line}' is required.")
         
     return reqs
 
 
-def install_missing(requirements_path: str | Path)-> List[str]:
+def install_missing(missing: List[str])-> List[str]:
     """
-    Installs [and imports] missing packages listed in requirements.txt
-    Returns a list of missing packages.
+    Installs missing packages listed in requirements.txt
+    Returns a list of installed packages.
     """
-    reqs = _iter_requirements(requirements_path)
-    missing = []
-    for spec, module_name, is_import in reqs:
-        if module_name.startswith("pdm.") or module_name.startswith("funcs."):
-            continue
+    reqs = _iter_requirements(missing)
+    imported = []
+    installed = []
+    for module_name in reqs:
         try:
             importlib.import_module(module_name)
-        except ModuleNotFoundError:
-            logging.error(f"{module_name} is not installed.")
-            missing.append(module_name if is_import else spec)
-    return missing
+            logging.info(f"{module_name} is already installed.")
+            imported.append(module_name)
+            logging.debug(f"Imported modules: {imported}")
+        except:
+            logging.error(f"{module_name} cannot be imported.")
+            installed.append(module_name)
+            logging.debug(f"Installed modules: {installed}")
+    return installed
    
 def requirements_utils (
     requirements_path: str | Path, quiet: bool = True,) -> None:
     """
-    Installs missing packages via pip.
+    Parses and installs missing packages from requirements.txt
+    Args:
+        requirements_path (str | Path): Path to requirements.txt file.
+        quiet (bool): If True, suppresses pip output.
     """
     missing = install_missing(requirements_path)
     pip_cmd = [sys.executable, "-m", "pip", "install"]
