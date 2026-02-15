@@ -10,9 +10,7 @@ from sentence_transformers import SentenceTransformer
 from .mean_pooling import mean_pooling
 
 from .config_loader import load_config
-PROJECT_NAME = "pdm"
-PROJECT_DIR = Path.cwd() / PROJECT_NAME
-CONFIG_PATH = PROJECT_DIR / "config.json"
+CONFIG_PATH = Path.cwd() / "config.json"
 cfg = load_config(CONFIG_PATH)
 
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
