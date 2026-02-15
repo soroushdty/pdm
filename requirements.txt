@@ -7,5 +7,5 @@ torch
 openpyxl
 joblib
 sklearn
-imblearn
-iterstrat
+imbalanced-learn
+iterative-stratification
